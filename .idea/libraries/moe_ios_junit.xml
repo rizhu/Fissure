@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="moe-ios-junit">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.moe/moe-sdk-1.4.0/sdk/moe-ios-junit.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.moe/moe-sdk-1.4.0/sdk/moe-ios-junit-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,20 @@
+
+minersheet.png
+size: 64,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+miner
+  rotate: false
+  xy: 2, 2
+  size: 20, 32
+  orig: 20, 32
+  offset: 0, 0
+  index: 1
+miner
+  rotate: false
+  xy: 24, 2
+  size: 20, 32
+  orig: 20, 32
+  offset: 0, 0
+  index: 2

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Richard\Programming\libGDX\Fissure\core\build\libs\core-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8e50efebdccd2143848f6db61cb716ef4677d643">
+        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\core-1.0_ce6645ad372e689049d42408600384172b93af2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Richard\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.8\a35a0076fbce873f9c2d5a1a1c8066244231bb3c\gdx-1.9.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a35a0076fbce873f9c2d5a1a1c8066244231bb3c">
+        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\gdx-1.9.8_bd382024b5112943600a8cc522f813f562d55cd9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Richard\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.8\84024cd60ad6f26370891fbcd17de9f0167e662\gdx-backend-android-1.9.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="084024cd60ad6f26370891fbcd17de9f0167e662">
+        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\gdx-backend-android-1.9.8_3f5bd2f0725004f298eb7485458c26c971d5b02f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Richard\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-freetype\1.9.8\d92b5b8beab10e3b3c0dd836d4fc186f95e7ea4b\gdx-freetype-1.9.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d92b5b8beab10e3b3c0dd836d4fc186f95e7ea4b">
+        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\gdx-freetype-1.9.8_a24dce01e20bc4f08e18f862b02fc0f887a00602.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Richard\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-box2d\1.9.8\6f0497b7958216464101adfb7bdc3a0f7b88d6d3\gdx-box2d-1.9.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6f0497b7958216464101adfb7bdc3a0f7b88d6d3">
+        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\gdx-box2d-1.9.8_5a7a66818cfadaef5191e46abd5400e1cd86291b.jar" />
+    </item>
+
+</items>
