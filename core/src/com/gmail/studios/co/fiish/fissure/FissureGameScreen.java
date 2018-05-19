@@ -2,6 +2,7 @@ package com.gmail.studios.co.fiish.fissure;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.ScreenAdapter;
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.InputListener;
@@ -9,6 +10,13 @@ import com.badlogic.gdx.scenes.scene2d.actions.MoveToAction;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
+import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator;
+import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator.FreeTypeFontParameter;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
+import com.badlogic.gdx.graphics.g2d.GlyphLayout;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+
+import java.math.BigDecimal;
 
 import javax.swing.ImageIcon;
 
@@ -19,10 +27,16 @@ public class FissureGameScreen extends ScreenAdapter {
     public Array<Tile> mTiles;
     public Array<Integer> mIntegers;
     public int mBreakCount;
+    public SpriteBatch mBatch;
+
+    private FreeTypeFontGenerator mGenerator;
+    private FreeTypeFontParameter mParam;
+    private BitmapFont mFont;
+    private GlyphLayout mLayout;
+    private BigDecimal mScore;
 
     private final float m_DELTA_FISSURE = 2.3f;
     private float mElapsedTime;
-    int mi = 0;
 
     @Override
     public void show() {
@@ -32,7 +46,9 @@ public class FissureGameScreen extends ScreenAdapter {
         mIntegers = new Array<Integer>(true, 144);
         for (int i = 0; i < 144; i++) mIntegers.add(new Integer(i));
         for (int i = 0; i < 144; i++) mTiles.add(new Tile(mViewport, i));
-        mWorld = new FissureWorld(mViewport);
+
+        mBatch = new SpriteBatch();
+        mWorld = new FissureWorld(mViewport, mBatch);
 
         mWorld.addListener(new InputListener() {
             @Override
@@ -45,6 +61,10 @@ public class FissureGameScreen extends ScreenAdapter {
                 return true;
             }
         });
+
+        mGenerator = new FreeTypeFontGenerator(Gdx.files.internal("font.ttf"));
+        mParam = new FreeTypeFontParameter();
+        mLayout = new GlyphLayout();
 
         Gdx.input.setInputProcessor(mWorld);
     }
@@ -60,6 +80,10 @@ public class FissureGameScreen extends ScreenAdapter {
         }
 
         mWorld.addActor(mMiner);
+
+        mParam.size = (int) (0.9 * (mViewport.getScreenHeight() / 9));
+        mParam.color = Color.WHITE;
+        mFont = mGenerator.generateFont(mParam);
 
         mElapsedTime = 0;
         mBreakCount = 0;
@@ -108,6 +132,13 @@ public class FissureGameScreen extends ScreenAdapter {
 
         mWorld.act(delta);
         mWorld.draw();
+
+        mScore = round(mElapsedTime, 2);
+        mBatch.begin();
+        mLayout.setText(mFont, "" + mScore);
+        mFont.draw(mBatch, mLayout, mViewport.getScreenWidth() - 10 - mLayout.width, mViewport.getScreenHeight() - 10 - mLayout.height / 3);
+        mBatch.end();
+
         mMiner.checkSafe(mTiles);
 
         if (!mMiner.isAlive) {
@@ -120,6 +151,9 @@ public class FissureGameScreen extends ScreenAdapter {
         mMiner.dispose();
         for (Tile tile : mTiles) tile.dispose();
         mWorld.dispose();
+        mGenerator.dispose();
+        mFont.dispose();
+        mBatch.dispose();
     }
 
     public void resetGame() {
@@ -128,6 +162,12 @@ public class FissureGameScreen extends ScreenAdapter {
 
         mElapsedTime = 0;
         mBreakCount = 0;
+    }
+
+    private BigDecimal round(float d, int decimalPlace) {
+        BigDecimal bd = new BigDecimal(Float.toString(d));
+        bd = bd.setScale(decimalPlace, BigDecimal.ROUND_HALF_UP);
+        return bd;
     }
 
 }

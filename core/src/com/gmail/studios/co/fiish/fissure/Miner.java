@@ -76,8 +76,11 @@ public class Miner extends Actor {
 
     @Override
     public void draw(Batch batch, float alpha) {
-        batch.draw(mAnimation.getKeyFrame(mElapsedTime, true),
-                this.getX(), this.getY(), this.getWidth(), this.getHeight());
+        if (isAlive) {
+            batch.draw(mAnimation.getKeyFrame(mElapsedTime, true),
+                    this.getX(), this.getY(), this.getWidth(), this.getHeight());
+        }
+
         mTileX = getX() / mPixelsPerTileX;
         mTileY = getY() / mPixelsPerTileY;
     }

@@ -20,6 +20,7 @@ public class Tile  extends Actor {
     private TextureAtlas mAtlas;
     private Animation<TextureRegion> mCrackAnimation;
     private float mElapsedTime;
+    private boolean mFirstInit;
 
     public Tile(Viewport viewport, int id) {
         mViewport = viewport;
@@ -35,30 +36,33 @@ public class Tile  extends Actor {
         mCrackAnimation = new Animation(1/5f, mAtlas.getRegions());
 
         mElapsedTime = 0.0f;
+        mFirstInit = true;
     }
 
     public void init() {
         this.setWidth(mViewport.getScreenWidth() / 16f);
         this.setHeight(mViewport.getScreenHeight() / 9f);
 
-        int random = MathUtils.random(0, 4);
-
-        switch (random) {
-            case 1:
-                mTexture = new Texture(Gdx.files.internal("walkable_1.png"));
-                break;
-            case 2:
-                mTexture = new Texture(Gdx.files.internal("walkable_2.png"));
-                break;
-            case 3:
-                mTexture = new Texture(Gdx.files.internal("walkable_3.png"));
-                break;
-            case 4:
-                mTexture = new Texture(Gdx.files.internal("walkable_4.png"));
-                break;
-            case 0:
-                mTexture = new Texture(Gdx.files.internal("walkable_5.png"));
-                break;
+        if (mFirstInit) {
+            int random = MathUtils.random(0, 4);
+            switch (random) {
+                case 1:
+                    mTexture = new Texture(Gdx.files.internal("walkable_1.png"));
+                    break;
+                case 2:
+                    mTexture = new Texture(Gdx.files.internal("walkable_2.png"));
+                    break;
+                case 3:
+                    mTexture = new Texture(Gdx.files.internal("walkable_3.png"));
+                    break;
+                case 4:
+                    mTexture = new Texture(Gdx.files.internal("walkable_4.png"));
+                    break;
+                case 0:
+                    mTexture = new Texture(Gdx.files.internal("walkable_5.png"));
+                    break;
+            }
+            mFirstInit = false;
         }
     }
 
