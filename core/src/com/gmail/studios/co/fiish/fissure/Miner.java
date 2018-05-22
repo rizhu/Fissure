@@ -19,7 +19,6 @@ public class Miner extends Actor {
     public boolean isDeathDone;
 
     private float mElapsedTime, mDeadTime, mPixelsPerTileX, mPixelsPerTileY;
-    private Texture mMinerTexture;
     private TextureAtlas mRunningAtlas;
     private Animation<TextureRegion> mRunningAnimation;
     private TextureAtlas mFallingAtlas;
@@ -27,7 +26,6 @@ public class Miner extends Actor {
 
     public Miner(Viewport viewport) {
         this.mViewport = viewport;
-        mMinerTexture = new Texture(Gdx.files.internal("miner.png"));
         mRunningAtlas = new TextureAtlas(Gdx.files.internal("spritesheets/minersheet.atlas"));
         mRunningAnimation = new Animation(1f/10f, mRunningAtlas.getRegions());
         mFallingAtlas = new TextureAtlas((Gdx.files.internal("spritesheets/fallingsheet.atlas")));
@@ -110,7 +108,6 @@ public class Miner extends Actor {
     }
 
     public void dispose() {
-        mMinerTexture.dispose();
         mRunningAtlas.dispose();
         mFallingAtlas.dispose();
     }

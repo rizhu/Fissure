@@ -107,8 +107,8 @@ public class Tile  extends Actor {
         mTexture.dispose();
     }
 
-    public void toggleFrozen() {
-        isFrozen = !isFrozen;
+    public void freeze() {
+        isFrozen = true;
     }
 
 }

@@ -96,10 +96,6 @@ public class FissureGameScreen extends ScreenAdapter {
         Gdx.gl.glClearColor(1, 1, 1, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
-        if (!mMiner.isAlive) {
-            for (Tile tile : mTiles) tile.toggleFrozen();
-        }
-
         if (mElapsedTime % m_DELTA_FISSURE < delta) {
             mIntegers.shuffle();
             if (mBreakCount < 2) {
@@ -135,6 +131,9 @@ public class FissureGameScreen extends ScreenAdapter {
         }
 
         mWorld.act(delta);
+        if (!mMiner.isAlive) {
+            for (Tile tile : mTiles) tile.freeze();
+        }
         mWorld.draw();
 
         if (mMiner.isAlive) mScore = round(mElapsedTime, 2);
