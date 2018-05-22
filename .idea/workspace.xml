@@ -19,18 +19,15 @@
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/core-1.0_ce6645ad372e689049d42408600384172b93af2f.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/core-1.0_ce6645ad372e689049d42408600384172b93af2f.jar" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
       <change beforePath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" afterPath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" />
-      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$1.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$1.class" />
       <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen.class" />
-      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureWorld.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureWorld.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/Miner.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/Miner.class" />
       <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/Tile.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/Tile.class" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$1.class" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen.class" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureWorld.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureWorld.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/Miner.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/Miner.class" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/Tile.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/Tile.class" />
       <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" />
       <change beforePath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureWorld.java" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureWorld.java" />
       <change beforePath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Miner.java" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Miner.java" />
       <change beforePath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tile.java" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tile.java" />
     </list>
@@ -58,8 +55,8 @@
       <file leaf-file-name="FissureGameScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="138" column="138" lean-forward="false" selection-start-line="138" selection-start-column="138" selection-end-line="138" selection-end-column="138" />
+            <state relative-caret-position="1008">
+              <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,15 +64,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tile.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Tile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="65" column="9" lean-forward="false" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+            <state relative-caret-position="-318">
+              <caret line="70" column="25" lean-forward="false" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3196#3197#0" expanded="true" />
-                <element signature="e#3230#3231#0" expanded="true" />
+                <element signature="e#3320#3321#0" expanded="true" />
+                <element signature="e#3354#3355#0" expanded="true" />
+                <element signature="e#3388#3389#0" expanded="true" />
+                <element signature="e#3424#3425#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Miner.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Miner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Miner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-366">
-              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+            <state relative-caret-position="720">
+              <caret line="132" column="71" lean-forward="false" selection-start-line="132" selection-start-column="71" selection-end-line="132" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -4008,8 +4007,8 @@
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tileset.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGame.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureWorld.java" />
-        <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tile.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java" />
+        <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tile.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Miner.java" />
       </list>
     </option>
@@ -4057,7 +4056,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Desktop">
+  <component name="RunManager" selected="Android App.android">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -4140,7 +4139,7 @@
       <module name="desktop" />
       <envs />
     </configuration>
-    <configuration name="TexturePacker (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TexturePacker (1)" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.badlogic.gdx.tools.texturepacker.*" />
@@ -4149,7 +4148,7 @@
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.badlogic.gdx.tools.texturepacker.TexturePacker" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="crackSprites spritesheets cracksheet" />
+      <option name="PROGRAM_PARAMETERS" value="fallingSprites spritesheets fallingsheet" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/core/assets" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -4368,8 +4367,8 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329455" sideWeight="0.5010787" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329455" sideWeight="0.49892125" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329455" sideWeight="0.49892125" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329455" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329455" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -4382,8 +4381,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -4401,30 +4400,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3072">
-          <caret line="74" column="44" lean-forward="false" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Miner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4800">
-          <caret line="110" column="54" lean-forward="false" selection-start-line="110" selection-start-column="54" selection-end-line="110" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="288">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#296#297#0" expanded="true" />
@@ -4444,69 +4423,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3840">
-          <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3196#3197#0" expanded="true" />
-            <element signature="e#3230#3231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3072">
-          <caret line="74" column="44" lean-forward="false" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Miner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4800">
-          <caret line="110" column="54" lean-forward="false" selection-start-line="110" selection-start-column="54" selection-end-line="110" selection-end-column="54" />
+        <state relative-caret-position="4272">
+          <caret line="99" column="7" lean-forward="false" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3840">
-          <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3196#3197#0" expanded="true" />
-            <element signature="e#3230#3231#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4560,8 +4482,124 @@
           <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3196#3197#0" expanded="true" />
-            <element signature="e#3230#3231#0" expanded="true" />
+            <element signature="e#3320#3321#0" expanded="true" />
+            <element signature="e#3354#3355#0" expanded="true" />
+            <element signature="e#3388#3389#0" expanded="true" />
+            <element signature="e#3424#3425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3072">
+          <caret line="74" column="44" lean-forward="false" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Miner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4800">
+          <caret line="110" column="54" lean-forward="false" selection-start-line="110" selection-start-column="54" selection-end-line="110" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3840">
+          <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3320#3321#0" expanded="true" />
+            <element signature="e#3354#3355#0" expanded="true" />
+            <element signature="e#3388#3389#0" expanded="true" />
+            <element signature="e#3424#3425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3072">
+          <caret line="74" column="44" lean-forward="false" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Miner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4800">
+          <caret line="110" column="54" lean-forward="false" selection-start-line="110" selection-start-column="54" selection-end-line="110" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3840">
+          <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3320#3321#0" expanded="true" />
+            <element signature="e#3354#3355#0" expanded="true" />
+            <element signature="e#3388#3389#0" expanded="true" />
+            <element signature="e#3424#3425#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4603,8 +4641,10 @@
           <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3196#3197#0" expanded="true" />
-            <element signature="e#3230#3231#0" expanded="true" />
+            <element signature="e#3320#3321#0" expanded="true" />
+            <element signature="e#3354#3355#0" expanded="true" />
+            <element signature="e#3388#3389#0" expanded="true" />
+            <element signature="e#3424#3425#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4646,8 +4686,10 @@
           <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3196#3197#0" expanded="true" />
-            <element signature="e#3230#3231#0" expanded="true" />
+            <element signature="e#3320#3321#0" expanded="true" />
+            <element signature="e#3354#3355#0" expanded="true" />
+            <element signature="e#3388#3389#0" expanded="true" />
+            <element signature="e#3424#3425#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4668,8 +4710,10 @@
           <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3196#3197#0" expanded="true" />
-            <element signature="e#3230#3231#0" expanded="true" />
+            <element signature="e#3320#3321#0" expanded="true" />
+            <element signature="e#3354#3355#0" expanded="true" />
+            <element signature="e#3388#3389#0" expanded="true" />
+            <element signature="e#3424#3425#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4756,8 +4800,10 @@
           <caret line="82" column="52" lean-forward="false" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3196#3197#0" expanded="true" />
-            <element signature="e#3230#3231#0" expanded="true" />
+            <element signature="e#3320#3321#0" expanded="true" />
+            <element signature="e#3354#3355#0" expanded="true" />
+            <element signature="e#3388#3389#0" expanded="true" />
+            <element signature="e#3424#3425#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4847,7 +4893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1440">
           <caret line="118" column="16" lean-forward="false" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4865,18 +4910,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="138" column="138" lean-forward="false" selection-start-line="138" selection-start-column="138" selection-end-line="138" selection-end-column="138" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Miner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-366">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        <state relative-caret-position="1008">
+          <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -4885,12 +4920,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="65" column="9" lean-forward="false" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+        <state relative-caret-position="-318">
+          <caret line="70" column="25" lean-forward="false" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3196#3197#0" expanded="true" />
-            <element signature="e#3230#3231#0" expanded="true" />
+            <element signature="e#3320#3321#0" expanded="true" />
+            <element signature="e#3354#3355#0" expanded="true" />
+            <element signature="e#3388#3389#0" expanded="true" />
+            <element signature="e#3424#3425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Miner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="132" column="71" lean-forward="false" selection-start-line="132" selection-start-column="71" selection-end-line="132" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

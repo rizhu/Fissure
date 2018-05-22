@@ -16,6 +16,7 @@ public class Tile  extends Actor {
     public int mId, mCoordX, mCoordY;
     public boolean isBroken = false;
     public boolean isFissure = false;
+    public boolean isFrozen;
 
     private TextureAtlas mAtlas;
     private Animation<TextureRegion> mCrackAnimation;
@@ -64,12 +65,16 @@ public class Tile  extends Actor {
             }
             mFirstInit = false;
         }
+
+        isFrozen = false;
+        isFissure = false;
+        isBroken = false;
     }
 
     @Override
     public void act(float delta) {
         super.act(delta);
-        mElapsedTime += delta;
+        if (!isFrozen) mElapsedTime += delta;
     }
 
     @Override
@@ -100,6 +105,10 @@ public class Tile  extends Actor {
 
     public void dispose() {
         mTexture.dispose();
+    }
+
+    public void toggleFrozen() {
+        isFrozen = !isFrozen;
     }
 
 }

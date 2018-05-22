@@ -96,6 +96,10 @@ public class FissureGameScreen extends ScreenAdapter {
         Gdx.gl.glClearColor(1, 1, 1, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
+        if (!mMiner.isAlive) {
+            for (Tile tile : mTiles) tile.toggleFrozen();
+        }
+
         if (mElapsedTime % m_DELTA_FISSURE < delta) {
             mIntegers.shuffle();
             if (mBreakCount < 2) {
@@ -133,7 +137,7 @@ public class FissureGameScreen extends ScreenAdapter {
         mWorld.act(delta);
         mWorld.draw();
 
-        mScore = round(mElapsedTime, 2);
+        if (mMiner.isAlive) mScore = round(mElapsedTime, 2);
         mBatch.begin();
         mLayout.setText(mFont, "" + mScore);
         mFont.draw(mBatch, mLayout, mViewport.getScreenWidth() - 10 - mLayout.width, mViewport.getScreenHeight() - 10 - mLayout.height / 3);
@@ -141,7 +145,8 @@ public class FissureGameScreen extends ScreenAdapter {
 
         mMiner.checkSafe(mTiles);
 
-        if (!mMiner.isAlive) {
+       if (!mMiner.isAlive && mMiner.isDeathDone) {
+            mMiner.isDeathDone = false;
             resetGame();
         }
     }
@@ -157,8 +162,8 @@ public class FissureGameScreen extends ScreenAdapter {
     }
 
     public void resetGame() {
-        mMiner.init();
         for (Tile tile : mTiles) tile.init();
+        mMiner.init();
 
         mElapsedTime = 0;
         mBreakCount = 0;

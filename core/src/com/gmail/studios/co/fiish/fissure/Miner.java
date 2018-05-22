@@ -16,17 +16,22 @@ public class Miner extends Actor {
     public Viewport mViewport;
     public boolean isAlive;
     public float mTileX, mTileY, mTileWidth, mTileHeight;
+    public boolean isDeathDone;
 
-    private float mElapsedTime, mPixelsPerTileX, mPixelsPerTileY;
-    private Texture mTexture;
-    private TextureAtlas mAtlas;
-    private Animation<TextureRegion> mAnimation;
+    private float mElapsedTime, mDeadTime, mPixelsPerTileX, mPixelsPerTileY;
+    private Texture mMinerTexture;
+    private TextureAtlas mRunningAtlas;
+    private Animation<TextureRegion> mRunningAnimation;
+    private TextureAtlas mFallingAtlas;
+    private Animation<TextureRegion> mFallingAnimation;
 
     public Miner(Viewport viewport) {
         this.mViewport = viewport;
-        mTexture = new Texture(Gdx.files.internal("miner.png"));
-        mAtlas = new TextureAtlas(Gdx.files.internal("spritesheets/minersheet.atlas"));
-        mAnimation = new Animation(1f/10f, mAtlas.getRegions());
+        mMinerTexture = new Texture(Gdx.files.internal("miner.png"));
+        mRunningAtlas = new TextureAtlas(Gdx.files.internal("spritesheets/minersheet.atlas"));
+        mRunningAnimation = new Animation(1f/10f, mRunningAtlas.getRegions());
+        mFallingAtlas = new TextureAtlas((Gdx.files.internal("spritesheets/fallingsheet.atlas")));
+        mFallingAnimation = new Animation(1f/10f, mFallingAtlas.getRegions());
 
         mElapsedTime = 0.0f;
     }
@@ -47,10 +52,18 @@ public class Miner extends Actor {
 
         mTileWidth = getWidth() / mPixelsPerTileX;
         mTileHeight = getHeight() / mPixelsPerTileY;
+
+        isDeathDone = false;
+        isAlive = true;
+
+        mElapsedTime = 0.0f;
+        mDeadTime = 0.0f;
     }
 
     @Override
     public void act(float delta) {
+        super.act(delta);
+
         if (getX() < 0) {
             clearActions();
             this.setX(0.0f);
@@ -68,26 +81,38 @@ public class Miner extends Actor {
             this.setY(mViewport.getScreenHeight() - getHeight());
         }
 
+        mElapsedTime += delta;
+
+        if (!isAlive) mDeadTime += delta;
+
         if (isAlive) {
-            super.act(delta);
-            mElapsedTime += delta;
+            mTileX = getX() / mPixelsPerTileX;
+            mTileY = getY() / mPixelsPerTileY;
         }
     }
 
     @Override
     public void draw(Batch batch, float alpha) {
-        if (isAlive) {
-            batch.draw(mAnimation.getKeyFrame(mElapsedTime, true),
+       if (isAlive) {
+            batch.draw(mRunningAnimation.getKeyFrame(mElapsedTime, true),
                     this.getX(), this.getY(), this.getWidth(), this.getHeight());
         }
 
-        mTileX = getX() / mPixelsPerTileX;
-        mTileY = getY() / mPixelsPerTileY;
+       if(!isAlive) {
+            batch.draw(mFallingAnimation.getKeyFrame(mDeadTime, false),
+                    MathUtils.floor(mTileX) * mPixelsPerTileX, MathUtils.floor(mTileY) * mPixelsPerTileY, mViewport.getScreenWidth() / 16f,
+                    mViewport.getScreenHeight() / 9f);
+
+            if (mFallingAnimation.isAnimationFinished(mDeadTime)) {
+                isDeathDone = true;
+            }
+       }
     }
 
     public void dispose() {
-        mTexture.dispose();
-        mAtlas.dispose();
+        mMinerTexture.dispose();
+        mRunningAtlas.dispose();
+        mFallingAtlas.dispose();
     }
 
     public void checkSafe(Array<Tile> tiles) {
@@ -97,10 +122,19 @@ public class Miner extends Actor {
         id2 = MathUtils.floor(mTileY + mTileHeight) * 16 + MathUtils.floor(mTileX);
         id3 = MathUtils.floor(mTileY) * 16 + MathUtils.floor(mTileX + mTileWidth);
         id4 = MathUtils.floor(mTileY + mTileHeight) * 16 + MathUtils.floor(mTileX + mTileWidth);
-        if (id1 >= 0 && id1 <=143 && tiles.get(id1).isFissure) kill(); else
-        if (id2 >= 0 && id2 <=143 && tiles.get(id2).isFissure) kill(); else
-        if (id3 >= 0 && id3 <=143 && tiles.get(id3).isFissure) kill(); else
-        if (id4 >= 0 && id4 <=143 && tiles.get(id4).isFissure) kill();
+        if (id1 >= 0 && id1 <=143 && tiles.get(id1).isFissure) {
+            kill();
+        } else if (id2 >= 0 && id2 <=143 && tiles.get(id2).isFissure) {
+            mTileY = mTileY + mTileHeight;
+            kill();
+        }else if (id3 >= 0 && id3 <=143 && tiles.get(id3).isFissure) {
+            mTileX = mTileX + mTileWidth;
+            kill();
+        } else if (id4 >= 0 && id4 <=143 && tiles.get(id4).isFissure) {
+            mTileX = mTileX + mTileWidth;
+            mTileY = mTileY + mTileHeight;
+            kill();
+        }
         /* Gdx.app.log("x, y:            ", "" + getX() + ", " + getY());
         Gdx.app.log("mPixelsPerTile:  ", "" + mPixelsPerTileX);
         Gdx.app.log("Width:           ", "" + getWidth());
