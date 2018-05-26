@@ -6,6 +6,7 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.InputListener;
+import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.actions.MoveToAction;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
@@ -22,12 +23,16 @@ import javax.swing.ImageIcon;
 
 public class FissureGameScreen extends ScreenAdapter {
     public Viewport mViewport;
+    public SpriteBatch mBatch;
+
     public Miner mMiner;
     public FissureWorld mWorld;
     public Array<Tile> mTiles;
     public Array<Integer> mIntegers;
     public int mBreakCount;
-    public SpriteBatch mBatch;
+
+    public FissureGameUI mGameUI;
+    public ScoreBG mScoreBG;
 
     private FreeTypeFontGenerator mGenerator;
     private FreeTypeFontParameter mParam;
@@ -47,8 +52,11 @@ public class FissureGameScreen extends ScreenAdapter {
         for (int i = 0; i < 144; i++) mIntegers.add(new Integer(i));
         for (int i = 0; i < 144; i++) mTiles.add(new Tile(mViewport, i));
 
+        mScoreBG = new ScoreBG(mViewport);
+
         mBatch = new SpriteBatch();
         mWorld = new FissureWorld(mViewport, mBatch);
+        mGameUI = new FissureGameUI(mViewport, mBatch);
 
         mWorld.addListener(new InputListener() {
             @Override
@@ -79,14 +87,37 @@ public class FissureGameScreen extends ScreenAdapter {
             mWorld.addActor(tile);
         }
 
+        mScoreBG.init();
+        mScoreBG.addListener(new InputListener(){
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                mScoreBG.setTouchable(Touchable.disabled);
+                MoveToAction action = new MoveToAction(){
+                    @Override
+                    public void end() {
+                        Gdx.input.setInputProcessor(mWorld);
+                        resetGame();
+                    }
+                };
+                action.setPosition(mScoreBG.getX(), mViewport.getScreenHeight() + 10);
+                action.setDuration(0.5f);
+                mScoreBG.addAction(action);
+                return  true;
+            }
+        });
+
         mWorld.addActor(mMiner);
 
-        mParam.size = (int) (0.9 * (mViewport.getScreenHeight() / 9));
+        mGameUI.addActor(mScoreBG);
+
+        mParam.size = (int) (0.65 * (mViewport.getScreenHeight() / 9));
         mParam.color = Color.WHITE;
         mFont = mGenerator.generateFont(mParam);
 
         mElapsedTime = 0;
         mBreakCount = 0;
+
+        Gdx.input.setInputProcessor(mWorld);
     }
 
     @Override
@@ -96,7 +127,7 @@ public class FissureGameScreen extends ScreenAdapter {
         Gdx.gl.glClearColor(1, 1, 1, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
-        if (mElapsedTime % m_DELTA_FISSURE < delta) {
+        if (mElapsedTime % m_DELTA_FISSURE < delta && mMiner.isAlive) {
             mIntegers.shuffle();
             if (mBreakCount < 2) {
                 for (int i = 0; i < 48; i++) {
@@ -130,24 +161,47 @@ public class FissureGameScreen extends ScreenAdapter {
             mBreakCount++;
         }
 
-        mWorld.act(delta);
-        if (!mMiner.isAlive) {
+        if (mMiner.isAlive || (!mMiner.isAlive && !mMiner.isDeathDone)) {
+            mWorld.act(delta);
+        }
+
+        if (!mMiner.isAlive && !mTiles.get(143).isFrozen) {
             for (Tile tile : mTiles) tile.freeze();
         }
+
         mWorld.draw();
+        if (!mMiner.isAlive) {
+            mGameUI.act();
+            mGameUI.draw();
+        }
 
         if (mMiner.isAlive) mScore = round(mElapsedTime, 2);
-        mBatch.begin();
-        mLayout.setText(mFont, "" + mScore);
-        mFont.draw(mBatch, mLayout, mViewport.getScreenWidth() - 10 - mLayout.width, mViewport.getScreenHeight() - 10 - mLayout.height / 3);
-        mBatch.end();
+
+        if (mMiner.isAlive || (!mMiner.isAlive && !mMiner.isDeathDone)) {
+            mBatch.begin();
+            mLayout.setText(mFont, "" + mScore);
+            mFont.draw(mBatch, mLayout, mViewport.getScreenWidth() - 10 - mLayout.width, mViewport.getScreenHeight() - 10 - mLayout.height / 3);
+            mBatch.end();
+        }
 
         mMiner.checkSafe(mTiles);
 
-       if (!mMiner.isAlive && mMiner.isDeathDone) {
-            mMiner.isDeathDone = false;
-            resetGame();
-        }
+       if (!mMiner.isAlive && mMiner.isDeathDone && !Gdx.input.getInputProcessor().equals(mGameUI)) {
+           Gdx.input.setInputProcessor(mGameUI);
+
+           mScoreBG.mScore = mScore;
+
+           MoveToAction action = new MoveToAction() {
+               @Override
+               public void end() {
+                   mScoreBG.setTouchable(Touchable.enabled);
+               }
+           };
+           action.setPosition(mViewport.getScreenWidth() / 2 - mScoreBG.getWidth() / 2, mViewport.getScreenHeight() / 2 - mScoreBG.getHeight() / 2);
+           action.setDuration(0.5f);
+
+           mScoreBG.addAction(action);
+       }
     }
 
     @Override
@@ -163,6 +217,25 @@ public class FissureGameScreen extends ScreenAdapter {
     public void resetGame() {
         for (Tile tile : mTiles) tile.init();
         mMiner.init();
+
+        mScoreBG.clearListeners();
+        mScoreBG.addListener(new InputListener(){
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                mScoreBG.setTouchable(Touchable.disabled);
+                MoveToAction action = new MoveToAction(){
+                    @Override
+                    public void end() {
+                        Gdx.input.setInputProcessor(mWorld);
+                        resetGame();
+                    }
+                };
+                action.setPosition(mScoreBG.getX(), mViewport.getScreenHeight() + 10);
+                action.setDuration(0.8f);
+                mScoreBG.addAction(action);
+                return  true;
+            }
+        });
 
         mElapsedTime = 0;
         mBreakCount = 0;

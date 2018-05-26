@@ -36,7 +36,7 @@ ADDED from D:\Richard\Programming\libGDX\Fissure\android\AndroidManifest.xml:7:5
 activity#com.gmail.studios.co.fiish.fissure.AndroidLauncher
 ADDED from D:\Richard\Programming\libGDX\Fissure\android\AndroidManifest.xml:12:9-21:20
 	android:screenOrientation
-		ADDED from D:\Richard\Programming\libGDX\Fissure\android\AndroidManifest.xml:15:13-50
+		ADDED from D:\Richard\Programming\libGDX\Fissure\android\AndroidManifest.xml:15:13-56
 	android:label
 		ADDED from D:\Richard\Programming\libGDX\Fissure\android\AndroidManifest.xml:14:13-45
 	android:configChanges

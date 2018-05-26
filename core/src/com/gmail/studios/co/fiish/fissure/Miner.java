@@ -30,8 +30,6 @@ public class Miner extends Actor {
         mRunningAnimation = new Animation(1f/10f, mRunningAtlas.getRegions());
         mFallingAtlas = new TextureAtlas((Gdx.files.internal("spritesheets/fallingsheet.atlas")));
         mFallingAnimation = new Animation(1f/10f, mFallingAtlas.getRegions());
-
-        mElapsedTime = 0.0f;
     }
 
     public void init() {
