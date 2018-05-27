@@ -1,6 +1,7 @@
 package com.gmail.studios.co.fiish.fissure;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Preferences;
 import com.badlogic.gdx.ScreenAdapter;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
@@ -24,6 +25,7 @@ import javax.swing.ImageIcon;
 public class FissureGameScreen extends ScreenAdapter {
     public Viewport mViewport;
     public SpriteBatch mBatch;
+    public Preferences mData;
 
     public Miner mMiner;
     public FissureWorld mWorld;
@@ -46,6 +48,8 @@ public class FissureGameScreen extends ScreenAdapter {
     @Override
     public void show() {
         mViewport = new ScreenViewport();
+        mData = Gdx.app.getPreferences("Data");
+
         mMiner = new Miner(mViewport);
         mTiles = new Array<Tile>(true, 144);
         mIntegers = new Array<Integer>(true, 144);
@@ -80,6 +84,7 @@ public class FissureGameScreen extends ScreenAdapter {
     @Override
     public void resize(int width, int height) {
         mViewport.update(width, height);
+
         mMiner.init();
 
         for (Tile tile : mTiles){
@@ -100,7 +105,7 @@ public class FissureGameScreen extends ScreenAdapter {
                     }
                 };
                 action.setPosition(mScoreBG.getX(), mViewport.getScreenHeight() + 10);
-                action.setDuration(0.5f);
+                action.setDuration(0.35f);
                 mScoreBG.addAction(action);
                 return  true;
             }
@@ -191,6 +196,13 @@ public class FissureGameScreen extends ScreenAdapter {
 
            mScoreBG.mScore = mScore;
 
+           if (mScore.setScale(2, BigDecimal.ROUND_UP).floatValue() > mData.getFloat("highScore")) {
+               mData.putFloat("highScore", mScore.setScale(2, BigDecimal.ROUND_UP).floatValue());
+               mData.flush();
+           }
+
+           mScoreBG.updateHighScore();
+
            MoveToAction action = new MoveToAction() {
                @Override
                public void end() {
@@ -198,7 +210,7 @@ public class FissureGameScreen extends ScreenAdapter {
                }
            };
            action.setPosition(mViewport.getScreenWidth() / 2 - mScoreBG.getWidth() / 2, mViewport.getScreenHeight() / 2 - mScoreBG.getHeight() / 2);
-           action.setDuration(0.5f);
+           action.setDuration(0.35f);
 
            mScoreBG.addAction(action);
        }
