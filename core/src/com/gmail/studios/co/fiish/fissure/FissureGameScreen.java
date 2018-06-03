@@ -5,6 +5,7 @@ import com.badlogic.gdx.Preferences;
 import com.badlogic.gdx.ScreenAdapter;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
+import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.InputListener;
 import com.badlogic.gdx.scenes.scene2d.Touchable;
@@ -17,10 +18,8 @@ import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator.FreeTypeFont
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.GlyphLayout;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-
 import java.math.BigDecimal;
-
-import javax.swing.ImageIcon;
+import static com.badlogic.gdx.scenes.scene2d.actions.Actions.*;
 
 public class FissureGameScreen extends ScreenAdapter {
     public Viewport mViewport;
@@ -35,6 +34,7 @@ public class FissureGameScreen extends ScreenAdapter {
 
     public FissureGameUI mGameUI;
     public ScoreBG mScoreBG;
+    public ReplayButton mReplay;
 
     private FreeTypeFontGenerator mGenerator;
     private FreeTypeFontParameter mParam;
@@ -57,6 +57,7 @@ public class FissureGameScreen extends ScreenAdapter {
         for (int i = 0; i < 144; i++) mTiles.add(new Tile(mViewport, i));
 
         mScoreBG = new ScoreBG(mViewport);
+        mReplay = new ReplayButton(mViewport);
 
         mBatch = new SpriteBatch();
         mWorld = new FissureWorld(mViewport, mBatch);
@@ -65,11 +66,8 @@ public class FissureGameScreen extends ScreenAdapter {
         mWorld.addListener(new InputListener() {
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                MoveToAction moveToAction = new MoveToAction();
-                moveToAction.setDuration((Math.abs(x - mMiner.getX()) + Math.abs(y - mMiner.getY())) * 0.0009f);
-                moveToAction.setPosition(x - mMiner.getWidth() / 2, y - mMiner.getHeight() / 2);
                 mMiner.clearActions();
-                mMiner.addAction(moveToAction);
+                mMiner.addAction(moveTo(x - mMiner.getWidth() / 2, y, (Math.abs(x - mMiner.getX()) + Math.abs(y - mMiner.getY())) * 0.0009f));
                 return true;
             }
         });
@@ -93,7 +91,9 @@ public class FissureGameScreen extends ScreenAdapter {
         }
 
         mScoreBG.init();
-        mScoreBG.addListener(new InputListener(){
+        mReplay.init();
+
+        mReplay.addListener(new InputListener(){
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
                 mScoreBG.setTouchable(Touchable.disabled);
@@ -107,6 +107,8 @@ public class FissureGameScreen extends ScreenAdapter {
                 action.setPosition(mScoreBG.getX(), mViewport.getScreenHeight() + 10);
                 action.setDuration(0.35f);
                 mScoreBG.addAction(action);
+
+                mReplay.addAction(moveTo(mReplay.getX(), 0 - mReplay.getHeight() - 10, 0.35f));
                 return  true;
             }
         });
@@ -114,6 +116,7 @@ public class FissureGameScreen extends ScreenAdapter {
         mWorld.addActor(mMiner);
 
         mGameUI.addActor(mScoreBG);
+        mGameUI.addActor(mReplay);
 
         mParam.size = (int) (0.65 * (mViewport.getScreenHeight() / 9));
         mParam.color = Color.WHITE;
@@ -135,31 +138,31 @@ public class FissureGameScreen extends ScreenAdapter {
         if (mElapsedTime % m_DELTA_FISSURE < delta && mMiner.isAlive) {
             mIntegers.shuffle();
             if (mBreakCount < 2) {
-                for (int i = 0; i < 48; i++) {
-                    mTiles.get(mIntegers.get(i)).breakTile();
-                }
-            } else if (mBreakCount < 4) {
                 for (int i = 0; i < 60; i++) {
                     mTiles.get(mIntegers.get(i)).breakTile();
                 }
-            } else if (mBreakCount < 6) {
+            } else if (mBreakCount < 3) {
                 for (int i = 0; i < 72; i++) {
                     mTiles.get(mIntegers.get(i)).breakTile();
                 }
-            } else if (mBreakCount < 8) {
+            } else if (mBreakCount < 4) {
                 for (int i = 0; i < 84; i++) {
                     mTiles.get(mIntegers.get(i)).breakTile();
                 }
-            } else if (mBreakCount < 10) {
+            } else if (mBreakCount < 6) {
                 for (int i = 0; i < 96; i++) {
                     mTiles.get(mIntegers.get(i)).breakTile();
                 }
-            } else if (mBreakCount < 12) {
+            } else if (mBreakCount < 8) {
                 for (int i = 0; i < 108; i++) {
                     mTiles.get(mIntegers.get(i)).breakTile();
                 }
-            } else {
+            } else if (mBreakCount < 9) {
                 for (int i = 0; i < 120; i++) {
+                    mTiles.get(mIntegers.get(i)).breakTile();
+                }
+            } else {
+                for (int i = 0; i < 132; i++) {
                     mTiles.get(mIntegers.get(i)).breakTile();
                 }
             }
@@ -171,10 +174,11 @@ public class FissureGameScreen extends ScreenAdapter {
         }
 
         if (!mMiner.isAlive && !mTiles.get(143).isFrozen) {
-            for (Tile tile : mTiles) tile.freeze();
+            for (Tile tile : mTiles) tile.toggleFreeze();
         }
 
         mWorld.draw();
+
         if (!mMiner.isAlive) {
             mGameUI.act();
             mGameUI.draw();
@@ -202,17 +206,18 @@ public class FissureGameScreen extends ScreenAdapter {
            }
 
            mScoreBG.updateHighScore();
+           mScoreBG.addAction(moveTo(mViewport.getScreenWidth() / 2 - mScoreBG.getWidth() / 2, mViewport.getScreenHeight() / 2 - mScoreBG.getHeight() / 2,
+                   0.35f));
 
            MoveToAction action = new MoveToAction() {
-               @Override
-               public void end() {
-                   mScoreBG.setTouchable(Touchable.enabled);
-               }
+             @Override
+             public void end() {
+                 mReplay.setTouchable(Touchable.enabled);
+             }
            };
-           action.setPosition(mViewport.getScreenWidth() / 2 - mScoreBG.getWidth() / 2, mViewport.getScreenHeight() / 2 - mScoreBG.getHeight() / 2);
+           action.setPosition(mReplay.getX(), mViewport.getScreenHeight() * 0.1f);
            action.setDuration(0.35f);
-
-           mScoreBG.addAction(action);
+           mReplay.addAction(action);
        }
     }
 
@@ -221,6 +226,8 @@ public class FissureGameScreen extends ScreenAdapter {
         mMiner.dispose();
         for (Tile tile : mTiles) tile.dispose();
         mWorld.dispose();
+        mScoreBG.dispose();
+        mReplay.dispose();
         mGenerator.dispose();
         mFont.dispose();
         mBatch.dispose();
@@ -230,6 +237,7 @@ public class FissureGameScreen extends ScreenAdapter {
         for (Tile tile : mTiles) tile.init();
         mMiner.init();
 
+        mScoreBG.init();
         mScoreBG.clearListeners();
         mScoreBG.addListener(new InputListener(){
             @Override

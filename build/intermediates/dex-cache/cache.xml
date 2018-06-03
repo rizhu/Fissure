@@ -3,21 +3,21 @@
 
     <item
         is-multidex="false"
-        jar="D:\Richard\Programming\libGDX\Fissure\core\build\libs\core-1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="a8d382bebead1be9bc66f7dd1cde9f50cb896fd6">
-        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\core-1.0_ce6645ad372e689049d42408600384172b93af2f.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Richard\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.8\a35a0076fbce873f9c2d5a1a1c8066244231bb3c\gdx-1.9.8.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="a35a0076fbce873f9c2d5a1a1c8066244231bb3c">
         <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\gdx-1.9.8_bd382024b5112943600a8cc522f813f562d55cd9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Richard\Programming\libGDX\Fissure\core\build\libs\core-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a8d382bebead1be9bc66f7dd1cde9f50cb896fd6">
+        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\core-1.0_ce6645ad372e689049d42408600384172b93af2f.jar" />
     </item>
     <item
         is-multidex="false"

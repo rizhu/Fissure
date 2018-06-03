@@ -1,0 +1,90 @@
+
+goldsheet.png
+size: 512,128
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+gold
+  rotate: false
+  xy: 2, 65
+  size: 63, 61
+  orig: 63, 61
+  offset: 0, 0
+  index: 1
+gold
+  rotate: false
+  xy: 2, 65
+  size: 63, 61
+  orig: 63, 61
+  offset: 0, 0
+  index: 9
+gold
+  rotate: false
+  xy: 2, 65
+  size: 63, 61
+  orig: 63, 61
+  offset: 0, 0
+  index: 5
+gold
+  rotate: false
+  xy: 2, 2
+  size: 63, 61
+  orig: 63, 61
+  offset: 0, 0
+  index: 2
+gold
+  rotate: false
+  xy: 2, 2
+  size: 63, 61
+  orig: 63, 61
+  offset: 0, 0
+  index: 4
+gold
+  rotate: false
+  xy: 67, 65
+  size: 63, 61
+  orig: 63, 61
+  offset: 0, 0
+  index: 3
+gold
+  rotate: false
+  xy: 67, 2
+  size: 63, 61
+  orig: 63, 61
+  offset: 0, 0
+  index: 6
+gold
+  rotate: false
+  xy: 67, 2
+  size: 63, 61
+  orig: 63, 61
+  offset: 0, 0
+  index: 8
+gold
+  rotate: false
+  xy: 132, 65
+  size: 63, 61
+  orig: 63, 61
+  offset: 0, 0
+  index: 7
+gold
+  rotate: false
+  xy: 132, 2
+  size: 63, 61
+  orig: 63, 61
+  offset: 0, 0
+  index: 10
+gold
+  rotate: false
+  xy: 132, 2
+  size: 63, 61
+  orig: 63, 61
+  offset: 0, 0
+  index: 12
+gold
+  rotate: false
+  xy: 197, 65
+  size: 63, 61
+  orig: 63, 61
+  offset: 0, 0
+  index: 11

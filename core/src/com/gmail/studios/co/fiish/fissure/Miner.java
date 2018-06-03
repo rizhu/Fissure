@@ -1,6 +1,7 @@
 package com.gmail.studios.co.fiish.fissure;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.Batch;
@@ -24,33 +25,41 @@ public class Miner extends Actor {
     private TextureAtlas mFallingAtlas;
     private Animation<TextureRegion> mFallingAnimation;
 
+    private Sound mDeath;
+    private boolean hasPlayed;
+
     public Miner(Viewport viewport) {
         this.mViewport = viewport;
         mRunningAtlas = new TextureAtlas(Gdx.files.internal("spritesheets/minersheet.atlas"));
         mRunningAnimation = new Animation(1f/10f, mRunningAtlas.getRegions());
         mFallingAtlas = new TextureAtlas((Gdx.files.internal("spritesheets/fallingsheet.atlas")));
         mFallingAnimation = new Animation(1f/10f, mFallingAtlas.getRegions());
+        mDeath = Gdx.audio.newSound(Gdx.files.internal("death.wav"));
     }
 
     public void init() {
-        this.setWidth(mViewport.getScreenWidth() / 16f * 20 / 32 * 0.85f);
-        this.setHeight(mViewport.getScreenHeight() / 9f * 0.85f);
+        mPixelsPerTileX = mViewport.getScreenWidth() / 16.0f;
+        mPixelsPerTileY = mViewport.getScreenHeight() / 9.0f;
+        //this.setWidth(mViewport.getScreenWidth() / 16f * 20 / 32 * 0.85f);
+        //this.setHeight(mViewport.getScreenHeight() / 9f * 0.85f);
 
-        this.setX(mViewport.getScreenWidth() / 2 - getWidth() / 2);
+        this.setWidth(mViewport.getScreenWidth() / 16f * 10 / 32);
+        this.setHeight(mViewport.getScreenHeight() / 81f);
+
+        this.setX(mViewport.getScreenWidth() / 2 - getWidth() / 2 + 4 * mPixelsPerTileX / 32);
         this.setY(mViewport.getScreenHeight() / 2 - getHeight() / 2);
 
         this.setBounds(this.getX(), this.getY(), this.getWidth(), this.getHeight());
         this.setTouchable(Touchable.disabled);
 
         isAlive = true;
-        mPixelsPerTileX = mViewport.getScreenWidth() / 16.0f;
-        mPixelsPerTileY = mViewport.getScreenHeight() / 9.0f;
 
         mTileWidth = getWidth() / mPixelsPerTileX;
         mTileHeight = getHeight() / mPixelsPerTileY;
 
         isDeathDone = false;
         isAlive = true;
+        hasPlayed = false;
 
         mElapsedTime = 0.0f;
         mDeadTime = 0.0f;
@@ -60,21 +69,21 @@ public class Miner extends Actor {
     public void act(float delta) {
         super.act(delta);
 
-        if (getX() < 0) {
+        if (getX() - 4 * mPixelsPerTileX / 32 < 0) {
             clearActions();
-            this.setX(0.0f);
+            this.setX(0.0f + 4 * mPixelsPerTileX / 32);
         }
-        if (getX() + getWidth() > mViewport.getScreenWidth()) {
+        if (getX() + getWidth() + 4 * mPixelsPerTileX / 32 > mViewport.getScreenWidth()) {
             clearActions();
-            this.setX(mViewport.getScreenWidth() - getWidth());
+            this.setX(mViewport.getScreenWidth() - getWidth() - 4 * mPixelsPerTileX / 32);
         }
         if (getY() < 0) {
             clearActions();
             this.setY(0.0f);
         }
-        if (getY() + getHeight() > mViewport.getScreenHeight()) {
+        if (getY() + getHeight() + 28 * mPixelsPerTileY / 32 > mViewport.getScreenHeight()) {
             clearActions();
-            this.setY(mViewport.getScreenHeight() - getHeight());
+            this.setY(mViewport.getScreenHeight() - getHeight() - 28 * mPixelsPerTileY / 32);
         }
 
         mElapsedTime += delta;
@@ -90,14 +99,21 @@ public class Miner extends Actor {
     @Override
     public void draw(Batch batch, float alpha) {
        if (isAlive) {
-            batch.draw(mRunningAnimation.getKeyFrame(mElapsedTime, true),
-                    this.getX(), this.getY(), this.getWidth(), this.getHeight());
+           //batch.draw(mRunningAnimation.getKeyFrame(mElapsedTime, true),
+                    //this.getX(), this.getY(), this.getWidth(), this.getHeight());
+           batch.draw(mRunningAnimation.getKeyFrame(mElapsedTime, true),
+                   this.getX() - 4 * mPixelsPerTileX / 32, this.getY(), mViewport.getScreenWidth() / 16f * 20 / 32, mViewport.getScreenHeight() / 9f);
         }
 
        if(!isAlive) {
             batch.draw(mFallingAnimation.getKeyFrame(mDeadTime, false),
                     MathUtils.floor(mTileX) * mPixelsPerTileX, MathUtils.floor(mTileY) * mPixelsPerTileY, mViewport.getScreenWidth() / 16f,
                     mViewport.getScreenHeight() / 9f);
+
+            if (!hasPlayed) {
+                mDeath.play();
+                hasPlayed = true;
+            }
 
             if (mFallingAnimation.isAnimationFinished(mDeadTime)) {
                 isDeathDone = true;
@@ -108,6 +124,7 @@ public class Miner extends Actor {
     public void dispose() {
         mRunningAtlas.dispose();
         mFallingAtlas.dispose();
+        mDeath.dispose();
     }
 
     public void checkSafe(Array<Tile> tiles) {
