@@ -8,8 +8,7 @@ import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
 public class ReplayButton extends Actor {
-    public Viewport mViewport;
-
+    private Viewport mViewport;
     private Texture mTexture;
 
     public ReplayButton(Viewport viewport) {
@@ -24,9 +23,14 @@ public class ReplayButton extends Actor {
         this.setX(mViewport.getScreenWidth() / 2 - mViewport.getScreenWidth() / 16 * 3);
         this.setY(0 - getHeight() - 10f);
 
-        this.setBounds(this.getX(), this.getY(), this.getWidth(), this.getHeight());;
+        this.setBounds(this.getX(), this.getY(), this.getWidth(), this.getHeight());
 
         this.setTouchable(Touchable.disabled);
+    }
+
+    public void reset() {
+        this.setX(mViewport.getScreenWidth() / 2 - mViewport.getScreenWidth() / 16 * 3);
+        this.setY(0 - getHeight() - 10f);
     }
 
     @Override

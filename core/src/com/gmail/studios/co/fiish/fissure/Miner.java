@@ -14,10 +14,11 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 import com.badlogic.gdx.scenes.scene2d.Touchable;
 
 public class Miner extends Actor {
-    public Viewport mViewport;
     public boolean isAlive;
-    public float mTileX, mTileY, mTileWidth, mTileHeight;
     public boolean isDeathDone;
+
+    private Viewport mViewport;
+    private float mTileX, mTileY, mTileWidth, mTileHeight;
 
     private float mElapsedTime, mDeadTime, mPixelsPerTileX, mPixelsPerTileY;
     private TextureAtlas mRunningAtlas;
@@ -40,8 +41,6 @@ public class Miner extends Actor {
     public void init() {
         mPixelsPerTileX = mViewport.getScreenWidth() / 16.0f;
         mPixelsPerTileY = mViewport.getScreenHeight() / 9.0f;
-        //this.setWidth(mViewport.getScreenWidth() / 16f * 20 / 32 * 0.85f);
-        //this.setHeight(mViewport.getScreenHeight() / 9f * 0.85f);
 
         this.setWidth(mViewport.getScreenWidth() / 16f * 10 / 32);
         this.setHeight(mViewport.getScreenHeight() / 81f);
@@ -52,10 +51,20 @@ public class Miner extends Actor {
         this.setBounds(this.getX(), this.getY(), this.getWidth(), this.getHeight());
         this.setTouchable(Touchable.disabled);
 
-        isAlive = true;
-
         mTileWidth = getWidth() / mPixelsPerTileX;
         mTileHeight = getHeight() / mPixelsPerTileY;
+
+        isDeathDone = false;
+        isAlive = true;
+        hasPlayed = false;
+
+        mElapsedTime = 0.0f;
+        mDeadTime = 0.0f;
+    }
+
+    public void reset() {
+        this.setX(mViewport.getScreenWidth() / 2 - getWidth() / 2 + 4 * mPixelsPerTileX / 32);
+        this.setY(mViewport.getScreenHeight() / 2 - getHeight() / 2);
 
         isDeathDone = false;
         isAlive = true;

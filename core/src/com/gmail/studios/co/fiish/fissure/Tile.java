@@ -11,17 +11,17 @@ import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
 public class Tile  extends Actor {
-    public Texture mTexture;
-    public Viewport mViewport;
-    public int mId, mCoordX, mCoordY;
-    public boolean isBroken = false;
     public boolean isFissure = false;
     public boolean isFrozen;
+
+    private Texture mTexture;
+    private Viewport mViewport;
+    private int mId, mCoordX, mCoordY;
+    private boolean isBroken = false;
 
     private TextureAtlas mAtlas;
     private Animation<TextureRegion> mCrackAnimation;
     private float mElapsedTime;
-    private boolean mFirstInit;
 
     public Tile(Viewport viewport, int id) {
         mViewport = viewport;
@@ -35,52 +35,57 @@ public class Tile  extends Actor {
 
         mAtlas = new TextureAtlas(Gdx.files.internal("spritesheets/cracksheet.atlas"));
         mCrackAnimation = new Animation(1/5f, mAtlas.getRegions());
-
-        mElapsedTime = 0.0f;
-        mFirstInit = true;
     }
 
     public void init() {
         this.setWidth(mViewport.getScreenWidth() / 16f);
         this.setHeight(mViewport.getScreenHeight() / 9f);
 
-        if (mFirstInit) {
-            int random = MathUtils.random(0, 4);
-            switch (random) {
-                case 1:
-                    mTexture = new Texture(Gdx.files.internal("walkable_1.png"));
-                    break;
-                case 2:
-                    mTexture = new Texture(Gdx.files.internal("walkable_2.png"));
-                    break;
+        int random = MathUtils.random(0, 4);
+        switch (random) {
+            case 1:
+                mTexture = new Texture(Gdx.files.internal("walkable_1.png"));
+                break;
+            case 2:
+                mTexture = new Texture(Gdx.files.internal("walkable_2.png"));
+                break;
                 case 3:
-                    mTexture = new Texture(Gdx.files.internal("walkable_3.png"));
-                    break;
-                case 4:
-                    mTexture = new Texture(Gdx.files.internal("walkable_4.png"));
-                    break;
-                case 0:
-                    mTexture = new Texture(Gdx.files.internal("walkable_5.png"));
-                    break;
-            }
-            mFirstInit = false;
+                mTexture = new Texture(Gdx.files.internal("walkable_3.png"));
+                break;
+            case 4:
+                mTexture = new Texture(Gdx.files.internal("walkable_4.png"));
+                break;
+            case 0:
+                mTexture = new Texture(Gdx.files.internal("walkable_5.png"));
+                break;
         }
 
         isFrozen = false;
         isFissure = false;
         isBroken = false;
+
+        mElapsedTime = 0.0f;
+    }
+
+    public void reset() {
+        isFrozen = false;
+        isFissure = false;
+        isBroken = false;
+
+        mElapsedTime = 0.0f;
     }
 
     @Override
     public void act(float delta) {
         super.act(delta);
-        if (!isFrozen) mElapsedTime += delta;
+        if (!isFrozen) {
+            mElapsedTime += delta;
+        }
     }
 
     @Override
     public void draw(Batch batch, float alpha) {
         batch.draw(mTexture, mCoordX * this.getWidth(), mCoordY * this.getHeight(), this.getWidth(), this.getHeight());
-
 
         if (isBroken) {
             batch.draw(mCrackAnimation.getKeyFrame(mElapsedTime, false),

@@ -18,9 +18,11 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 import java.math.BigDecimal;
 
 public class ScoreBG extends Actor {
-    public Viewport mViewport;
+    private Viewport mViewport;
     public BigDecimal mScore, mHighScore;
-    public Preferences mData;
+    private Preferences mData;
+
+    private float mPixelX, mPixelY;
 
     private Texture mTexture;
 
@@ -32,7 +34,7 @@ public class ScoreBG extends Actor {
     private BitmapFont mFont;
     private GlyphLayout mLayout;
 
-    private float mElapsedTime, mPixelX, mPixelY;
+    private float mElapsedTime;
 
     public ScoreBG(Viewport viewport) {
         this.mViewport = viewport;
@@ -45,6 +47,8 @@ public class ScoreBG extends Actor {
         mGoldAnimation = new Animation(1f/6f, mGoldAtlas.getRegions());
 
         mHighScore = new BigDecimal(0);
+
+        setTouchable(Touchable.disabled);
     }
 
     public void init() {
@@ -70,6 +74,13 @@ public class ScoreBG extends Actor {
         mPixelY = mViewport.getScreenHeight() / 9.0f / 32.0f;
     }
 
+    public void reset() {
+        this.setX(mViewport.getScreenWidth() / 2 - this.getWidth() / 2);
+        this.setY(mViewport.getScreenHeight() + 10);
+
+        mElapsedTime = 0.0f;
+    }
+
     @Override
     public void act(float delta) {
         super.act(delta);
@@ -79,7 +90,7 @@ public class ScoreBG extends Actor {
     @Override
     public void draw(Batch batch, float alpha) {
         batch.draw(mTexture, this.getX(), this.getY(), this.getWidth(), this.getHeight());
-        if (mScore != null && mScore.floatValue() >= 30.0f) {
+        if (mScore != null && mScore.floatValue() >= 45.0f) {
             batch.draw(mGoldAnimation.getKeyFrame(mElapsedTime, true),
                     this.getX() + 15.0f * mPixelX, this.getY() + 17.0f * mPixelY, 63.0f * mPixelX, 61.0f * mPixelY);
         }
