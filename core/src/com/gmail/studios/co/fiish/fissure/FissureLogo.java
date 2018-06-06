@@ -28,15 +28,19 @@ public class FissureLogo extends Actor {
         this.setY(mViewport.getScreenHeight() - 32f * mPixelY - getHeight());
 
         this.setTouchable(Touchable.disabled);
+        this.setColor(getColor().r, getColor().g, getColor().b, 1);
     }
 
     public void reset() {
+        this.clearActions();
         this.setX(mViewport.getScreenWidth() / 2 - getWidth() / 2);
         this.setY(mViewport.getScreenHeight() - 32f * mPixelY - getHeight());
+        this.setColor(getColor().r, getColor().g, getColor().b, 1);
     }
 
     @Override
     public void draw(Batch batch, float alpha) {
+        batch.setColor(getColor().r, getColor().g, getColor().b, getColor().a * alpha);
         batch.draw(mTexture, getX(), getY(), getWidth(), getHeight());
     }
 

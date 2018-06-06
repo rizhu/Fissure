@@ -21,20 +21,25 @@ public class HomeButton extends Actor {
         this.setHeight(mViewport.getScreenHeight() / 9f / 32f * 42f);
 
         this.setX(mViewport.getScreenWidth() / 2 + mViewport.getScreenWidth() / 16 * 3 - getWidth());
-        this.setY(0 - getHeight() - 10f);
+        this.setY(mViewport.getScreenHeight() * 0.1f);
 
         this.setBounds(this.getX(), this.getY(), this.getWidth(), this.getHeight());
 
         this.setTouchable(Touchable.disabled);
+        this.setColor(getColor().r, getColor().g, getColor().b, 0f);
     }
 
     public void reset() {
+        this.clearActions();
         this.setX(mViewport.getScreenWidth() / 2 + mViewport.getScreenWidth() / 16 * 3 - getWidth());
-        this.setY(0 - getHeight() - 10f);
+        this.setY(mViewport.getScreenHeight() * 0.1f);
+
+        this.setColor(getColor().r, getColor().g, getColor().b, 0f);
     }
 
     @Override
     public void draw(Batch batch, float alpha) {
+        batch.setColor(getColor().r, getColor().g, getColor().b, getColor().a * alpha);
         batch.draw(mTexture, this.getX(), this.getY(), this.getWidth(), this.getHeight());
     }
 

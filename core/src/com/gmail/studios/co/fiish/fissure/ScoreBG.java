@@ -26,8 +26,8 @@ public class ScoreBG extends Actor {
 
     private Texture mTexture;
 
-    private Animation<TextureRegion> mGoldAnimation;
-    private TextureAtlas mGoldAtlas;
+    private Animation<TextureRegion> mGoldAnimation, mSilverAnimation;
+    private TextureAtlas mGoldAtlas, mSilverAtlas;
 
     private FreeTypeFontGenerator mGenerator;
     private FreeTypeFontGenerator.FreeTypeFontParameter mParam;
@@ -45,6 +45,9 @@ public class ScoreBG extends Actor {
 
         mGoldAtlas = new TextureAtlas(Gdx.files.internal("spritesheets/goldsheet.atlas"));
         mGoldAnimation = new Animation(1f/6f, mGoldAtlas.getRegions());
+
+        mSilverAtlas = new TextureAtlas(Gdx.files.internal("spritesheets/silversheet.atlas"));
+        mSilverAnimation = new Animation(1f/6f, mSilverAtlas.getRegions());
 
         mHighScore = new BigDecimal(0);
 
@@ -75,6 +78,7 @@ public class ScoreBG extends Actor {
     }
 
     public void reset() {
+        this.clearActions();
         this.setX(mViewport.getScreenWidth() / 2 - this.getWidth() / 2);
         this.setY(mViewport.getScreenHeight() + 10);
 
@@ -89,9 +93,13 @@ public class ScoreBG extends Actor {
 
     @Override
     public void draw(Batch batch, float alpha) {
+        batch.setColor(getColor().r, getColor().g, getColor().b, getColor().a * alpha);
         batch.draw(mTexture, this.getX(), this.getY(), this.getWidth(), this.getHeight());
         if (mScore != null && mScore.floatValue() >= 45.0f) {
             batch.draw(mGoldAnimation.getKeyFrame(mElapsedTime, true),
+                    this.getX() + 15.0f * mPixelX, this.getY() + 17.0f * mPixelY, 63.0f * mPixelX, 61.0f * mPixelY);
+        } else if (mScore != null && mScore.floatValue() >= 30.0f) {
+            batch.draw(mSilverAnimation.getKeyFrame(mElapsedTime, true),
                     this.getX() + 15.0f * mPixelX, this.getY() + 17.0f * mPixelY, 63.0f * mPixelX, 61.0f * mPixelY);
         }
 
@@ -107,6 +115,7 @@ public class ScoreBG extends Actor {
         mTexture.dispose();
         mGenerator.dispose();
         mGoldAtlas.dispose();
+        mSilverAtlas.dispose();
         mFont.dispose();
     }
 

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat May 05 18:19:33 PDT 2018
+#Tue Jun 05 20:38:01 PDT 2018
 25.file=D\:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\transforms\\mergeJavaRes\\debug\\jars\\2\\1f\\main.jar\\com\\badlogic\\gdx\\graphics\\g3d\\shaders\\depth.fragment.glsl
 25.base=D\:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\transforms\\mergeJavaRes\\debug\\jars\\2\\1f\\main.jar
 22.set=NATIVE_RESOURCE

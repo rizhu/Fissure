@@ -63,6 +63,7 @@ public class Miner extends Actor {
     }
 
     public void reset() {
+        this.clearActions();
         this.setX(mViewport.getScreenWidth() / 2 - getWidth() / 2 + 4 * mPixelsPerTileX / 32);
         this.setY(mViewport.getScreenHeight() / 2 - getHeight() / 2);
 
@@ -107,6 +108,7 @@ public class Miner extends Actor {
 
     @Override
     public void draw(Batch batch, float alpha) {
+        batch.setColor(getColor().r, getColor().g, getColor().b, getColor().a * alpha);
        if (isAlive) {
            //batch.draw(mRunningAnimation.getKeyFrame(mElapsedTime, true),
                     //this.getX(), this.getY(), this.getWidth(), this.getHeight());
@@ -156,17 +158,6 @@ public class Miner extends Actor {
             mTileY = mTileY + mTileHeight;
             kill();
         }
-        /* Gdx.app.log("x, y:            ", "" + getX() + ", " + getY());
-        Gdx.app.log("mPixelsPerTile:  ", "" + mPixelsPerTileX);
-        Gdx.app.log("Width:           ", "" + getWidth());
-        Gdx.app.log("Height:          ", "" + getHeight());
-        Gdx.app.log("mTileWidth:      ", "" + mTileWidth);
-        Gdx.app.log("mTileHeight:     ", "" + mTileHeight);
-        Gdx.app.log("mTileX, mTileY:  ", "" + mTileX + ", " + mTileY);
-        Gdx.app.log("Bottom left:     ", "" + id1);
-        Gdx.app.log("Top left:        ", "" + id2);
-        Gdx.app.log("Bottom right:    ", "" + id3);
-        Gdx.app.log("Top right:       ", "" + id4); */
     }
 
 

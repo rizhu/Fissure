@@ -68,6 +68,7 @@ public class Tile  extends Actor {
     }
 
     public void reset() {
+        this.clearActions();
         isFrozen = false;
         isFissure = false;
         isBroken = false;
@@ -85,6 +86,7 @@ public class Tile  extends Actor {
 
     @Override
     public void draw(Batch batch, float alpha) {
+        batch.setColor(getColor().r, getColor().g, getColor().b, getColor().a * alpha);
         batch.draw(mTexture, mCoordX * this.getWidth(), mCoordY * this.getHeight(), this.getWidth(), this.getHeight());
 
         if (isBroken) {

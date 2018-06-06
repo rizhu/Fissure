@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85a22a48-361e-4d60-accd-893955678080" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureLogo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureTitleUI.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/HomeButton.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/GameOverPrompt.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/TapPrompt.java" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -21,16 +20,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/android/Fissure.apk" afterPath="$PROJECT_DIR$/android/Fissure.apk" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/scorebg.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/scorebg.png" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/release/scorebg.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/release/scorebg.png" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeReleaseAssets/merger.xml" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/file-input-save-data.txt" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/file-input-save-data.txt" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/core-1.0_ce6645ad372e689049d42408600384172b93af2f.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/core-1.0_ce6645ad372e689049d42408600384172b93af2f.jar" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/release/core-1.0_ce6645ad372e689049d42408600384172b93af2f.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/release/core-1.0_ce6645ad372e689049d42408600384172b93af2f.jar" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex" />
       <change beforePath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" afterPath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" />
@@ -38,27 +35,37 @@
       <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$1.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$1.class" />
       <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2$1.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2$1.class" />
       <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$1.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$1.class" />
       <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3.class" />
       <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4$1.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4$1.class" />
       <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$5.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$5.class" />
       <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureLogo.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureLogo.class" />
       <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/Miner.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/Miner.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/ReplayButton.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/ReplayButton.class" />
       <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/ScoreBG.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/ScoreBG.class" />
       <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/Tile.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/Tile.class" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$1.class" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2$1.class" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$1.class" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3.class" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4$1.class" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$5.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$5.class" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureLogo.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureLogo.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/HomeButton.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/HomeButton.class" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/Miner.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/Miner.class" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/ReplayButton.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/ReplayButton.class" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/ScoreBG.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/ScoreBG.class" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/Tile.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/Tile.class" />
       <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" />
       <change beforePath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureLogo.java" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureLogo.java" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/HomeButton.java" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/HomeButton.java" />
       <change beforePath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Miner.java" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Miner.java" />
       <change beforePath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ReplayButton.java" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ReplayButton.java" />
       <change beforePath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ScoreBG.java" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ScoreBG.java" />
@@ -88,7 +95,7 @@
       <file leaf-file-name="FissureGame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="288">
               <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding>
                 <element signature="e#149#150#0" expanded="true" />
@@ -101,24 +108,46 @@
       <file leaf-file-name="FissureGameScreen.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="698">
-              <caret line="95" column="5" lean-forward="false" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+            <state relative-caret-position="818">
+              <caret line="364" column="24" lean-forward="false" selection-start-line="364" selection-start-column="24" selection-end-line="364" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3873#4506#0" expanded="true" />
-                <element signature="e#4092#4283#0" expanded="true" />
-                <element signature="e#4282#4283#0" expanded="true" />
-                <element signature="e#4505#4506#0" expanded="true" />
-                <element signature="e#4611#5725#0" expanded="true" />
-                <element signature="e#5143#5309#0" expanded="true" />
-                <element signature="e#5308#5309#0" expanded="true" />
-                <element signature="e#5724#5725#0" expanded="true" />
-                <element signature="e#5755#6858#0" expanded="true" />
-                <element signature="e#6275#6442#0" expanded="true" />
-                <element signature="e#6441#6442#0" expanded="true" />
-                <element signature="e#6857#6858#0" expanded="true" />
-                <element signature="e#11071#11289#0" expanded="true" />
-                <element signature="e#11288#11289#0" expanded="true" />
+                <element signature="e#2920#3298#0" expanded="true" />
+                <element signature="e#3297#3298#0" expanded="true" />
+                <element signature="e#4050#4936#0" expanded="true" />
+                <element signature="e#4264#4608#0" expanded="true" />
+                <element signature="e#4607#4608#0" expanded="true" />
+                <element signature="e#4651#4878#0" expanded="true" />
+                <element signature="e#4877#4878#0" expanded="true" />
+                <element signature="e#4935#4936#0" expanded="true" />
+                <element signature="e#5041#6573#0" expanded="true" />
+                <element signature="e#5583#6514#0" expanded="true" />
+                <element signature="e#6170#6453#0" expanded="true" />
+                <element signature="e#6452#6453#0" expanded="true" />
+                <element signature="e#6513#6514#0" expanded="true" />
+                <element signature="e#6572#6573#0" expanded="true" />
+                <element signature="e#6603#8125#0" expanded="true" />
+                <element signature="e#7135#8067#0" expanded="true" />
+                <element signature="e#7722#8006#0" expanded="true" />
+                <element signature="e#8005#8006#0" expanded="true" />
+                <element signature="e#8066#8067#0" expanded="true" />
+                <element signature="e#8124#8125#0" expanded="true" />
+                <element signature="e#12304#12576#0" expanded="true" />
+                <element signature="e#12575#12576#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameOverPrompt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/GameOverPrompt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="668">
+              <caret line="37" column="50" lean-forward="false" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1637#1638#0" expanded="true" />
+                <element signature="e#1671#1672#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,14 +156,14 @@
       <file leaf-file-name="Tile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="476">
+              <caret line="70" column="28" lean-forward="false" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3295#3296#0" expanded="true" />
-                <element signature="e#3329#3330#0" expanded="true" />
-                <element signature="e#3363#3364#0" expanded="true" />
-                <element signature="e#3399#3400#0" expanded="true" />
+                <element signature="e#3412#3413#0" expanded="true" />
+                <element signature="e#3446#3447#0" expanded="true" />
+                <element signature="e#3480#3481#0" expanded="true" />
+                <element signature="e#3516#3517#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,12 +172,12 @@
       <file leaf-file-name="ScoreBG.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ScoreBG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2204">
-              <caret line="78" column="52" lean-forward="false" selection-start-line="78" selection-start-column="52" selection-end-line="78" selection-end-column="52" />
+            <state relative-caret-position="812">
+              <caret line="102" column="116" lean-forward="false" selection-start-line="102" selection-start-column="116" selection-end-line="102" selection-end-column="116" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3893#3894#0" expanded="true" />
-                <element signature="e#3965#3966#0" expanded="true" />
+                <element signature="e#4505#4506#0" expanded="true" />
+                <element signature="e#4577#4578#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,8 +186,8 @@
       <file leaf-file-name="Miner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Miner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="73" column="25" lean-forward="false" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+            <state relative-caret-position="194">
+              <caret line="65" column="28" lean-forward="false" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -167,12 +196,12 @@
       <file leaf-file-name="ReplayButton.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ReplayButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1052">
-              <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+            <state relative-caret-position="908">
+              <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1352#1353#0" expanded="true" />
-                <element signature="e#1386#1387#0" expanded="true" />
+                <element signature="e#1634#1635#0" expanded="true" />
+                <element signature="e#1668#1669#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -181,12 +210,12 @@
       <file leaf-file-name="HomeButton.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/HomeButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="860">
-              <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+            <state relative-caret-position="960">
+              <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1372#1373#0" expanded="true" />
-                <element signature="e#1406#1407#0" expanded="true" />
+                <element signature="e#1654#1655#0" expanded="true" />
+                <element signature="e#1688#1689#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -195,12 +224,26 @@
       <file leaf-file-name="FissureLogo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureLogo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="34" column="77" lean-forward="false" selection-start-line="34" selection-start-column="77" selection-end-line="34" selection-end-column="77" />
+            <state relative-caret-position="1152">
+              <caret line="36" column="76" lean-forward="false" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1383#1384#0" expanded="true" />
-                <element signature="e#1417#1418#0" expanded="true" />
+                <element signature="e#1636#1637#0" expanded="true" />
+                <element signature="e#1670#1671#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TapPrompt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/TapPrompt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1104">
+              <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1629#1630#0" expanded="true" />
+                <element signature="e#1663#1664#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -4127,17 +4170,19 @@
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameUI.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureTitleUI.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Home.java" />
+        <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/TapPrompt.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/HomeButton.java" />
-        <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureLogo.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ReplayButton.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Miner.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tile.java" />
+        <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureLogo.java" />
+        <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/GameOverPrompt.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ScoreBG.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-15" />
     <option name="y" value="1" />
     <option name="width" value="3868" />
@@ -4161,6 +4206,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -4190,10 +4237,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -4221,7 +4266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Desktop">
+  <component name="RunManager" selected="Android App.android">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -4313,7 +4358,7 @@
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.badlogic.gdx.tools.texturepacker.TexturePacker" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="goldSprites spritesheets goldsheet" />
+      <option name="PROGRAM_PARAMETERS" value="silverSprites spritesheets silversheet" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/core/assets" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -4534,7 +4579,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-15" y="1" width="3868" height="2054" extended-state="1" />
+    <frame x="-15" y="1" width="3868" height="2054" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -4544,7 +4589,7 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329455" sideWeight="0.5010787" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289882" sideWeight="0.49892125" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289882" sideWeight="0.49892125" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329455" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329455" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -4554,6 +4599,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Multi-OS Engine" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289882" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289882" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -4566,7 +4612,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329455" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -4577,51 +4622,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3840">
-          <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3295#3296#0" expanded="true" />
-            <element signature="e#3329#3330#0" expanded="true" />
-            <element signature="e#3363#3364#0" expanded="true" />
-            <element signature="e#3399#3400#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3072">
-          <caret line="74" column="44" lean-forward="false" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3873#4506#0" expanded="true" />
-            <element signature="e#4092#4283#0" expanded="true" />
-            <element signature="e#4282#4283#0" expanded="true" />
-            <element signature="e#4505#4506#0" expanded="true" />
-            <element signature="e#4611#5725#0" expanded="true" />
-            <element signature="e#5143#5309#0" expanded="true" />
-            <element signature="e#5308#5309#0" expanded="true" />
-            <element signature="e#5724#5725#0" expanded="true" />
-            <element signature="e#5755#6858#0" expanded="true" />
-            <element signature="e#6275#6442#0" expanded="true" />
-            <element signature="e#6441#6442#0" expanded="true" />
-            <element signature="e#6857#6858#0" expanded="true" />
-            <element signature="e#11071#11289#0" expanded="true" />
-            <element signature="e#11288#11289#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Miner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4800">
           <caret line="110" column="54" lean-forward="false" selection-start-line="110" selection-start-column="54" selection-end-line="110" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4654,10 +4659,10 @@
           <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3295#3296#0" expanded="true" />
-            <element signature="e#3329#3330#0" expanded="true" />
-            <element signature="e#3363#3364#0" expanded="true" />
-            <element signature="e#3399#3400#0" expanded="true" />
+            <element signature="e#3412#3413#0" expanded="true" />
+            <element signature="e#3446#3447#0" expanded="true" />
+            <element signature="e#3480#3481#0" expanded="true" />
+            <element signature="e#3516#3517#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4668,20 +4673,28 @@
           <caret line="74" column="44" lean-forward="false" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3873#4506#0" expanded="true" />
-            <element signature="e#4092#4283#0" expanded="true" />
-            <element signature="e#4282#4283#0" expanded="true" />
-            <element signature="e#4505#4506#0" expanded="true" />
-            <element signature="e#4611#5725#0" expanded="true" />
-            <element signature="e#5143#5309#0" expanded="true" />
-            <element signature="e#5308#5309#0" expanded="true" />
-            <element signature="e#5724#5725#0" expanded="true" />
-            <element signature="e#5755#6858#0" expanded="true" />
-            <element signature="e#6275#6442#0" expanded="true" />
-            <element signature="e#6441#6442#0" expanded="true" />
-            <element signature="e#6857#6858#0" expanded="true" />
-            <element signature="e#11071#11289#0" expanded="true" />
-            <element signature="e#11288#11289#0" expanded="true" />
+            <element signature="e#2920#3298#0" expanded="true" />
+            <element signature="e#3297#3298#0" expanded="true" />
+            <element signature="e#4050#4936#0" expanded="true" />
+            <element signature="e#4264#4608#0" expanded="true" />
+            <element signature="e#4607#4608#0" expanded="true" />
+            <element signature="e#4651#4878#0" expanded="true" />
+            <element signature="e#4877#4878#0" expanded="true" />
+            <element signature="e#4935#4936#0" expanded="true" />
+            <element signature="e#5041#6573#0" expanded="true" />
+            <element signature="e#5583#6514#0" expanded="true" />
+            <element signature="e#6170#6453#0" expanded="true" />
+            <element signature="e#6452#6453#0" expanded="true" />
+            <element signature="e#6513#6514#0" expanded="true" />
+            <element signature="e#6572#6573#0" expanded="true" />
+            <element signature="e#6603#8125#0" expanded="true" />
+            <element signature="e#7135#8067#0" expanded="true" />
+            <element signature="e#7722#8006#0" expanded="true" />
+            <element signature="e#8005#8006#0" expanded="true" />
+            <element signature="e#8066#8067#0" expanded="true" />
+            <element signature="e#8124#8125#0" expanded="true" />
+            <element signature="e#12304#12576#0" expanded="true" />
+            <element signature="e#12575#12576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4690,9 +4703,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4800">
           <caret line="110" column="54" lean-forward="false" selection-start-line="110" selection-start-column="54" selection-end-line="110" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4725,10 +4736,10 @@
           <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3295#3296#0" expanded="true" />
-            <element signature="e#3329#3330#0" expanded="true" />
-            <element signature="e#3363#3364#0" expanded="true" />
-            <element signature="e#3399#3400#0" expanded="true" />
+            <element signature="e#3412#3413#0" expanded="true" />
+            <element signature="e#3446#3447#0" expanded="true" />
+            <element signature="e#3480#3481#0" expanded="true" />
+            <element signature="e#3516#3517#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4739,20 +4750,28 @@
           <caret line="74" column="44" lean-forward="false" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3873#4506#0" expanded="true" />
-            <element signature="e#4092#4283#0" expanded="true" />
-            <element signature="e#4282#4283#0" expanded="true" />
-            <element signature="e#4505#4506#0" expanded="true" />
-            <element signature="e#4611#5725#0" expanded="true" />
-            <element signature="e#5143#5309#0" expanded="true" />
-            <element signature="e#5308#5309#0" expanded="true" />
-            <element signature="e#5724#5725#0" expanded="true" />
-            <element signature="e#5755#6858#0" expanded="true" />
-            <element signature="e#6275#6442#0" expanded="true" />
-            <element signature="e#6441#6442#0" expanded="true" />
-            <element signature="e#6857#6858#0" expanded="true" />
-            <element signature="e#11071#11289#0" expanded="true" />
-            <element signature="e#11288#11289#0" expanded="true" />
+            <element signature="e#2920#3298#0" expanded="true" />
+            <element signature="e#3297#3298#0" expanded="true" />
+            <element signature="e#4050#4936#0" expanded="true" />
+            <element signature="e#4264#4608#0" expanded="true" />
+            <element signature="e#4607#4608#0" expanded="true" />
+            <element signature="e#4651#4878#0" expanded="true" />
+            <element signature="e#4877#4878#0" expanded="true" />
+            <element signature="e#4935#4936#0" expanded="true" />
+            <element signature="e#5041#6573#0" expanded="true" />
+            <element signature="e#5583#6514#0" expanded="true" />
+            <element signature="e#6170#6453#0" expanded="true" />
+            <element signature="e#6452#6453#0" expanded="true" />
+            <element signature="e#6513#6514#0" expanded="true" />
+            <element signature="e#6572#6573#0" expanded="true" />
+            <element signature="e#6603#8125#0" expanded="true" />
+            <element signature="e#7135#8067#0" expanded="true" />
+            <element signature="e#7722#8006#0" expanded="true" />
+            <element signature="e#8005#8006#0" expanded="true" />
+            <element signature="e#8066#8067#0" expanded="true" />
+            <element signature="e#8124#8125#0" expanded="true" />
+            <element signature="e#12304#12576#0" expanded="true" />
+            <element signature="e#12575#12576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4761,9 +4780,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4800">
           <caret line="110" column="54" lean-forward="false" selection-start-line="110" selection-start-column="54" selection-end-line="110" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4784,10 +4801,10 @@
           <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3295#3296#0" expanded="true" />
-            <element signature="e#3329#3330#0" expanded="true" />
-            <element signature="e#3363#3364#0" expanded="true" />
-            <element signature="e#3399#3400#0" expanded="true" />
+            <element signature="e#3412#3413#0" expanded="true" />
+            <element signature="e#3446#3447#0" expanded="true" />
+            <element signature="e#3480#3481#0" expanded="true" />
+            <element signature="e#3516#3517#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4798,20 +4815,28 @@
           <caret line="74" column="44" lean-forward="false" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3873#4506#0" expanded="true" />
-            <element signature="e#4092#4283#0" expanded="true" />
-            <element signature="e#4282#4283#0" expanded="true" />
-            <element signature="e#4505#4506#0" expanded="true" />
-            <element signature="e#4611#5725#0" expanded="true" />
-            <element signature="e#5143#5309#0" expanded="true" />
-            <element signature="e#5308#5309#0" expanded="true" />
-            <element signature="e#5724#5725#0" expanded="true" />
-            <element signature="e#5755#6858#0" expanded="true" />
-            <element signature="e#6275#6442#0" expanded="true" />
-            <element signature="e#6441#6442#0" expanded="true" />
-            <element signature="e#6857#6858#0" expanded="true" />
-            <element signature="e#11071#11289#0" expanded="true" />
-            <element signature="e#11288#11289#0" expanded="true" />
+            <element signature="e#2920#3298#0" expanded="true" />
+            <element signature="e#3297#3298#0" expanded="true" />
+            <element signature="e#4050#4936#0" expanded="true" />
+            <element signature="e#4264#4608#0" expanded="true" />
+            <element signature="e#4607#4608#0" expanded="true" />
+            <element signature="e#4651#4878#0" expanded="true" />
+            <element signature="e#4877#4878#0" expanded="true" />
+            <element signature="e#4935#4936#0" expanded="true" />
+            <element signature="e#5041#6573#0" expanded="true" />
+            <element signature="e#5583#6514#0" expanded="true" />
+            <element signature="e#6170#6453#0" expanded="true" />
+            <element signature="e#6452#6453#0" expanded="true" />
+            <element signature="e#6513#6514#0" expanded="true" />
+            <element signature="e#6572#6573#0" expanded="true" />
+            <element signature="e#6603#8125#0" expanded="true" />
+            <element signature="e#7135#8067#0" expanded="true" />
+            <element signature="e#7722#8006#0" expanded="true" />
+            <element signature="e#8005#8006#0" expanded="true" />
+            <element signature="e#8066#8067#0" expanded="true" />
+            <element signature="e#8124#8125#0" expanded="true" />
+            <element signature="e#12304#12576#0" expanded="true" />
+            <element signature="e#12575#12576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4820,9 +4845,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4800">
           <caret line="110" column="54" lean-forward="true" selection-start-line="110" selection-start-column="54" selection-end-line="110" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4843,10 +4866,10 @@
           <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3295#3296#0" expanded="true" />
-            <element signature="e#3329#3330#0" expanded="true" />
-            <element signature="e#3363#3364#0" expanded="true" />
-            <element signature="e#3399#3400#0" expanded="true" />
+            <element signature="e#3412#3413#0" expanded="true" />
+            <element signature="e#3446#3447#0" expanded="true" />
+            <element signature="e#3480#3481#0" expanded="true" />
+            <element signature="e#3516#3517#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4857,20 +4880,28 @@
           <caret line="57" column="24" lean-forward="false" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3873#4506#0" expanded="true" />
-            <element signature="e#4092#4283#0" expanded="true" />
-            <element signature="e#4282#4283#0" expanded="true" />
-            <element signature="e#4505#4506#0" expanded="true" />
-            <element signature="e#4611#5725#0" expanded="true" />
-            <element signature="e#5143#5309#0" expanded="true" />
-            <element signature="e#5308#5309#0" expanded="true" />
-            <element signature="e#5724#5725#0" expanded="true" />
-            <element signature="e#5755#6858#0" expanded="true" />
-            <element signature="e#6275#6442#0" expanded="true" />
-            <element signature="e#6441#6442#0" expanded="true" />
-            <element signature="e#6857#6858#0" expanded="true" />
-            <element signature="e#11071#11289#0" expanded="true" />
-            <element signature="e#11288#11289#0" expanded="true" />
+            <element signature="e#2920#3298#0" expanded="true" />
+            <element signature="e#3297#3298#0" expanded="true" />
+            <element signature="e#4050#4936#0" expanded="true" />
+            <element signature="e#4264#4608#0" expanded="true" />
+            <element signature="e#4607#4608#0" expanded="true" />
+            <element signature="e#4651#4878#0" expanded="true" />
+            <element signature="e#4877#4878#0" expanded="true" />
+            <element signature="e#4935#4936#0" expanded="true" />
+            <element signature="e#5041#6573#0" expanded="true" />
+            <element signature="e#5583#6514#0" expanded="true" />
+            <element signature="e#6170#6453#0" expanded="true" />
+            <element signature="e#6452#6453#0" expanded="true" />
+            <element signature="e#6513#6514#0" expanded="true" />
+            <element signature="e#6572#6573#0" expanded="true" />
+            <element signature="e#6603#8125#0" expanded="true" />
+            <element signature="e#7135#8067#0" expanded="true" />
+            <element signature="e#7722#8006#0" expanded="true" />
+            <element signature="e#8005#8006#0" expanded="true" />
+            <element signature="e#8066#8067#0" expanded="true" />
+            <element signature="e#8124#8125#0" expanded="true" />
+            <element signature="e#12304#12576#0" expanded="true" />
+            <element signature="e#12575#12576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4881,10 +4912,10 @@
           <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3295#3296#0" expanded="true" />
-            <element signature="e#3329#3330#0" expanded="true" />
-            <element signature="e#3363#3364#0" expanded="true" />
-            <element signature="e#3399#3400#0" expanded="true" />
+            <element signature="e#3412#3413#0" expanded="true" />
+            <element signature="e#3446#3447#0" expanded="true" />
+            <element signature="e#3480#3481#0" expanded="true" />
+            <element signature="e#3516#3517#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4916,9 +4947,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3168">
           <caret line="76" column="68" lean-forward="true" selection-start-line="76" selection-start-column="68" selection-end-line="76" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4928,20 +4957,28 @@
           <caret line="113" column="31" lean-forward="false" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3873#4506#0" expanded="true" />
-            <element signature="e#4092#4283#0" expanded="true" />
-            <element signature="e#4282#4283#0" expanded="true" />
-            <element signature="e#4505#4506#0" expanded="true" />
-            <element signature="e#4611#5725#0" expanded="true" />
-            <element signature="e#5143#5309#0" expanded="true" />
-            <element signature="e#5308#5309#0" expanded="true" />
-            <element signature="e#5724#5725#0" expanded="true" />
-            <element signature="e#5755#6858#0" expanded="true" />
-            <element signature="e#6275#6442#0" expanded="true" />
-            <element signature="e#6441#6442#0" expanded="true" />
-            <element signature="e#6857#6858#0" expanded="true" />
-            <element signature="e#11071#11289#0" expanded="true" />
-            <element signature="e#11288#11289#0" expanded="true" />
+            <element signature="e#2920#3298#0" expanded="true" />
+            <element signature="e#3297#3298#0" expanded="true" />
+            <element signature="e#4050#4936#0" expanded="true" />
+            <element signature="e#4264#4608#0" expanded="true" />
+            <element signature="e#4607#4608#0" expanded="true" />
+            <element signature="e#4651#4878#0" expanded="true" />
+            <element signature="e#4877#4878#0" expanded="true" />
+            <element signature="e#4935#4936#0" expanded="true" />
+            <element signature="e#5041#6573#0" expanded="true" />
+            <element signature="e#5583#6514#0" expanded="true" />
+            <element signature="e#6170#6453#0" expanded="true" />
+            <element signature="e#6452#6453#0" expanded="true" />
+            <element signature="e#6513#6514#0" expanded="true" />
+            <element signature="e#6572#6573#0" expanded="true" />
+            <element signature="e#6603#8125#0" expanded="true" />
+            <element signature="e#7135#8067#0" expanded="true" />
+            <element signature="e#7722#8006#0" expanded="true" />
+            <element signature="e#8005#8006#0" expanded="true" />
+            <element signature="e#8066#8067#0" expanded="true" />
+            <element signature="e#8124#8125#0" expanded="true" />
+            <element signature="e#12304#12576#0" expanded="true" />
+            <element signature="e#12575#12576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4962,9 +4999,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3168">
           <caret line="79" column="30" lean-forward="false" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4985,10 +5020,10 @@
           <caret line="82" column="52" lean-forward="false" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3295#3296#0" expanded="true" />
-            <element signature="e#3329#3330#0" expanded="true" />
-            <element signature="e#3363#3364#0" expanded="true" />
-            <element signature="e#3399#3400#0" expanded="true" />
+            <element signature="e#3412#3413#0" expanded="true" />
+            <element signature="e#3446#3447#0" expanded="true" />
+            <element signature="e#3480#3481#0" expanded="true" />
+            <element signature="e#3516#3517#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4997,9 +5032,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -5009,20 +5042,28 @@
           <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3873#4506#0" expanded="true" />
-            <element signature="e#4092#4283#0" expanded="true" />
-            <element signature="e#4282#4283#0" expanded="true" />
-            <element signature="e#4505#4506#0" expanded="true" />
-            <element signature="e#4611#5725#0" expanded="true" />
-            <element signature="e#5143#5309#0" expanded="true" />
-            <element signature="e#5308#5309#0" expanded="true" />
-            <element signature="e#5724#5725#0" expanded="true" />
-            <element signature="e#5755#6858#0" expanded="true" />
-            <element signature="e#6275#6442#0" expanded="true" />
-            <element signature="e#6441#6442#0" expanded="true" />
-            <element signature="e#6857#6858#0" expanded="true" />
-            <element signature="e#11071#11289#0" expanded="true" />
-            <element signature="e#11288#11289#0" expanded="true" />
+            <element signature="e#2920#3298#0" expanded="true" />
+            <element signature="e#3297#3298#0" expanded="true" />
+            <element signature="e#4050#4936#0" expanded="true" />
+            <element signature="e#4264#4608#0" expanded="true" />
+            <element signature="e#4607#4608#0" expanded="true" />
+            <element signature="e#4651#4878#0" expanded="true" />
+            <element signature="e#4877#4878#0" expanded="true" />
+            <element signature="e#4935#4936#0" expanded="true" />
+            <element signature="e#5041#6573#0" expanded="true" />
+            <element signature="e#5583#6514#0" expanded="true" />
+            <element signature="e#6170#6453#0" expanded="true" />
+            <element signature="e#6452#6453#0" expanded="true" />
+            <element signature="e#6513#6514#0" expanded="true" />
+            <element signature="e#6572#6573#0" expanded="true" />
+            <element signature="e#6603#8125#0" expanded="true" />
+            <element signature="e#7135#8067#0" expanded="true" />
+            <element signature="e#7722#8006#0" expanded="true" />
+            <element signature="e#8005#8006#0" expanded="true" />
+            <element signature="e#8066#8067#0" expanded="true" />
+            <element signature="e#8124#8125#0" expanded="true" />
+            <element signature="e#12304#12576#0" expanded="true" />
+            <element signature="e#12575#12576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -5074,14 +5115,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/ScreenAdapter.java">
@@ -5105,7 +5146,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="288">
           <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
             <element signature="e#149#150#0" expanded="true" />
@@ -5138,96 +5179,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/HomeButton.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/TapPrompt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+        <state relative-caret-position="1104">
+          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1372#1373#0" expanded="true" />
-            <element signature="e#1406#1407#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+            <element signature="e#1663#1664#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Miner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="73" column="25" lean-forward="false" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+        <state relative-caret-position="194">
+          <caret line="65" column="28" lean-forward="false" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ReplayButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1052">
-          <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1352#1353#0" expanded="true" />
-            <element signature="e#1386#1387#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="476">
+          <caret line="70" column="28" lean-forward="false" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3295#3296#0" expanded="true" />
-            <element signature="e#3329#3330#0" expanded="true" />
-            <element signature="e#3363#3364#0" expanded="true" />
-            <element signature="e#3399#3400#0" expanded="true" />
+            <element signature="e#3412#3413#0" expanded="true" />
+            <element signature="e#3446#3447#0" expanded="true" />
+            <element signature="e#3480#3481#0" expanded="true" />
+            <element signature="e#3516#3517#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ScoreBG.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/HomeButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2204">
-          <caret line="78" column="52" lean-forward="false" selection-start-line="78" selection-start-column="52" selection-end-line="78" selection-end-column="52" />
+        <state relative-caret-position="960">
+          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3893#3894#0" expanded="true" />
-            <element signature="e#3965#3966#0" expanded="true" />
+            <element signature="e#1654#1655#0" expanded="true" />
+            <element signature="e#1688#1689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ReplayButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="908">
+          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1634#1635#0" expanded="true" />
+            <element signature="e#1668#1669#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureLogo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="34" column="77" lean-forward="false" selection-start-line="34" selection-start-column="77" selection-end-line="34" selection-end-column="77" />
+        <state relative-caret-position="1152">
+          <caret line="36" column="76" lean-forward="false" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1383#1384#0" expanded="true" />
-            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1636#1637#0" expanded="true" />
+            <element signature="e#1670#1671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/GameOverPrompt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="37" column="50" lean-forward="false" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1637#1638#0" expanded="true" />
+            <element signature="e#1671#1672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ScoreBG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="102" column="116" lean-forward="false" selection-start-line="102" selection-start-column="116" selection-end-line="102" selection-end-column="116" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4505#4506#0" expanded="true" />
+            <element signature="e#4577#4578#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="95" column="5" lean-forward="false" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+        <state relative-caret-position="818">
+          <caret line="364" column="24" lean-forward="false" selection-start-line="364" selection-start-column="24" selection-end-line="364" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3873#4506#0" expanded="true" />
-            <element signature="e#4092#4283#0" expanded="true" />
-            <element signature="e#4282#4283#0" expanded="true" />
-            <element signature="e#4505#4506#0" expanded="true" />
-            <element signature="e#4611#5725#0" expanded="true" />
-            <element signature="e#5143#5309#0" expanded="true" />
-            <element signature="e#5308#5309#0" expanded="true" />
-            <element signature="e#5724#5725#0" expanded="true" />
-            <element signature="e#5755#6858#0" expanded="true" />
-            <element signature="e#6275#6442#0" expanded="true" />
-            <element signature="e#6441#6442#0" expanded="true" />
-            <element signature="e#6857#6858#0" expanded="true" />
-            <element signature="e#11071#11289#0" expanded="true" />
-            <element signature="e#11288#11289#0" expanded="true" />
+            <element signature="e#2920#3298#0" expanded="true" />
+            <element signature="e#3297#3298#0" expanded="true" />
+            <element signature="e#4050#4936#0" expanded="true" />
+            <element signature="e#4264#4608#0" expanded="true" />
+            <element signature="e#4607#4608#0" expanded="true" />
+            <element signature="e#4651#4878#0" expanded="true" />
+            <element signature="e#4877#4878#0" expanded="true" />
+            <element signature="e#4935#4936#0" expanded="true" />
+            <element signature="e#5041#6573#0" expanded="true" />
+            <element signature="e#5583#6514#0" expanded="true" />
+            <element signature="e#6170#6453#0" expanded="true" />
+            <element signature="e#6452#6453#0" expanded="true" />
+            <element signature="e#6513#6514#0" expanded="true" />
+            <element signature="e#6572#6573#0" expanded="true" />
+            <element signature="e#6603#8125#0" expanded="true" />
+            <element signature="e#7135#8067#0" expanded="true" />
+            <element signature="e#7722#8006#0" expanded="true" />
+            <element signature="e#8005#8006#0" expanded="true" />
+            <element signature="e#8066#8067#0" expanded="true" />
+            <element signature="e#8124#8125#0" expanded="true" />
+            <element signature="e#12304#12576#0" expanded="true" />
+            <element signature="e#12575#12576#0" expanded="true" />
           </folding>
         </state>
       </provider>
