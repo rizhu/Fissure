@@ -1,22 +1,24 @@
 package com.gmail.studios.co.fiish.fissure;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
 public class ReplayButton extends Actor {
     private Viewport mViewport;
-    private Texture mTexture;
+    private TextureRegion mRegion;
 
-    public ReplayButton(Viewport viewport) {
+    public ReplayButton(Viewport viewport, TextureAtlas atlas) {
         this.mViewport = viewport;
-        mTexture = new Texture(Gdx.files.internal("replay.png"));
+        mRegion = atlas.findRegion("replay");
     }
 
     public void init() {
+        this.clearActions();
         this.setWidth(mViewport.getScreenWidth() / 16f / 32f * 84f);
         this.setHeight(mViewport.getScreenHeight() / 9f / 32f * 42f);
 
@@ -40,10 +42,6 @@ public class ReplayButton extends Actor {
     @Override
     public void draw(Batch batch, float alpha) {
         batch.setColor(getColor().r, getColor().g, getColor().b, getColor().a * alpha);
-        batch.draw(mTexture, this.getX(), this.getY(), this.getWidth(), this.getHeight());
-    }
-
-    public void dispose() {
-        mTexture.dispose();
+        batch.draw(mRegion, this.getX(), this.getY(), this.getWidth(), this.getHeight());
     }
 }

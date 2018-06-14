@@ -5,13 +5,11 @@ import com.badlogic.gdx.Preferences;
 import com.badlogic.gdx.ScreenAdapter;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
-import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.scenes.scene2d.Action;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.InputListener;
 import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
-import com.badlogic.gdx.scenes.scene2d.actions.MoveToAction;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
@@ -27,6 +25,7 @@ public class FissureGameScreen extends ScreenAdapter {
     private Viewport mViewport;
     private SpriteBatch mBatch;
     private Preferences mData;
+    private TextureAtlas mAtlas;
 
     private FissureTitleUI mTitleUI;
     private FissureLogo mLogo;
@@ -55,19 +54,20 @@ public class FissureGameScreen extends ScreenAdapter {
     public void show() {
         mViewport = new ScreenViewport();
         mData = Gdx.app.getPreferences("Data");
+        mAtlas = new TextureAtlas(Gdx.files.internal("spritesheet.atlas"));
 
-        mMiner = new Miner(mViewport);
+        mMiner = new Miner(mViewport, mAtlas);
         mTiles = new Array<Tile>(true, 144);
-        mLogo = new FissureLogo(mViewport);
-        mPrompt = new TapPrompt(mViewport);
+        mLogo = new FissureLogo(mViewport, mAtlas);
+        mPrompt = new TapPrompt(mViewport, mAtlas);
         mIntegers = new Array<Integer>(true, 144);
         for (int i = 0; i < 144; i++) mIntegers.add(new Integer(i));
-        for (int i = 0; i < 144; i++) mTiles.add(new Tile(mViewport, i));
+        for (int i = 0; i < 144; i++) mTiles.add(new Tile(mViewport, mAtlas, i));
 
-        mGameOverPrompt = new GameOverPrompt(mViewport);
-        mScoreBG = new ScoreBG(mViewport);
-        mReplay = new ReplayButton(mViewport);
-        mHome = new HomeButton(mViewport);
+        mGameOverPrompt = new GameOverPrompt(mViewport, mAtlas);
+        mScoreBG = new ScoreBG(mViewport, mAtlas);
+        mReplay = new ReplayButton(mViewport, mAtlas);
+        mHome = new HomeButton(mViewport, mAtlas);
 
         mBatch = new SpriteBatch();
 
@@ -208,7 +208,7 @@ public class FissureGameScreen extends ScreenAdapter {
         mParam.color = Color.WHITE;
         mFont = mGenerator.generateFont(mParam);
 
-        mElapsedTime = 0;
+        mElapsedTime = 0f;
         mBreakCount = 0;
 
         Gdx.input.setInputProcessor(mTitleUI);
@@ -226,31 +226,19 @@ public class FissureGameScreen extends ScreenAdapter {
         if (Gdx.input.getInputProcessor().equals(mWorld) && mMiner.isAlive && mElapsedTime % m_DELTA_FISSURE < delta) {
             mIntegers.shuffle();
             if (mBreakCount < 2) {
-                for (int i = 0; i < 60; i++) {
-                    mTiles.get(mIntegers.get(i)).breakTile();
-                }
-            } else if (mBreakCount < 3) {
                 for (int i = 0; i < 72; i++) {
                     mTiles.get(mIntegers.get(i)).breakTile();
                 }
             } else if (mBreakCount < 4) {
-                for (int i = 0; i < 84; i++) {
+                for (int i = 0; i < 90; i++) {
                     mTiles.get(mIntegers.get(i)).breakTile();
                 }
             } else if (mBreakCount < 6) {
-                for (int i = 0; i < 96; i++) {
-                    mTiles.get(mIntegers.get(i)).breakTile();
-                }
-            } else if (mBreakCount < 8) {
                 for (int i = 0; i < 108; i++) {
                     mTiles.get(mIntegers.get(i)).breakTile();
                 }
-            } else if (mBreakCount < 9) {
-                for (int i = 0; i < 120; i++) {
-                    mTiles.get(mIntegers.get(i)).breakTile();
-                }
             } else {
-                for (int i = 0; i < 132; i++) {
+                for (int i = 0; i < 128; i++) {
                     mTiles.get(mIntegers.get(i)).breakTile();
                 }
             }
@@ -322,16 +310,10 @@ public class FissureGameScreen extends ScreenAdapter {
 
     @Override
     public void dispose() {
-        mLogo.dispose();
-        mPrompt.dispose();
         mTitleUI.dispose();
         mMiner.dispose();
-        for (int i = 0; i < mTiles.size; i++) mTiles.get(i).dispose();
         mWorld.dispose();
-        mGameOverPrompt.dispose();
         mScoreBG.dispose();
-        mReplay.dispose();
-        mHome.dispose();
         mGameUI.dispose();
         mGenerator.dispose();
         mFont.dispose();

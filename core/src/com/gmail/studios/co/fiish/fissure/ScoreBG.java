@@ -3,7 +3,6 @@ package com.gmail.studios.co.fiish.fissure;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Preferences;
 import com.badlogic.gdx.graphics.Color;
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
@@ -24,10 +23,9 @@ public class ScoreBG extends Actor {
 
     private float mPixelX, mPixelY;
 
-    private Texture mTexture;
+    private TextureRegion mRegion;
 
-    private Animation<TextureRegion> mGoldAnimation, mSilverAnimation;
-    private TextureAtlas mGoldAtlas, mSilverAtlas;
+    private Animation<TextureRegion> mDiamondAnimation, mGoldAnimation, mSilverAnimation, mBronzeAnimation;
 
     private FreeTypeFontGenerator mGenerator;
     private FreeTypeFontGenerator.FreeTypeFontParameter mParam;
@@ -36,18 +34,18 @@ public class ScoreBG extends Actor {
 
     private float mElapsedTime;
 
-    public ScoreBG(Viewport viewport) {
+    public ScoreBG(Viewport viewport, TextureAtlas atlas) {
         this.mViewport = viewport;
         mData = Gdx.app.getPreferences("Data");
 
-        mTexture = new Texture(Gdx.files.internal("scorebg.png"));
+        mRegion = atlas.findRegion("scorebg");
+
         mGenerator = new FreeTypeFontGenerator(Gdx.files.internal("font.ttf"));
 
-        mGoldAtlas = new TextureAtlas(Gdx.files.internal("spritesheets/goldsheet.atlas"));
-        mGoldAnimation = new Animation(1f/6f, mGoldAtlas.getRegions());
-
-        mSilverAtlas = new TextureAtlas(Gdx.files.internal("spritesheets/silversheet.atlas"));
-        mSilverAnimation = new Animation(1f/6f, mSilverAtlas.getRegions());
+        mDiamondAnimation = new Animation(1f/6f, atlas.findRegions("diamond"));
+        mGoldAnimation = new Animation(1f/6f, atlas.findRegions("gold"));
+        mSilverAnimation = new Animation(1f/6f, atlas.findRegions("silver"));
+        mBronzeAnimation = new Animation(1f/6f, atlas.findRegions("bronze"));
 
         mHighScore = new BigDecimal(0);
 
@@ -55,6 +53,7 @@ public class ScoreBG extends Actor {
     }
 
     public void init() {
+        this.clearActions();
         this.setWidth(mViewport.getScreenWidth() / 16 * 6);
         this.setHeight(mViewport.getScreenHeight() / 9 * 4);
 
@@ -94,12 +93,18 @@ public class ScoreBG extends Actor {
     @Override
     public void draw(Batch batch, float alpha) {
         batch.setColor(getColor().r, getColor().g, getColor().b, getColor().a * alpha);
-        batch.draw(mTexture, this.getX(), this.getY(), this.getWidth(), this.getHeight());
-        if (mScore != null && mScore.floatValue() >= 45.0f) {
+        batch.draw(mRegion, this.getX(), this.getY(), this.getWidth(), this.getHeight());
+        if (mScore != null && mScore.floatValue() >= 60.0f) {
+            batch.draw(mDiamondAnimation.getKeyFrame(mElapsedTime, true),
+                    this.getX() + 15.0f * mPixelX, this.getY() + 17.0f * mPixelY, 63.0f * mPixelX, 61.0f * mPixelY);
+        } else if (mScore != null && mScore.floatValue() >= 45.0f) {
             batch.draw(mGoldAnimation.getKeyFrame(mElapsedTime, true),
                     this.getX() + 15.0f * mPixelX, this.getY() + 17.0f * mPixelY, 63.0f * mPixelX, 61.0f * mPixelY);
         } else if (mScore != null && mScore.floatValue() >= 30.0f) {
             batch.draw(mSilverAnimation.getKeyFrame(mElapsedTime, true),
+                    this.getX() + 15.0f * mPixelX, this.getY() + 17.0f * mPixelY, 63.0f * mPixelX, 61.0f * mPixelY);
+        } else if (mScore != null && mScore.floatValue() >= 15.0f) {
+            batch.draw(mBronzeAnimation.getKeyFrame(mElapsedTime, true),
                     this.getX() + 15.0f * mPixelX, this.getY() + 17.0f * mPixelY, 63.0f * mPixelX, 61.0f * mPixelY);
         }
 
@@ -112,10 +117,7 @@ public class ScoreBG extends Actor {
     }
 
     public void dispose() {
-        mTexture.dispose();
         mGenerator.dispose();
-        mGoldAtlas.dispose();
-        mSilverAtlas.dispose();
         mFont.dispose();
     }
 

@@ -1,24 +1,25 @@
 package com.gmail.studios.co.fiish.fissure;
 
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
 public class GameOverPrompt extends Actor {
     private Viewport mViewport;
-    private Texture mTexture;
+    private TextureRegion mRegion;
 
     private float mPixelX, mPixelY;
 
-    public GameOverPrompt(Viewport viewport) {
+    public GameOverPrompt(Viewport viewport, TextureAtlas atlas) {
         this.mViewport = viewport;
-        mTexture = new Texture(Gdx.files.internal("gameover.png"));
+        mRegion = atlas.findRegion("gameover");
     }
 
     public void init() {
+        this.clearActions();
         mPixelX = mViewport.getScreenWidth() / 16f / 32f;
         mPixelY = mViewport.getScreenHeight() / 9f / 32f;
 
@@ -42,10 +43,7 @@ public class GameOverPrompt extends Actor {
     @Override
     public void draw(Batch batch, float alpha) {
         batch.setColor(getColor().r, getColor().g, getColor().b, getColor().a * alpha);
-        batch.draw(mTexture, getX(), getY(), getWidth(), getHeight());
+        batch.draw(mRegion, getX(), getY(), getWidth(), getHeight());
     }
 
-    public void dispose() {
-        mTexture.dispose();
-    }
 }

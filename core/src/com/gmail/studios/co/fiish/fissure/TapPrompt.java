@@ -1,23 +1,25 @@
 package com.gmail.studios.co.fiish.fissure;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
 public class TapPrompt extends Actor {
     private Viewport mViewport;
-    private Texture mTexture;
+    private TextureRegion mRegion;
     private float mPixelX, mPixelY;
 
-    public TapPrompt(Viewport viewport) {
+    public TapPrompt(Viewport viewport, TextureAtlas atlas) {
         this.mViewport = viewport;
-        mTexture = new Texture(Gdx.files.internal("tapprompt.png"));
+        mRegion = atlas.findRegion("tapprompt");
     }
 
     public void init() {
+        this.clearActions();
         mPixelX = mViewport.getScreenWidth() / 16f / 32f;
         mPixelY = mViewport.getScreenHeight() / 9f / 32f;
 
@@ -41,11 +43,7 @@ public class TapPrompt extends Actor {
     @Override
     public void draw(Batch batch, float alpha) {
         batch.setColor(getColor().r, getColor().g, getColor().b, getColor().a * alpha);
-        batch.draw(mTexture, getX(), getY(), getWidth(), getHeight());
-    }
-
-    public void dispose() {
-        mTexture.dispose();
+        batch.draw(mRegion, getX(), getY(), getWidth(), getHeight());
     }
 
 }

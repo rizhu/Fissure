@@ -20,25 +20,22 @@ public class Miner extends Actor {
     private Viewport mViewport;
     private float mTileX, mTileY, mTileWidth, mTileHeight;
 
-    private float mElapsedTime, mDeadTime, mPixelsPerTileX, mPixelsPerTileY;
-    private TextureAtlas mRunningAtlas;
     private Animation<TextureRegion> mRunningAnimation;
-    private TextureAtlas mFallingAtlas;
     private Animation<TextureRegion> mFallingAnimation;
 
     private Sound mDeath;
     private boolean hasPlayed;
+    private float mElapsedTime, mDeadTime, mPixelsPerTileX, mPixelsPerTileY;
 
-    public Miner(Viewport viewport) {
+    public Miner(Viewport viewport, TextureAtlas atlas) {
         this.mViewport = viewport;
-        mRunningAtlas = new TextureAtlas(Gdx.files.internal("spritesheets/minersheet.atlas"));
-        mRunningAnimation = new Animation(1f/10f, mRunningAtlas.getRegions());
-        mFallingAtlas = new TextureAtlas((Gdx.files.internal("spritesheets/fallingsheet.atlas")));
-        mFallingAnimation = new Animation(1f/10f, mFallingAtlas.getRegions());
+        mRunningAnimation = new Animation(1f/10f, atlas.findRegions("miner"));
+        mFallingAnimation = new Animation(1f/10f, atlas.findRegions("falling"));
         mDeath = Gdx.audio.newSound(Gdx.files.internal("death.wav"));
     }
 
     public void init() {
+        this.clearActions();
         mPixelsPerTileX = mViewport.getScreenWidth() / 16.0f;
         mPixelsPerTileY = mViewport.getScreenHeight() / 9.0f;
 
@@ -110,8 +107,6 @@ public class Miner extends Actor {
     public void draw(Batch batch, float alpha) {
         batch.setColor(getColor().r, getColor().g, getColor().b, getColor().a * alpha);
        if (isAlive) {
-           //batch.draw(mRunningAnimation.getKeyFrame(mElapsedTime, true),
-                    //this.getX(), this.getY(), this.getWidth(), this.getHeight());
            batch.draw(mRunningAnimation.getKeyFrame(mElapsedTime, true),
                    this.getX() - 4 * mPixelsPerTileX / 32, this.getY(), mViewport.getScreenWidth() / 16f * 20 / 32, mViewport.getScreenHeight() / 9f);
         }
@@ -133,8 +128,6 @@ public class Miner extends Actor {
     }
 
     public void dispose() {
-        mRunningAtlas.dispose();
-        mFallingAtlas.dispose();
         mDeath.dispose();
     }
 
