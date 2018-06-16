@@ -7,8 +7,8 @@
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="ed8a5d407e366327ca61b9298c38379c709f1b96">
-        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\core-1.0_ce6645ad372e689049d42408600384172b93af2f.jar" />
+        sha1="7a83f86b5cee56ade88b154d4e19ca99a31a93fe">
+        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\release\core-1.0_ce6645ad372e689049d42408600384172b93af2f.jar" />
     </item>
     <item
         is-multidex="false"
