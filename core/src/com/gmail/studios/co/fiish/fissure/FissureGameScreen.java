@@ -29,7 +29,10 @@ public class FissureGameScreen extends ScreenAdapter {
 
     private FissureTitleUI mTitleUI;
     private FissureLogo mLogo;
-    private TapPrompt mPrompt;
+    private TapPrompt mTapPrompt;
+
+    private HelpUI mHelpUI;
+    private HelpPrompt mHelpPrompt;
 
     private FissureWorld mWorld;
     private Miner mMiner;
@@ -50,6 +53,7 @@ public class FissureGameScreen extends ScreenAdapter {
     private BigDecimal mScore;
     private final float m_DELTA_FISSURE = 2.3f;
     private float mElapsedTime, mPixelX, mPixelY;
+
     @Override
     public void show() {
         mViewport = new ScreenViewport();
@@ -58,11 +62,14 @@ public class FissureGameScreen extends ScreenAdapter {
 
         mMiner = new Miner(mViewport, mAtlas);
         mTiles = new Array<Tile>(true, 144);
-        mLogo = new FissureLogo(mViewport, mAtlas);
-        mPrompt = new TapPrompt(mViewport, mAtlas);
         mIntegers = new Array<Integer>(true, 144);
         for (int i = 0; i < 144; i++) mIntegers.add(new Integer(i));
         for (int i = 0; i < 144; i++) mTiles.add(new Tile(mViewport, mAtlas, i));
+
+        mLogo = new FissureLogo(mViewport, mAtlas);
+        mTapPrompt = new TapPrompt(mViewport, mAtlas);
+
+        mHelpPrompt = new HelpPrompt(mViewport, mAtlas);
 
         mGameOverPrompt = new GameOverPrompt(mViewport, mAtlas);
         mScoreBG = new ScoreBG(mViewport, mAtlas);
@@ -72,6 +79,7 @@ public class FissureGameScreen extends ScreenAdapter {
         mBatch = new SpriteBatch();
 
         mTitleUI = new FissureTitleUI(mViewport, mBatch);
+        mHelpUI = new HelpUI(mViewport, mBatch);
         mWorld = new FissureWorld(mViewport, mBatch);
         mGameUI = new FissureGameUI(mViewport, mBatch);
 
@@ -101,35 +109,69 @@ public class FissureGameScreen extends ScreenAdapter {
         mPixelY = mViewport.getScreenHeight() / 9f / 32f;
 
         mMiner.init();
-
         for (int i = 0; i < mTiles.size; i++){
             mTiles.get(i).init();
             mWorld.addActor(mTiles.get(i));
         }
+
         mGameOverPrompt.init();
         mLogo.init();
-        mPrompt.init();
+        mTapPrompt.init();
 
         mTitleUI.addListener(new InputListener() {
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                mLogo.addAction(sequence(
-                        run(new Runnable() {
-                            @Override
-                            public void run() {
-                                mPrompt.clearActions();
-                                mPrompt.addAction(fadeOut(0.3f));
-                                mLogo.addAction(fadeOut(0.3f));
-                            }
-                        }),
-                        delay(0.2f, run(new Runnable() {
-                            @Override
-                            public void run() {
-                                Gdx.input.setInputProcessor(mWorld);
-                            }
-                        }))));
-                return true;
-            }
+                    mLogo.addAction(sequence(
+                            run(new Runnable() {
+                                @Override
+                                public void run() {
+                                    if (!mData.getBoolean("firstPlay", true)) {
+                                        mTapPrompt.clearActions();
+                                        mTapPrompt.addAction(fadeOut(0.3f));
+                                    } else {
+                                        mHelpUI.addActor(mTapPrompt);
+                                    }
+                                    mLogo.addAction(fadeOut(0.3f));
+                                }
+                            }),
+                            delay(0.2f, run(new Runnable() {
+                                @Override
+                                public void run() {
+                                    if (mData.getBoolean("firstPlay", true)) {
+                                        mHelpPrompt.init();
+                                        mHelpUI.addActor(mHelpPrompt);
+                                        mHelpUI.addListener(new InputListener(){
+                                            @Override
+                                            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                                                mHelpPrompt.clearActions();
+                                                mTapPrompt.clearActions();
+                                                mTapPrompt.addAction(fadeOut(0.3f));
+                                                mHelpPrompt.addAction(sequence(
+                                                    fadeOut(0.25f),
+                                                    delay(0.25f),
+                                                    Actions.run(new Runnable() {
+                                                        @Override
+                                                        public void run() {
+                                                            mData.putBoolean("firstPlay", false);
+                                                            mData.flush();
+                                                            mHelpUI.clear();
+                                                            mTitleUI.addActor(mTapPrompt);
+                                                            Gdx.input.setInputProcessor(mWorld);
+                                                        }
+                                                    })
+                                                ));
+                                                return true;
+                                            }
+                                        });
+                                        mHelpPrompt.addAction(fadeIn(0.25f));
+                                        Gdx.input.setInputProcessor(mHelpUI);
+                                    } else {
+                                        Gdx.input.setInputProcessor(mWorld);
+                                    }
+                                }
+                            }))));
+                    return true;
+                }
         });
 
 
@@ -195,7 +237,7 @@ public class FissureGameScreen extends ScreenAdapter {
         });
 
         mTitleUI.addActor(mLogo);
-        mTitleUI.addActor(mPrompt);
+        mTitleUI.addActor(mTapPrompt);
 
         mWorld.addActor(mMiner);
 
@@ -265,7 +307,12 @@ public class FissureGameScreen extends ScreenAdapter {
             mTitleUI.draw();
         }
 
-        if (Gdx.input.getInputProcessor().equals(mWorld) && mMiner.isAlive) {
+        if (Gdx.input.getInputProcessor().equals(mHelpUI)) {
+            mHelpUI.act();
+            mHelpUI.draw();
+        }
+
+        if ((Gdx.input.getInputProcessor().equals(mWorld) || Gdx.input.getInputProcessor().equals(mHelpUI)) && mMiner.isAlive) {
             mScore = round(mElapsedTime, 2);
         }
 
@@ -290,11 +337,11 @@ public class FissureGameScreen extends ScreenAdapter {
 
            mScoreBG.updateHighScore();
 
-           mGameOverPrompt.addAction(sequence(fadeIn(0.25f), moveTo(mGameOverPrompt.getX(), mGameOverPrompt.getY() - 16f * mPixelY, 0.25f)));
-
-           mScoreBG.addAction(delay(0.25f,moveTo(mViewport.getScreenWidth() / 2 - mScoreBG.getWidth() / 2, mViewport.getScreenHeight() / 2 - mScoreBG.getHeight() / 2,
+           mGameOverPrompt.addAction(sequence(fadeIn(0.25f),
+                   moveTo(mGameOverPrompt.getX(), mGameOverPrompt.getY() - 16f * mPixelY, 0.25f)));
+           mScoreBG.addAction(delay(0.25f,
+                   moveTo(mViewport.getScreenWidth() / 2 - mScoreBG.getWidth() / 2, mViewport.getScreenHeight() / 2 - mScoreBG.getHeight() / 2,
                    0.25f)));
-
            mReplay.addAction(delay(0.5f, sequence(fadeIn(0.2f),
                    Actions.run(new Runnable() {
                        @Override
@@ -303,14 +350,14 @@ public class FissureGameScreen extends ScreenAdapter {
                            mHome.setTouchable(Touchable.enabled);
                        }
                    }))));
-
-           mHome.addAction(delay(0.5f, sequence(fadeIn(0.2f))));
+           mHome.addAction(delay(0.5f, fadeIn(0.2f)));
        }
     }
 
     @Override
     public void dispose() {
         mTitleUI.dispose();
+        mHelpUI.dispose();
         mMiner.dispose();
         mWorld.dispose();
         mScoreBG.dispose();
@@ -338,7 +385,7 @@ public class FissureGameScreen extends ScreenAdapter {
 
     private void backToHome() {
         mLogo.reset();
-        mPrompt.reset();
+        mTapPrompt.reset();
 
         for (int i = 0; i < mTiles.size; i++) mTiles.get(i).reset();
         mMiner.reset();

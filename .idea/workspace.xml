@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85a22a48-361e-4d60-accd-893955678080" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/HelpPrompt.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/HelpUI.java" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -13,162 +15,51 @@
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/android/android-release.apk" afterPath="$PROJECT_DIR$/android/android-release.apk" />
-      <change beforePath="$PROJECT_DIR$/android/assets/fissure.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/assets/gameover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/assets/home.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/assets/replay.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/assets/scorebg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/assets/spritesheets/cracksheet.atlas" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/assets/spritesheets/cracksheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/assets/spritesheets/fallingsheet.atlas" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/assets/spritesheets/fallingsheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/assets/spritesheets/goldsheet.atlas" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/assets/spritesheets/goldsheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/assets/spritesheets/minersheet.atlas" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/assets/spritesheets/minersheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/assets/spritesheets/silversheet.atlas" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/assets/spritesheets/silversheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/assets/tapprompt.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/assets/walkable_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/assets/walkable_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/assets/walkable_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/assets/walkable_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/assets/walkable_5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/fissure.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/gameover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/home.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/replay.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/scorebg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/spritesheets/cracksheet.atlas" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/spritesheets/cracksheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/spritesheets/fallingsheet.atlas" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/spritesheets/fallingsheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/spritesheets/goldsheet.atlas" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/spritesheets/goldsheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/spritesheets/minersheet.atlas" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/spritesheets/minersheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/spritesheets/silversheet.atlas" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/spritesheets/silversheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/tapprompt.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/walkable_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/walkable_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/walkable_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/walkable_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/walkable_5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/release/fissure.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/release/gameover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/release/home.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/release/replay.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/release/scorebg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/release/spritesheets/cracksheet.atlas" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/release/spritesheets/cracksheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/release/spritesheets/fallingsheet.atlas" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/release/spritesheets/fallingsheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/release/spritesheets/goldsheet.atlas" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/release/spritesheets/goldsheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/release/spritesheets/minersheet.atlas" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/release/spritesheets/minersheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/release/spritesheets/silversheet.atlas" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/release/spritesheets/silversheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/release/tapprompt.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/release/walkable_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/release/walkable_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/release/walkable_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/release/walkable_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/release/walkable_5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/assets/spritesheet.atlas" afterPath="$PROJECT_DIR$/android/assets/spritesheet.atlas" />
+      <change beforePath="$PROJECT_DIR$/android/assets/spritesheet.png" afterPath="$PROJECT_DIR$/android/assets/spritesheet.png" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/spritesheet.atlas" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/spritesheet.atlas" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/spritesheet.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/spritesheet.png" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeReleaseAssets/merger.xml" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/zip-cache/hhJ88KLj3Axw+aUSCVLws2qJ3Kg=" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/zip-cache/hhJ88KLj3Axw+aUSCVLws2qJ3Kg=" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/file-input-save-data.txt" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/file-input-save-data.txt" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/zip-cache/R3b_7GrnhjjeD8wpeH4twocEa4I=" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/zip-cache/R3b_7GrnhjjeD8wpeH4twocEa4I=" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/core-1.0_ce6645ad372e689049d42408600384172b93af2f.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/core-1.0_ce6645ad372e689049d42408600384172b93af2f.jar" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/release/core-1.0_ce6645ad372e689049d42408600384172b93af2f.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/release/core-1.0_ce6645ad372e689049d42408600384172b93af2f.jar" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/release/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/release/drawable-hdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/release/drawable-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/release/drawable-mdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/release/drawable-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/release/drawable-xhdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/release/drawable-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/release/drawable-xxhdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/release/drawable-xxxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/release/drawable-xxxhdpi/ic_launcher.png" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/resources-release.ap_" afterPath="$PROJECT_DIR$/android/build/intermediates/res/resources-release.ap_" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex" />
       <change beforePath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" afterPath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" />
-      <change beforePath="$PROJECT_DIR$/android/build/outputs/lint-results-release-fatal.html" afterPath="$PROJECT_DIR$/android/build/outputs/lint-results-release-fatal.html" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$1.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$1.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2$1.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2$1.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2$2.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2$2.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$1$1.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$1.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$1.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4$1$1.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4$1.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4$1.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4.class" />
       <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$5.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$5.class" />
       <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen.class" />
-      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureLogo.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureLogo.class" />
-      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/GameOverPrompt.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/GameOverPrompt.class" />
-      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/HomeButton.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/HomeButton.class" />
-      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/Miner.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/Miner.class" />
-      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/ReplayButton.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/ReplayButton.class" />
-      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/ScoreBG.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/ScoreBG.class" />
-      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/TapPrompt.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/TapPrompt.class" />
-      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/Tile.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/Tile.class" />
-      <change beforePath="$PROJECT_DIR$/android/ic_launcher-web.png" afterPath="$PROJECT_DIR$/android/ic_launcher-web.png" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/android/res/drawable-hdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/android/res/drawable-mdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/android/res/drawable-xhdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/android/res/drawable-xxhdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-xxxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/android/res/drawable-xxxhdpi/ic_launcher.png" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change beforePath="$PROJECT_DIR$/core/assets/fissure.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/core/assets/gameover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/core/assets/home.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/core/assets/miner.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/core/assets/replay.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/core/assets/scorebg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/core/assets/spritesheets/cracksheet.atlas" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/core/assets/spritesheets/cracksheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/core/assets/spritesheets/fallingsheet.atlas" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/core/assets/spritesheets/fallingsheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/core/assets/spritesheets/goldsheet.atlas" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/core/assets/spritesheets/goldsheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/core/assets/spritesheets/minersheet.atlas" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/core/assets/spritesheets/minersheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/core/assets/spritesheets/silversheet.atlas" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/core/assets/spritesheets/silversheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/core/assets/tapprompt.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/core/assets/walkable_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/core/assets/walkable_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/core/assets/walkable_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/core/assets/walkable_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/core/assets/walkable_5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/core/assets/allSprites/scorebg.png" afterPath="$PROJECT_DIR$/core/assets/allSprites/scorebg.png" />
+      <change beforePath="$PROJECT_DIR$/core/assets/spritesheet.atlas" afterPath="$PROJECT_DIR$/core/assets/spritesheet.atlas" />
+      <change beforePath="$PROJECT_DIR$/core/assets/spritesheet.png" afterPath="$PROJECT_DIR$/core/assets/spritesheet.png" />
+      <change beforePath="$PROJECT_DIR$/core/assets/spritesheets/spritesheet.atlas" afterPath="$PROJECT_DIR$/core/assets/spritesheets/spritesheet.atlas" />
+      <change beforePath="$PROJECT_DIR$/core/assets/spritesheets/spritesheet.png" afterPath="$PROJECT_DIR$/core/assets/spritesheets/spritesheet.png" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$1.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2$1.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2$2.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2$2.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$1$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$1.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4$1$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4$1.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4.class" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$5.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$5.class" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen.class" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureLogo.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureLogo.class" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/GameOverPrompt.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/GameOverPrompt.class" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/HomeButton.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/HomeButton.class" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/Miner.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/Miner.class" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/ReplayButton.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/ReplayButton.class" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/ScoreBG.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/ScoreBG.class" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/TapPrompt.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/TapPrompt.class" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/Tile.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/Tile.class" />
       <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" />
       <change beforePath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureLogo.java" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureLogo.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/GameOverPrompt.java" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/GameOverPrompt.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/HomeButton.java" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/HomeButton.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Miner.java" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Miner.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ReplayButton.java" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ReplayButton.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ScoreBG.java" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ScoreBG.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/TapPrompt.java" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/TapPrompt.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tile.java" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tile.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -194,32 +85,47 @@
       <file leaf-file-name="FissureGameScreen.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1152">
-              <caret line="240" column="39" lean-forward="false" selection-start-line="240" selection-start-column="39" selection-end-line="240" selection-end-column="39" />
+            <state relative-caret-position="-526">
+              <caret line="352" column="51" lean-forward="false" selection-start-line="352" selection-start-column="51" selection-end-line="352" selection-end-column="51" />
+              <folding>
+                <element signature="e#3174#3552#0" expanded="true" />
+                <element signature="e#3551#3552#0" expanded="true" />
+                <element signature="e#4307#7655#0" expanded="true" />
+                <element signature="e#4529#5148#0" expanded="true" />
+                <element signature="e#5147#5148#0" expanded="true" />
+                <element signature="e#5195#7589#0" expanded="true" />
+                <element signature="e#5576#7207#0" expanded="true" />
+                <element signature="e#6297#7005#0" expanded="true" />
+                <element signature="e#7004#7005#0" expanded="true" />
+                <element signature="e#7206#7207#0" expanded="true" />
+                <element signature="e#7588#7589#0" expanded="true" />
+                <element signature="e#7654#7655#0" expanded="true" />
+                <element signature="e#7760#9292#0" expanded="true" />
+                <element signature="e#8302#9233#0" expanded="true" />
+                <element signature="e#8889#9172#0" expanded="true" />
+                <element signature="e#9171#9172#0" expanded="true" />
+                <element signature="e#9232#9233#0" expanded="true" />
+                <element signature="e#9291#9292#0" expanded="true" />
+                <element signature="e#9322#10844#0" expanded="true" />
+                <element signature="e#9854#10786#0" expanded="true" />
+                <element signature="e#10441#10725#0" expanded="true" />
+                <element signature="e#10724#10725#0" expanded="true" />
+                <element signature="e#10785#10786#0" expanded="true" />
+                <element signature="e#10843#10844#0" expanded="true" />
+                <element signature="e#14734#15006#0" expanded="true" />
+                <element signature="e#15005#15006#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelpPrompt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/HelpPrompt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="812">
+              <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2994#3372#0" expanded="true" />
-                <element signature="e#3371#3372#0" expanded="true" />
-                <element signature="e#4124#5010#0" expanded="true" />
-                <element signature="e#4338#4682#0" expanded="true" />
-                <element signature="e#4681#4682#0" expanded="true" />
-                <element signature="e#4725#4952#0" expanded="true" />
-                <element signature="e#4951#4952#0" expanded="true" />
-                <element signature="e#5009#5010#0" expanded="true" />
-                <element signature="e#5115#6647#0" expanded="true" />
-                <element signature="e#5657#6588#0" expanded="true" />
-                <element signature="e#6244#6527#0" expanded="true" />
-                <element signature="e#6526#6527#0" expanded="true" />
-                <element signature="e#6587#6588#0" expanded="true" />
-                <element signature="e#6646#6647#0" expanded="true" />
-                <element signature="e#6677#8199#0" expanded="true" />
-                <element signature="e#7209#8141#0" expanded="true" />
-                <element signature="e#7796#8080#0" expanded="true" />
-                <element signature="e#8079#8080#0" expanded="true" />
-                <element signature="e#8140#8141#0" expanded="true" />
-                <element signature="e#8198#8199#0" expanded="true" />
-                <element signature="e#11871#12143#0" expanded="true" />
-                <element signature="e#12142#12143#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -228,64 +134,9 @@
       <file leaf-file-name="GameOverPrompt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/GameOverPrompt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="-48">
               <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3205#3206#0" expanded="true" />
-                <element signature="e#3241#3242#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScoreBG.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ScoreBG.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1248">
-              <caret line="40" column="46" lean-forward="false" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4887#4888#0" expanded="true" />
-                <element signature="e#4959#4960#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Miner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Miner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="e#4494#4495#0" expanded="true" />
-                <element signature="e#4526#4527#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TapPrompt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/TapPrompt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1920">
-              <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -293,8 +144,8 @@
       <file leaf-file-name="ReplayButton.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ReplayButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1872">
-              <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+            <state relative-caret-position="1100">
+              <caret line="45" column="5" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -302,26 +153,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeButton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/HomeButton.java">
+      <file leaf-file-name="spritesheet.atlas" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/assets/spritesheet.atlas">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1872">
-              <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FissureLogo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureLogo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1920">
-              <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-18058">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -4256,21 +4093,24 @@
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/HomeButton.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureLogo.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ScoreBG.java" />
+        <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/HelpUI.java" />
+        <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/HelpButton.java" />
+        <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/HelpPrompt.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-15" />
+    <option name="x" value="-13" />
     <option name="y" value="1" />
-    <option name="width" value="3868" />
+    <option name="width" value="3866" />
     <option name="height" value="2054" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -4283,14 +4123,54 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Fissure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fissure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fissure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fissure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fissure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fissure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fissure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fissure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fissure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fissure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fissure" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/core/assets" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.2.0" />
-    <property name="device.picker.selection" value="06157df6b807d421" />
+    <property name="device.picker.selection" value="Pixel_2_API_26" />
     <property name="android.profiler.active" value="true" />
     <property name="ExportApk.ApkPath" value="D:\Richard\Programming\libGDX\Fissure\android" />
     <property name="ExportApk.Flavors" value="" />
@@ -4310,7 +4190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android App.android">
+  <component name="RunManager" selected="Application.Desktop">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -4393,7 +4273,7 @@
       <module name="desktop" />
       <envs />
     </configuration>
-    <configuration name="TexturePacker (1)" type="Application" factoryName="Application">
+    <configuration name="TexturePacker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.badlogic.gdx.tools.texturepacker.*" />
@@ -4412,7 +4292,7 @@
       <module name="desktop" />
       <envs />
     </configuration>
-    <configuration name="TexturePacker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TexturePacker" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.badlogic.gdx.tools.texturepacker.*" />
@@ -4421,7 +4301,7 @@
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.badlogic.gdx.tools.texturepacker.TexturePacker" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="minersprites spritesheets minersheet" />
+      <option name="PROGRAM_PARAMETERS" value="allSprites spritesheets spritesheet" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/core/assets" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -4582,13 +4462,12 @@
       <option name="programArguments" value="" />
       <option name="openDeploymentTargetDialog" value="false" />
     </configuration>
-    <list size="6">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Android App.android" />
       <item index="1" class="java.lang.String" itemvalue="Application.Desktop" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TexturePacker (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Multi-OS Engine iOS Application.ios-moe" />
-      <item index="4" class="java.lang.String" itemvalue="Multi-OS Engine iOS Application.Fissure" />
-      <item index="5" class="java.lang.String" itemvalue="Application.TexturePacker" />
+      <item index="2" class="java.lang.String" itemvalue="Multi-OS Engine iOS Application.ios-moe" />
+      <item index="3" class="java.lang.String" itemvalue="Multi-OS Engine iOS Application.Fissure" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TexturePacker" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -4622,7 +4501,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-15" y="1" width="3868" height="2054" extended-state="0" />
+    <frame x="-13" y="1" width="3866" height="2054" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -4632,22 +4511,22 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289882" sideWeight="0.5016216" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289882" sideWeight="0.49892125" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289882" sideWeight="0.49892125" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289882" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329455" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959438" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Multi-OS Engine" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289882" sideWeight="0.49837837" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -4665,72 +4544,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#149#150#0" expanded="false" />
-            <element signature="e#190#191#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3840">
-          <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3205#3206#0" expanded="true" />
-            <element signature="e#3241#3242#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3072">
-          <caret line="74" column="44" lean-forward="false" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2994#3372#0" expanded="true" />
-            <element signature="e#3371#3372#0" expanded="true" />
-            <element signature="e#4124#5010#0" expanded="true" />
-            <element signature="e#4338#4682#0" expanded="true" />
-            <element signature="e#4681#4682#0" expanded="true" />
-            <element signature="e#4725#4952#0" expanded="true" />
-            <element signature="e#4951#4952#0" expanded="true" />
-            <element signature="e#5009#5010#0" expanded="true" />
-            <element signature="e#5115#6647#0" expanded="true" />
-            <element signature="e#5657#6588#0" expanded="true" />
-            <element signature="e#6244#6527#0" expanded="true" />
-            <element signature="e#6526#6527#0" expanded="true" />
-            <element signature="e#6587#6588#0" expanded="true" />
-            <element signature="e#6646#6647#0" expanded="true" />
-            <element signature="e#6677#8199#0" expanded="true" />
-            <element signature="e#7209#8141#0" expanded="true" />
-            <element signature="e#7796#8080#0" expanded="true" />
-            <element signature="e#8079#8080#0" expanded="true" />
-            <element signature="e#8140#8141#0" expanded="true" />
-            <element signature="e#8198#8199#0" expanded="true" />
-            <element signature="e#11871#12143#0" expanded="true" />
-            <element signature="e#12142#12143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Miner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4800">
-          <caret line="110" column="54" lean-forward="false" selection-start-line="110" selection-start-column="54" selection-end-line="110" selection-end-column="54" />
-          <folding>
-            <element signature="e#4494#4495#0" expanded="true" />
-            <element signature="e#4526#4527#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -4754,9 +4567,9 @@
         <state relative-caret-position="3840">
           <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3205#3206#0" expanded="true" />
-            <element signature="e#3241#3242#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3205#3206#0" expanded="false" />
+            <element signature="e#3241#3242#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4766,29 +4579,32 @@
         <state relative-caret-position="3072">
           <caret line="74" column="44" lean-forward="false" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2994#3372#0" expanded="true" />
-            <element signature="e#3371#3372#0" expanded="true" />
-            <element signature="e#4124#5010#0" expanded="true" />
-            <element signature="e#4338#4682#0" expanded="true" />
-            <element signature="e#4681#4682#0" expanded="true" />
-            <element signature="e#4725#4952#0" expanded="true" />
-            <element signature="e#4951#4952#0" expanded="true" />
-            <element signature="e#5009#5010#0" expanded="true" />
-            <element signature="e#5115#6647#0" expanded="true" />
-            <element signature="e#5657#6588#0" expanded="true" />
-            <element signature="e#6244#6527#0" expanded="true" />
-            <element signature="e#6526#6527#0" expanded="true" />
-            <element signature="e#6587#6588#0" expanded="true" />
-            <element signature="e#6646#6647#0" expanded="true" />
-            <element signature="e#6677#8199#0" expanded="true" />
-            <element signature="e#7209#8141#0" expanded="true" />
-            <element signature="e#7796#8080#0" expanded="true" />
-            <element signature="e#8079#8080#0" expanded="true" />
-            <element signature="e#8140#8141#0" expanded="true" />
-            <element signature="e#8198#8199#0" expanded="true" />
-            <element signature="e#11871#12143#0" expanded="true" />
-            <element signature="e#12142#12143#0" expanded="true" />
+            <element signature="e#3174#3552#0" expanded="true" />
+            <element signature="e#3551#3552#0" expanded="true" />
+            <element signature="e#4307#7655#0" expanded="true" />
+            <element signature="e#4529#5148#0" expanded="true" />
+            <element signature="e#5147#5148#0" expanded="true" />
+            <element signature="e#5195#7589#0" expanded="true" />
+            <element signature="e#5576#7207#0" expanded="true" />
+            <element signature="e#6297#7005#0" expanded="true" />
+            <element signature="e#7004#7005#0" expanded="true" />
+            <element signature="e#7206#7207#0" expanded="true" />
+            <element signature="e#7588#7589#0" expanded="true" />
+            <element signature="e#7654#7655#0" expanded="true" />
+            <element signature="e#7760#9292#0" expanded="true" />
+            <element signature="e#8302#9233#0" expanded="true" />
+            <element signature="e#8889#9172#0" expanded="true" />
+            <element signature="e#9171#9172#0" expanded="true" />
+            <element signature="e#9232#9233#0" expanded="true" />
+            <element signature="e#9291#9292#0" expanded="true" />
+            <element signature="e#9322#10844#0" expanded="true" />
+            <element signature="e#9854#10786#0" expanded="true" />
+            <element signature="e#10441#10725#0" expanded="true" />
+            <element signature="e#10724#10725#0" expanded="true" />
+            <element signature="e#10785#10786#0" expanded="true" />
+            <element signature="e#10843#10844#0" expanded="true" />
+            <element signature="e#14734#15006#0" expanded="true" />
+            <element signature="e#15005#15006#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4798,8 +4614,8 @@
         <state relative-caret-position="4800">
           <caret line="110" column="54" lean-forward="false" selection-start-line="110" selection-start-column="54" selection-end-line="110" selection-end-column="54" />
           <folding>
-            <element signature="e#4494#4495#0" expanded="true" />
-            <element signature="e#4526#4527#0" expanded="true" />
+            <element signature="e#4494#4495#0" expanded="false" />
+            <element signature="e#4526#4527#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4820,9 +4636,9 @@
         <state relative-caret-position="3840">
           <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3205#3206#0" expanded="true" />
-            <element signature="e#3241#3242#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3205#3206#0" expanded="false" />
+            <element signature="e#3241#3242#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4832,29 +4648,32 @@
         <state relative-caret-position="3072">
           <caret line="74" column="44" lean-forward="false" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2994#3372#0" expanded="true" />
-            <element signature="e#3371#3372#0" expanded="true" />
-            <element signature="e#4124#5010#0" expanded="true" />
-            <element signature="e#4338#4682#0" expanded="true" />
-            <element signature="e#4681#4682#0" expanded="true" />
-            <element signature="e#4725#4952#0" expanded="true" />
-            <element signature="e#4951#4952#0" expanded="true" />
-            <element signature="e#5009#5010#0" expanded="true" />
-            <element signature="e#5115#6647#0" expanded="true" />
-            <element signature="e#5657#6588#0" expanded="true" />
-            <element signature="e#6244#6527#0" expanded="true" />
-            <element signature="e#6526#6527#0" expanded="true" />
-            <element signature="e#6587#6588#0" expanded="true" />
-            <element signature="e#6646#6647#0" expanded="true" />
-            <element signature="e#6677#8199#0" expanded="true" />
-            <element signature="e#7209#8141#0" expanded="true" />
-            <element signature="e#7796#8080#0" expanded="true" />
-            <element signature="e#8079#8080#0" expanded="true" />
-            <element signature="e#8140#8141#0" expanded="true" />
-            <element signature="e#8198#8199#0" expanded="true" />
-            <element signature="e#11871#12143#0" expanded="true" />
-            <element signature="e#12142#12143#0" expanded="true" />
+            <element signature="e#3174#3552#0" expanded="true" />
+            <element signature="e#3551#3552#0" expanded="true" />
+            <element signature="e#4307#7655#0" expanded="true" />
+            <element signature="e#4529#5148#0" expanded="true" />
+            <element signature="e#5147#5148#0" expanded="true" />
+            <element signature="e#5195#7589#0" expanded="true" />
+            <element signature="e#5576#7207#0" expanded="true" />
+            <element signature="e#6297#7005#0" expanded="true" />
+            <element signature="e#7004#7005#0" expanded="true" />
+            <element signature="e#7206#7207#0" expanded="true" />
+            <element signature="e#7588#7589#0" expanded="true" />
+            <element signature="e#7654#7655#0" expanded="true" />
+            <element signature="e#7760#9292#0" expanded="true" />
+            <element signature="e#8302#9233#0" expanded="true" />
+            <element signature="e#8889#9172#0" expanded="true" />
+            <element signature="e#9171#9172#0" expanded="true" />
+            <element signature="e#9232#9233#0" expanded="true" />
+            <element signature="e#9291#9292#0" expanded="true" />
+            <element signature="e#9322#10844#0" expanded="true" />
+            <element signature="e#9854#10786#0" expanded="true" />
+            <element signature="e#10441#10725#0" expanded="true" />
+            <element signature="e#10724#10725#0" expanded="true" />
+            <element signature="e#10785#10786#0" expanded="true" />
+            <element signature="e#10843#10844#0" expanded="true" />
+            <element signature="e#14734#15006#0" expanded="true" />
+            <element signature="e#15005#15006#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4864,8 +4683,8 @@
         <state relative-caret-position="4800">
           <caret line="110" column="54" lean-forward="true" selection-start-line="110" selection-start-column="54" selection-end-line="110" selection-end-column="54" />
           <folding>
-            <element signature="e#4494#4495#0" expanded="true" />
-            <element signature="e#4526#4527#0" expanded="true" />
+            <element signature="e#4494#4495#0" expanded="false" />
+            <element signature="e#4526#4527#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4886,9 +4705,9 @@
         <state relative-caret-position="3840">
           <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3205#3206#0" expanded="true" />
-            <element signature="e#3241#3242#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3205#3206#0" expanded="false" />
+            <element signature="e#3241#3242#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4898,29 +4717,32 @@
         <state relative-caret-position="2256">
           <caret line="57" column="24" lean-forward="false" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2994#3372#0" expanded="true" />
-            <element signature="e#3371#3372#0" expanded="true" />
-            <element signature="e#4124#5010#0" expanded="true" />
-            <element signature="e#4338#4682#0" expanded="true" />
-            <element signature="e#4681#4682#0" expanded="true" />
-            <element signature="e#4725#4952#0" expanded="true" />
-            <element signature="e#4951#4952#0" expanded="true" />
-            <element signature="e#5009#5010#0" expanded="true" />
-            <element signature="e#5115#6647#0" expanded="true" />
-            <element signature="e#5657#6588#0" expanded="true" />
-            <element signature="e#6244#6527#0" expanded="true" />
-            <element signature="e#6526#6527#0" expanded="true" />
-            <element signature="e#6587#6588#0" expanded="true" />
-            <element signature="e#6646#6647#0" expanded="true" />
-            <element signature="e#6677#8199#0" expanded="true" />
-            <element signature="e#7209#8141#0" expanded="true" />
-            <element signature="e#7796#8080#0" expanded="true" />
-            <element signature="e#8079#8080#0" expanded="true" />
-            <element signature="e#8140#8141#0" expanded="true" />
-            <element signature="e#8198#8199#0" expanded="true" />
-            <element signature="e#11871#12143#0" expanded="true" />
-            <element signature="e#12142#12143#0" expanded="true" />
+            <element signature="e#3174#3552#0" expanded="true" />
+            <element signature="e#3551#3552#0" expanded="true" />
+            <element signature="e#4307#7655#0" expanded="true" />
+            <element signature="e#4529#5148#0" expanded="true" />
+            <element signature="e#5147#5148#0" expanded="true" />
+            <element signature="e#5195#7589#0" expanded="true" />
+            <element signature="e#5576#7207#0" expanded="true" />
+            <element signature="e#6297#7005#0" expanded="true" />
+            <element signature="e#7004#7005#0" expanded="true" />
+            <element signature="e#7206#7207#0" expanded="true" />
+            <element signature="e#7588#7589#0" expanded="true" />
+            <element signature="e#7654#7655#0" expanded="true" />
+            <element signature="e#7760#9292#0" expanded="true" />
+            <element signature="e#8302#9233#0" expanded="true" />
+            <element signature="e#8889#9172#0" expanded="true" />
+            <element signature="e#9171#9172#0" expanded="true" />
+            <element signature="e#9232#9233#0" expanded="true" />
+            <element signature="e#9291#9292#0" expanded="true" />
+            <element signature="e#9322#10844#0" expanded="true" />
+            <element signature="e#9854#10786#0" expanded="true" />
+            <element signature="e#10441#10725#0" expanded="true" />
+            <element signature="e#10724#10725#0" expanded="true" />
+            <element signature="e#10785#10786#0" expanded="true" />
+            <element signature="e#10843#10844#0" expanded="true" />
+            <element signature="e#14734#15006#0" expanded="true" />
+            <element signature="e#15005#15006#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4930,9 +4752,9 @@
         <state relative-caret-position="1536">
           <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3205#3206#0" expanded="true" />
-            <element signature="e#3241#3242#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3205#3206#0" expanded="false" />
+            <element signature="e#3241#3242#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4960,8 +4782,8 @@
         <state relative-caret-position="3168">
           <caret line="76" column="68" lean-forward="true" selection-start-line="76" selection-start-column="68" selection-end-line="76" selection-end-column="68" />
           <folding>
-            <element signature="e#4494#4495#0" expanded="true" />
-            <element signature="e#4526#4527#0" expanded="true" />
+            <element signature="e#4494#4495#0" expanded="false" />
+            <element signature="e#4526#4527#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4971,29 +4793,32 @@
         <state relative-caret-position="4848">
           <caret line="113" column="31" lean-forward="false" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2994#3372#0" expanded="true" />
-            <element signature="e#3371#3372#0" expanded="true" />
-            <element signature="e#4124#5010#0" expanded="true" />
-            <element signature="e#4338#4682#0" expanded="true" />
-            <element signature="e#4681#4682#0" expanded="true" />
-            <element signature="e#4725#4952#0" expanded="true" />
-            <element signature="e#4951#4952#0" expanded="true" />
-            <element signature="e#5009#5010#0" expanded="true" />
-            <element signature="e#5115#6647#0" expanded="true" />
-            <element signature="e#5657#6588#0" expanded="true" />
-            <element signature="e#6244#6527#0" expanded="true" />
-            <element signature="e#6526#6527#0" expanded="true" />
-            <element signature="e#6587#6588#0" expanded="true" />
-            <element signature="e#6646#6647#0" expanded="true" />
-            <element signature="e#6677#8199#0" expanded="true" />
-            <element signature="e#7209#8141#0" expanded="true" />
-            <element signature="e#7796#8080#0" expanded="true" />
-            <element signature="e#8079#8080#0" expanded="true" />
-            <element signature="e#8140#8141#0" expanded="true" />
-            <element signature="e#8198#8199#0" expanded="true" />
-            <element signature="e#11871#12143#0" expanded="true" />
-            <element signature="e#12142#12143#0" expanded="true" />
+            <element signature="e#3174#3552#0" expanded="true" />
+            <element signature="e#3551#3552#0" expanded="true" />
+            <element signature="e#4307#7655#0" expanded="true" />
+            <element signature="e#4529#5148#0" expanded="true" />
+            <element signature="e#5147#5148#0" expanded="true" />
+            <element signature="e#5195#7589#0" expanded="true" />
+            <element signature="e#5576#7207#0" expanded="true" />
+            <element signature="e#6297#7005#0" expanded="true" />
+            <element signature="e#7004#7005#0" expanded="true" />
+            <element signature="e#7206#7207#0" expanded="true" />
+            <element signature="e#7588#7589#0" expanded="true" />
+            <element signature="e#7654#7655#0" expanded="true" />
+            <element signature="e#7760#9292#0" expanded="true" />
+            <element signature="e#8302#9233#0" expanded="true" />
+            <element signature="e#8889#9172#0" expanded="true" />
+            <element signature="e#9171#9172#0" expanded="true" />
+            <element signature="e#9232#9233#0" expanded="true" />
+            <element signature="e#9291#9292#0" expanded="true" />
+            <element signature="e#9322#10844#0" expanded="true" />
+            <element signature="e#9854#10786#0" expanded="true" />
+            <element signature="e#10441#10725#0" expanded="true" />
+            <element signature="e#10724#10725#0" expanded="true" />
+            <element signature="e#10785#10786#0" expanded="true" />
+            <element signature="e#10843#10844#0" expanded="true" />
+            <element signature="e#14734#15006#0" expanded="true" />
+            <element signature="e#15005#15006#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -5010,8 +4835,8 @@
         <state relative-caret-position="3168">
           <caret line="79" column="30" lean-forward="false" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
           <folding>
-            <element signature="e#4494#4495#0" expanded="true" />
-            <element signature="e#4526#4527#0" expanded="true" />
+            <element signature="e#4494#4495#0" expanded="false" />
+            <element signature="e#4526#4527#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -5032,9 +4857,9 @@
         <state relative-caret-position="3552">
           <caret line="82" column="52" lean-forward="false" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3205#3206#0" expanded="true" />
-            <element signature="e#3241#3242#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3205#3206#0" expanded="false" />
+            <element signature="e#3241#3242#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -5044,8 +4869,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4494#4495#0" expanded="true" />
-            <element signature="e#4526#4527#0" expanded="true" />
+            <element signature="e#4494#4495#0" expanded="false" />
+            <element signature="e#4526#4527#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -5055,29 +4880,32 @@
         <state relative-caret-position="1392">
           <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2994#3372#0" expanded="true" />
-            <element signature="e#3371#3372#0" expanded="true" />
-            <element signature="e#4124#5010#0" expanded="true" />
-            <element signature="e#4338#4682#0" expanded="true" />
-            <element signature="e#4681#4682#0" expanded="true" />
-            <element signature="e#4725#4952#0" expanded="true" />
-            <element signature="e#4951#4952#0" expanded="true" />
-            <element signature="e#5009#5010#0" expanded="true" />
-            <element signature="e#5115#6647#0" expanded="true" />
-            <element signature="e#5657#6588#0" expanded="true" />
-            <element signature="e#6244#6527#0" expanded="true" />
-            <element signature="e#6526#6527#0" expanded="true" />
-            <element signature="e#6587#6588#0" expanded="true" />
-            <element signature="e#6646#6647#0" expanded="true" />
-            <element signature="e#6677#8199#0" expanded="true" />
-            <element signature="e#7209#8141#0" expanded="true" />
-            <element signature="e#7796#8080#0" expanded="true" />
-            <element signature="e#8079#8080#0" expanded="true" />
-            <element signature="e#8140#8141#0" expanded="true" />
-            <element signature="e#8198#8199#0" expanded="true" />
-            <element signature="e#11871#12143#0" expanded="true" />
-            <element signature="e#12142#12143#0" expanded="true" />
+            <element signature="e#3174#3552#0" expanded="true" />
+            <element signature="e#3551#3552#0" expanded="true" />
+            <element signature="e#4307#7655#0" expanded="true" />
+            <element signature="e#4529#5148#0" expanded="true" />
+            <element signature="e#5147#5148#0" expanded="true" />
+            <element signature="e#5195#7589#0" expanded="true" />
+            <element signature="e#5576#7207#0" expanded="true" />
+            <element signature="e#6297#7005#0" expanded="true" />
+            <element signature="e#7004#7005#0" expanded="true" />
+            <element signature="e#7206#7207#0" expanded="true" />
+            <element signature="e#7588#7589#0" expanded="true" />
+            <element signature="e#7654#7655#0" expanded="true" />
+            <element signature="e#7760#9292#0" expanded="true" />
+            <element signature="e#8302#9233#0" expanded="true" />
+            <element signature="e#8889#9172#0" expanded="true" />
+            <element signature="e#9171#9172#0" expanded="true" />
+            <element signature="e#9232#9233#0" expanded="true" />
+            <element signature="e#9291#9292#0" expanded="true" />
+            <element signature="e#9322#10844#0" expanded="true" />
+            <element signature="e#9854#10786#0" expanded="true" />
+            <element signature="e#10441#10725#0" expanded="true" />
+            <element signature="e#10724#10725#0" expanded="true" />
+            <element signature="e#10785#10786#0" expanded="true" />
+            <element signature="e#10843#10844#0" expanded="true" />
+            <element signature="e#14734#15006#0" expanded="true" />
+            <element signature="e#15005#15006#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -5141,13 +4969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureTitleUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -5174,31 +4995,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/assets/sprites/pack.json" />
-    <entry file="file://$PROJECT_DIR$/core/assets/spritesheets/spritesheet.atlas">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/GameOverPrompt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/assets/spritesheets/spritesheet.atlas" />
     <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3205#3206#0" expanded="true" />
-            <element signature="e#3241#3242#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3205#3206#0" expanded="false" />
+            <element signature="e#3241#3242#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -5208,8 +5013,8 @@
         <state relative-caret-position="480">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="e#4494#4495#0" expanded="true" />
-            <element signature="e#4526#4527#0" expanded="true" />
+            <element signature="e#4494#4495#0" expanded="false" />
+            <element signature="e#4526#4527#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -5219,17 +5024,7 @@
         <state relative-caret-position="1920">
           <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ReplayButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1872">
-          <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -5239,7 +5034,7 @@
         <state relative-caret-position="1872">
           <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -5249,7 +5044,7 @@
         <state relative-caret-position="1920">
           <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -5259,41 +5054,108 @@
         <state relative-caret-position="1248">
           <caret line="40" column="46" lean-forward="false" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#4887#4888#0" expanded="false" />
+            <element signature="e#4959#4960#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/HelpUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#284#285#0" expanded="false" />
+            <element signature="e#322#323#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/HelpButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/assets/spritesheet.atlas">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18058">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/GameOverPrompt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ReplayButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="45" column="5" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
+          <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4887#4888#0" expanded="true" />
-            <element signature="e#4959#4960#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/HelpPrompt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="240" column="39" lean-forward="false" selection-start-line="240" selection-start-column="39" selection-end-line="240" selection-end-column="39" />
+        <state relative-caret-position="-526">
+          <caret line="352" column="51" lean-forward="false" selection-start-line="352" selection-start-column="51" selection-end-line="352" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2994#3372#0" expanded="true" />
-            <element signature="e#3371#3372#0" expanded="true" />
-            <element signature="e#4124#5010#0" expanded="true" />
-            <element signature="e#4338#4682#0" expanded="true" />
-            <element signature="e#4681#4682#0" expanded="true" />
-            <element signature="e#4725#4952#0" expanded="true" />
-            <element signature="e#4951#4952#0" expanded="true" />
-            <element signature="e#5009#5010#0" expanded="true" />
-            <element signature="e#5115#6647#0" expanded="true" />
-            <element signature="e#5657#6588#0" expanded="true" />
-            <element signature="e#6244#6527#0" expanded="true" />
-            <element signature="e#6526#6527#0" expanded="true" />
-            <element signature="e#6587#6588#0" expanded="true" />
-            <element signature="e#6646#6647#0" expanded="true" />
-            <element signature="e#6677#8199#0" expanded="true" />
-            <element signature="e#7209#8141#0" expanded="true" />
-            <element signature="e#7796#8080#0" expanded="true" />
-            <element signature="e#8079#8080#0" expanded="true" />
-            <element signature="e#8140#8141#0" expanded="true" />
-            <element signature="e#8198#8199#0" expanded="true" />
-            <element signature="e#11871#12143#0" expanded="true" />
-            <element signature="e#12142#12143#0" expanded="true" />
+            <element signature="e#3174#3552#0" expanded="true" />
+            <element signature="e#3551#3552#0" expanded="true" />
+            <element signature="e#4307#7655#0" expanded="true" />
+            <element signature="e#4529#5148#0" expanded="true" />
+            <element signature="e#5147#5148#0" expanded="true" />
+            <element signature="e#5195#7589#0" expanded="true" />
+            <element signature="e#5576#7207#0" expanded="true" />
+            <element signature="e#6297#7005#0" expanded="true" />
+            <element signature="e#7004#7005#0" expanded="true" />
+            <element signature="e#7206#7207#0" expanded="true" />
+            <element signature="e#7588#7589#0" expanded="true" />
+            <element signature="e#7654#7655#0" expanded="true" />
+            <element signature="e#7760#9292#0" expanded="true" />
+            <element signature="e#8302#9233#0" expanded="true" />
+            <element signature="e#8889#9172#0" expanded="true" />
+            <element signature="e#9171#9172#0" expanded="true" />
+            <element signature="e#9232#9233#0" expanded="true" />
+            <element signature="e#9291#9292#0" expanded="true" />
+            <element signature="e#9322#10844#0" expanded="true" />
+            <element signature="e#9854#10786#0" expanded="true" />
+            <element signature="e#10441#10725#0" expanded="true" />
+            <element signature="e#10724#10725#0" expanded="true" />
+            <element signature="e#10785#10786#0" expanded="true" />
+            <element signature="e#10843#10844#0" expanded="true" />
+            <element signature="e#14734#15006#0" expanded="true" />
+            <element signature="e#15005#15006#0" expanded="true" />
           </folding>
         </state>
       </provider>
