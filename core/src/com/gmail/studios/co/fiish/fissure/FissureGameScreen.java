@@ -25,11 +25,15 @@ public class FissureGameScreen extends ScreenAdapter {
     private Viewport mViewport;
     private SpriteBatch mBatch;
     private Preferences mData;
-    private TextureAtlas mAtlas;
 
     private FissureTitleUI mTitleUI;
     private FissureLogo mLogo;
     private TapPrompt mTapPrompt;
+    private CreditsButton mCredits;
+
+    private CreditsUI mCreditsUI;
+    private CreditsBG mCreditsBG;
+    private BackLeftButton mBackLeftButton;
 
     private HelpUI mHelpUI;
     private HelpPrompt mHelpPrompt;
@@ -54,31 +58,38 @@ public class FissureGameScreen extends ScreenAdapter {
     private final float m_DELTA_FISSURE = 2.3f;
     private float mElapsedTime, mPixelX, mPixelY;
 
-    @Override
-    public void show() {
+    public FissureGameScreen(TextureAtlas atlas) {
         mViewport = new ScreenViewport();
-        mData = Gdx.app.getPreferences("Data");
-        mAtlas = new TextureAtlas(Gdx.files.internal("spritesheet.atlas"));
 
-        mMiner = new Miner(mViewport, mAtlas);
+        mMiner = new Miner(mViewport, atlas);
         mTiles = new Array<Tile>(true, 144);
         mIntegers = new Array<Integer>(true, 144);
         for (int i = 0; i < 144; i++) mIntegers.add(new Integer(i));
-        for (int i = 0; i < 144; i++) mTiles.add(new Tile(mViewport, mAtlas, i));
+        for (int i = 0; i < 144; i++) mTiles.add(new Tile(mViewport, atlas, i));
 
-        mLogo = new FissureLogo(mViewport, mAtlas);
-        mTapPrompt = new TapPrompt(mViewport, mAtlas);
+        mLogo = new FissureLogo(mViewport, atlas);
+        mTapPrompt = new TapPrompt(mViewport, atlas);
+        mCredits = new CreditsButton(mViewport, atlas);
 
-        mHelpPrompt = new HelpPrompt(mViewport, mAtlas);
+        mCreditsBG = new CreditsBG(mViewport, atlas);
+        mBackLeftButton = new BackLeftButton(mViewport, atlas);
 
-        mGameOverPrompt = new GameOverPrompt(mViewport, mAtlas);
-        mScoreBG = new ScoreBG(mViewport, mAtlas);
-        mReplay = new ReplayButton(mViewport, mAtlas);
-        mHome = new HomeButton(mViewport, mAtlas);
+        mHelpPrompt = new HelpPrompt(mViewport, atlas);
+
+        mGameOverPrompt = new GameOverPrompt(mViewport, atlas);
+        mScoreBG = new ScoreBG(mViewport, atlas);
+        mReplay = new ReplayButton(mViewport, atlas);
+        mHome = new HomeButton(mViewport, atlas);
+    }
+
+    @Override
+    public void show() {
+        mData = Gdx.app.getPreferences("Data");
 
         mBatch = new SpriteBatch();
 
         mTitleUI = new FissureTitleUI(mViewport, mBatch);
+        mCreditsUI = new CreditsUI(mViewport, mBatch);
         mHelpUI = new HelpUI(mViewport, mBatch);
         mWorld = new FissureWorld(mViewport, mBatch);
         mGameUI = new FissureGameUI(mViewport, mBatch);
@@ -87,7 +98,8 @@ public class FissureGameScreen extends ScreenAdapter {
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
                 mMiner.clearActions();
-                mMiner.addAction(moveTo(x - mMiner.getWidth() / 2, y, (Math.abs(x - mMiner.getX()) + Math.abs(y - mMiner.getY())) * 0.0009f));
+                mMiner.addAction(moveTo(x - mMiner.getWidth() / 2, y,
+                        (Math.abs((x - mMiner.getX()) / mPixelX) + Math.abs((y - mMiner.getY()) / mPixelY)) * 0.00165f));
                 return true;
             }
         });
@@ -117,63 +129,117 @@ public class FissureGameScreen extends ScreenAdapter {
         mGameOverPrompt.init();
         mLogo.init();
         mTapPrompt.init();
+        mCredits.init();
+
+        mCredits.addListener(new InputListener(){
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                mCredits.addAction(sequence(moveTo(mCredits.getX(), mCredits.getY() - 3f * mPixelY, 0.1f),
+                        moveTo(mCredits.getX(), mViewport.getScreenHeight() / 9f / 32f * 5, 0.1f),
+                        run(new Runnable() {
+                            @Override
+                            public void run() {
+                                mTapPrompt.clearActions();
+                                mTapPrompt.addAction(fadeOut(0.3f));
+                                mLogo.addAction(fadeOut(0.3f));
+                                mCredits.addAction(fadeOut(0.3f));
+                            }
+                        }),
+                        delay(0.3f, run(new Runnable() {
+                            @Override
+                            public void run() {
+                                Gdx.input.setInputProcessor(mCreditsUI);
+                                mCreditsBG.addAction(fadeIn(0.3f));
+                                mBackLeftButton.addAction(fadeIn(0.3f));
+                            }
+                        }))));
+                return true;
+            }
+        });
 
         mTitleUI.addListener(new InputListener() {
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                    mLogo.addAction(sequence(
-                            run(new Runnable() {
+                if (event.isHandled()) return true;
+                mLogo.addAction(sequence(
+                        run(new Runnable() {
                                 @Override
                                 public void run() {
-                                    if (!mData.getBoolean("firstPlay", true)) {
-                                        mTapPrompt.clearActions();
-                                        mTapPrompt.addAction(fadeOut(0.3f));
-                                    } else {
-                                        mHelpUI.addActor(mTapPrompt);
-                                    }
-                                    mLogo.addAction(fadeOut(0.3f));
+                                if (!mData.getBoolean("firstPlay", true)) {
+                                    mTapPrompt.clearActions();
+                                    mTapPrompt.addAction(fadeOut(0.3f));
+                                } else {
+                                    mHelpUI.addActor(mTapPrompt);
                                 }
+                                mLogo.addAction(fadeOut(0.3f));
+                                mCredits.addAction(fadeOut(0.3f));
+                            }
                             }),
-                            delay(0.2f, run(new Runnable() {
+                        delay(0.2f, run(new Runnable() {
                                 @Override
                                 public void run() {
-                                    if (mData.getBoolean("firstPlay", true)) {
-                                        mHelpPrompt.init();
-                                        mHelpUI.addActor(mHelpPrompt);
-                                        mHelpUI.addListener(new InputListener(){
+                                if (mData.getBoolean("firstPlay", true)) {
+                                    mHelpPrompt.init();
+                                    mHelpUI.addActor(mHelpPrompt);
+                                    mHelpUI.addListener(new InputListener(){
                                             @Override
                                             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                                                mHelpPrompt.clearActions();
-                                                mTapPrompt.clearActions();
-                                                mTapPrompt.addAction(fadeOut(0.3f));
-                                                mHelpPrompt.addAction(sequence(
-                                                    fadeOut(0.25f),
-                                                    delay(0.25f),
-                                                    Actions.run(new Runnable() {
+                                            mHelpPrompt.clearActions();
+                                            mTapPrompt.clearActions();
+                                            mTapPrompt.addAction(fadeOut(0.3f));
+                                            mHelpPrompt.addAction(sequence(
+                                                fadeOut(0.25f),
+                                                delay(0.25f),
+                                                Actions.run(new Runnable() {
                                                         @Override
                                                         public void run() {
-                                                            mData.putBoolean("firstPlay", false);
-                                                            mData.flush();
-                                                            mHelpUI.clear();
-                                                            mTitleUI.addActor(mTapPrompt);
-                                                            Gdx.input.setInputProcessor(mWorld);
-                                                        }
+                                                        mData.putBoolean("firstPlay", false);
+                                                        mData.flush();
+                                                        mHelpUI.clear();
+                                                        mTitleUI.addActor(mTapPrompt);
+                                                        Gdx.input.setInputProcessor(mWorld);
+                                                    }
                                                     })
-                                                ));
-                                                return true;
-                                            }
+                                            ));
+                                            return true;
+                                        }
                                         });
-                                        mHelpPrompt.addAction(fadeIn(0.25f));
-                                        Gdx.input.setInputProcessor(mHelpUI);
-                                    } else {
-                                        Gdx.input.setInputProcessor(mWorld);
-                                    }
+                                    mHelpPrompt.addAction(fadeIn(0.25f));
+                                    Gdx.input.setInputProcessor(mHelpUI);
+                                } else {
+                                    Gdx.input.setInputProcessor(mWorld);
                                 }
+                            }
                             }))));
-                    return true;
-                }
+                return true;
+            }
         });
 
+        mCreditsBG.init();
+        mBackLeftButton.init();
+
+        mBackLeftButton.addListener(new InputListener(){
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                mBackLeftButton.addAction(sequence(moveTo(mBackLeftButton.getX(), mBackLeftButton.getY() - 3f * mPixelY, 0.1f),
+                        moveTo(mBackLeftButton.getX(), mViewport.getScreenHeight() / 9f / 32f * 5, 0.1f),
+                        run(new Runnable() {
+                            @Override
+                            public void run() {
+                            mBackLeftButton.setTouchable(Touchable.disabled);
+                            mBackLeftButton.addAction(fadeOut(0.3f));
+                            mCreditsBG.addAction(fadeOut(0.3f));
+                            }
+                        }),
+                        delay(0.25f, run(new Runnable() {
+                            @Override
+                            public void run() {
+                                backToHome();
+                            }
+                        }))));
+                return true;
+            }
+        });
 
         mScoreBG.init();
         mReplay.init();
@@ -238,6 +304,10 @@ public class FissureGameScreen extends ScreenAdapter {
 
         mTitleUI.addActor(mLogo);
         mTitleUI.addActor(mTapPrompt);
+        mTitleUI.addActor(mCredits);
+
+        mCreditsUI.addActor(mCreditsBG);
+        mCreditsUI.addActor(mBackLeftButton);
 
         mWorld.addActor(mMiner);
 
@@ -307,16 +377,22 @@ public class FissureGameScreen extends ScreenAdapter {
             mTitleUI.draw();
         }
 
+        if (Gdx.input.getInputProcessor().equals(mCreditsUI)) {
+            mCreditsUI.act();
+            mCreditsUI.draw();
+        }
+
         if (Gdx.input.getInputProcessor().equals(mHelpUI)) {
             mHelpUI.act();
             mHelpUI.draw();
         }
 
-        if ((Gdx.input.getInputProcessor().equals(mWorld) || Gdx.input.getInputProcessor().equals(mHelpUI)) && mMiner.isAlive) {
+        if ((Gdx.input.getInputProcessor().equals(mWorld) || Gdx.input.getInputProcessor().equals(mHelpUI))
+                && mMiner.isAlive) {
             mScore = round(mElapsedTime, 2);
         }
 
-        if (!Gdx.input.getInputProcessor().equals(mTitleUI) && mMiner.isAlive || (!mMiner.isAlive && !mMiner.isDeathDone)) {
+        if (!Gdx.input.getInputProcessor().equals(mTitleUI) && !Gdx.input.getInputProcessor().equals(mCreditsUI) && mMiner.isAlive || (!mMiner.isAlive && !mMiner.isDeathDone)) {
             mBatch.begin();
             mLayout.setText(mFont, "" + mScore);
             mFont.draw(mBatch, mLayout, mViewport.getScreenWidth() - 10 - mLayout.width, mViewport.getScreenHeight() - 10 - mLayout.height / 3);
@@ -357,6 +433,7 @@ public class FissureGameScreen extends ScreenAdapter {
     @Override
     public void dispose() {
         mTitleUI.dispose();
+        mCreditsUI.dispose();
         mHelpUI.dispose();
         mMiner.dispose();
         mWorld.dispose();
@@ -386,6 +463,10 @@ public class FissureGameScreen extends ScreenAdapter {
     private void backToHome() {
         mLogo.reset();
         mTapPrompt.reset();
+        mCredits.reset();
+
+        mCreditsBG.reset();
+        mBackLeftButton.reset();
 
         for (int i = 0; i < mTiles.size; i++) mTiles.get(i).reset();
         mMiner.reset();
