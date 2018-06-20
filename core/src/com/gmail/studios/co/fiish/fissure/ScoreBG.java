@@ -94,16 +94,16 @@ public class ScoreBG extends Actor {
     public void draw(Batch batch, float alpha) {
         batch.setColor(getColor().r, getColor().g, getColor().b, getColor().a * alpha);
         batch.draw(mRegion, this.getX(), this.getY(), this.getWidth(), this.getHeight());
-        if (mScore != null && mScore.floatValue() >= 60.0f) {
+        if (mScore != null && mScore.floatValue() >= 80.0f) {
             batch.draw(mDiamondAnimation.getKeyFrame(mElapsedTime, true),
                     this.getX() + 15.0f * mPixelX, this.getY() + 17.0f * mPixelY, 63.0f * mPixelX, 61.0f * mPixelY);
-        } else if (mScore != null && mScore.floatValue() >= 45.0f) {
+        } else if (mScore != null && mScore.floatValue() >= 60.0f) {
             batch.draw(mGoldAnimation.getKeyFrame(mElapsedTime, true),
                     this.getX() + 15.0f * mPixelX, this.getY() + 17.0f * mPixelY, 63.0f * mPixelX, 61.0f * mPixelY);
-        } else if (mScore != null && mScore.floatValue() >= 30.0f) {
+        } else if (mScore != null && mScore.floatValue() >= 40.0f) {
             batch.draw(mSilverAnimation.getKeyFrame(mElapsedTime, true),
                     this.getX() + 15.0f * mPixelX, this.getY() + 17.0f * mPixelY, 63.0f * mPixelX, 61.0f * mPixelY);
-        } else if (mScore != null && mScore.floatValue() >= 15.0f) {
+        } else if (mScore != null && mScore.floatValue() >= 20.0f) {
             batch.draw(mBronzeAnimation.getKeyFrame(mElapsedTime, true),
                     this.getX() + 15.0f * mPixelX, this.getY() + 17.0f * mPixelY, 63.0f * mPixelX, 61.0f * mPixelY);
         }

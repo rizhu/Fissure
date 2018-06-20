@@ -25,7 +25,7 @@ public class Miner extends Actor {
 
     private Sound mDeath;
     private boolean hasPlayed;
-    private float mElapsedTime, mDeadTime, mPixelsPerTileX, mPixelsPerTileY;
+    private float mElapsedTime, mDeadTime, mPixelsPerTileX, mPixelsPerTileY, mPixelX, mPixelY;
 
     public Miner(Viewport viewport, TextureAtlas atlas) {
         this.mViewport = viewport;
@@ -36,14 +36,16 @@ public class Miner extends Actor {
 
     public void init() {
         this.clearActions();
-        mPixelsPerTileX = mViewport.getScreenWidth() / 16.0f;
-        mPixelsPerTileY = mViewport.getScreenHeight() / 9.0f;
+        mPixelsPerTileX = mViewport.getScreenWidth() / 16f;
+        mPixelsPerTileY = mViewport.getScreenHeight() / 9f;
+        mPixelX = mViewport.getScreenWidth() / 16f / 32f;
+        mPixelY = mViewport.getScreenHeight() / 9f / 32f;
 
-        this.setWidth(mViewport.getScreenWidth() / 16f * 10 / 32);
-        this.setHeight(mViewport.getScreenHeight() / 81f);
+        this.setWidth(mPixelX * 10f);
+        this.setHeight(mPixelY * 4f);
 
-        this.setX(mViewport.getScreenWidth() / 2 - getWidth() / 2 + 4 * mPixelsPerTileX / 32);
-        this.setY(mViewport.getScreenHeight() / 2 - getHeight() / 2);
+        this.setX(mViewport.getScreenWidth() / 2f - getWidth() / 2f);
+        this.setY(mViewport.getScreenHeight() / 2f - getHeight() / 2f);
 
         this.setBounds(this.getX(), this.getY(), this.getWidth(), this.getHeight());
         this.setTouchable(Touchable.disabled);
@@ -61,8 +63,8 @@ public class Miner extends Actor {
 
     public void reset() {
         this.clearActions();
-        this.setX(mViewport.getScreenWidth() / 2 - getWidth() / 2 + 4 * mPixelsPerTileX / 32);
-        this.setY(mViewport.getScreenHeight() / 2 - getHeight() / 2);
+        this.setX(mViewport.getScreenWidth() / 2f - getWidth() / 2f);
+        this.setY(mViewport.getScreenHeight() / 2f - getHeight() / 2f);
 
         isDeathDone = false;
         isAlive = true;
@@ -76,21 +78,21 @@ public class Miner extends Actor {
     public void act(float delta) {
         super.act(delta);
 
-        if (getX() - 4 * mPixelsPerTileX / 32 < 0) {
+        if (getX() - 4 * mPixelX < 0) {
             clearActions();
-            this.setX(0.0f + 4 * mPixelsPerTileX / 32);
+            this.setX(0.0f + 4 * mPixelX);
         }
-        if (getX() + getWidth() + 4 * mPixelsPerTileX / 32 > mViewport.getScreenWidth()) {
+        if (getX() + getWidth() + 4 * mPixelX > mViewport.getScreenWidth()) {
             clearActions();
-            this.setX(mViewport.getScreenWidth() - getWidth() - 4 * mPixelsPerTileX / 32);
+            this.setX(mViewport.getScreenWidth() - getWidth() - 4 * mPixelX);
         }
         if (getY() < 0) {
             clearActions();
             this.setY(0.0f);
         }
-        if (getY() + getHeight() + 28 * mPixelsPerTileY / 32 > mViewport.getScreenHeight()) {
+        if (getY() + getHeight() + 28 * mPixelY > mViewport.getScreenHeight()) {
             clearActions();
-            this.setY(mViewport.getScreenHeight() - getHeight() - 28 * mPixelsPerTileY / 32);
+            this.setY(mViewport.getScreenHeight() - getHeight() - 28 * mPixelY);
         }
 
         mElapsedTime += delta;
@@ -108,13 +110,13 @@ public class Miner extends Actor {
         batch.setColor(getColor().r, getColor().g, getColor().b, getColor().a * alpha);
        if (isAlive) {
            batch.draw(mRunningAnimation.getKeyFrame(mElapsedTime, true),
-                   this.getX() - 4 * mPixelsPerTileX / 32, this.getY(), mViewport.getScreenWidth() / 16f * 20 / 32, mViewport.getScreenHeight() / 9f);
+                   this.getX() - 4 * mPixelX, this.getY(), 20 * mPixelX, 32 * mPixelY);
         }
 
        if(!isAlive) {
             batch.draw(mFallingAnimation.getKeyFrame(mDeadTime, false),
-                    MathUtils.floor(mTileX) * mPixelsPerTileX, MathUtils.floor(mTileY) * mPixelsPerTileY, mViewport.getScreenWidth() / 16f,
-                    mViewport.getScreenHeight() / 9f);
+                    MathUtils.floor(mTileX) * mPixelsPerTileX, MathUtils.floor(mTileY) * mPixelsPerTileY, 32 * mPixelX,
+                    32 * mPixelY);
 
             if (!hasPlayed) {
                 mDeath.play();

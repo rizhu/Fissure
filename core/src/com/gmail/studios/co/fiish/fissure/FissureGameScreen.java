@@ -338,19 +338,31 @@ public class FissureGameScreen extends ScreenAdapter {
         if (Gdx.input.getInputProcessor().equals(mWorld) && mMiner.isAlive && mElapsedTime % m_DELTA_FISSURE < delta) {
             mIntegers.shuffle();
             if (mBreakCount < 2) {
+                for (int i = 0; i < 36; i++) {
+                    mTiles.get(mIntegers.get(i)).breakTile();
+                }
+            } else if (mBreakCount < 3) {
+                for (int i = 0; i < 54; i++) {
+                    mTiles.get(mIntegers.get(i)).breakTile();
+                }
+            } else if (mBreakCount < 5) {
                 for (int i = 0; i < 72; i++) {
                     mTiles.get(mIntegers.get(i)).breakTile();
                 }
-            } else if (mBreakCount < 4) {
+            } else if (mBreakCount < 7) {
                 for (int i = 0; i < 90; i++) {
                     mTiles.get(mIntegers.get(i)).breakTile();
                 }
-            } else if (mBreakCount < 6) {
+            }else if (mBreakCount < 8) {
                 for (int i = 0; i < 108; i++) {
                     mTiles.get(mIntegers.get(i)).breakTile();
                 }
-            } else {
+            }else if (mBreakCount < 18) {
                 for (int i = 0; i < 128; i++) {
+                    mTiles.get(mIntegers.get(i)).breakTile();
+                }
+            } else {
+                for (int i = 0; i < 130; i++) {
                     mTiles.get(mIntegers.get(i)).breakTile();
                 }
             }
