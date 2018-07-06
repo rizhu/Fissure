@@ -4,6 +4,10 @@ import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 
+/*
+	Game class
+ */
+
 public class FissureGame extends Game {
 	private TextureAtlas mAtlas;
 	FiishCoScreen mFiishCoScreen;
@@ -19,7 +23,7 @@ public class FissureGame extends Game {
 
 	@Override
 	public void render() {
-		if (getScreen().equals(mFiishCoScreen) && mFiishCoScreen.mElapsedTime > 2.5f) {
+		if (getScreen().equals(mFiishCoScreen) && mFiishCoScreen.mElapsedTime > 2.5f) { //Fiish Co logo screen remains active for 2.5 seconds
 			setScreen(mFissureGameScreen);
 		}
 		super.render();

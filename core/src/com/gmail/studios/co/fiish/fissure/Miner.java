@@ -41,6 +41,9 @@ public class Miner extends Actor {
         mPixelX = mViewport.getScreenWidth() / 16f / 32f;
         mPixelY = mViewport.getScreenHeight() / 9f / 32f;
 
+        /*
+            Sets hitbox to width and height of legs
+         */
         this.setWidth(mPixelX * 10f);
         this.setHeight(mPixelY * 4f);
 
@@ -78,6 +81,9 @@ public class Miner extends Actor {
     public void act(float delta) {
         super.act(delta);
 
+        /*
+            Prevents player from exiting playable space
+         */
         if (getX() - 4 * mPixelX < 0) {
             clearActions();
             this.setX(0.0f + 4 * mPixelX);
@@ -136,6 +142,9 @@ public class Miner extends Actor {
     public void checkSafe(Array<Tile> tiles) {
         int id1, id2, id3, id4;
 
+        /*
+            Finds ID's of 4 potential tiles that the hitbox occupies and checks each tile's state to
+         */
         id1 = MathUtils.floor(mTileY) * 16 + MathUtils.floor(mTileX);
         id2 = MathUtils.floor(mTileY + mTileHeight) * 16 + MathUtils.floor(mTileX);
         id3 = MathUtils.floor(mTileY) * 16 + MathUtils.floor(mTileX + mTileWidth);
@@ -143,14 +152,14 @@ public class Miner extends Actor {
         if (id1 >= 0 && id1 <=143 && tiles.get(id1).isFissure) {
             kill();
         } else if (id2 >= 0 && id2 <=143 && tiles.get(id2).isFissure) {
-            mTileY = mTileY + mTileHeight;
+            mTileY += mTileHeight;  //draws death animation in correct tile
             kill();
         }else if (id3 >= 0 && id3 <=143 && tiles.get(id3).isFissure) {
-            mTileX = mTileX + mTileWidth;
+            mTileX += mTileWidth;
             kill();
         } else if (id4 >= 0 && id4 <=143 && tiles.get(id4).isFissure) {
-            mTileX = mTileX + mTileWidth;
-            mTileY = mTileY + mTileHeight;
+            mTileX += mTileWidth;
+            mTileY += mTileHeight;
             kill();
         }
     }

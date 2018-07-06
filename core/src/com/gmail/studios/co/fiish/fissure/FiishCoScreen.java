@@ -10,6 +10,10 @@ import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
+/*
+    Screen displaying Fiish Co logo.
+ */
+
 public class FiishCoScreen extends ScreenAdapter {
     public float mElapsedTime;
 

@@ -7,6 +7,10 @@ import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
+/*
+   Used to return to Title Screen from Credits menu.
+ */
+
 public class BackLeftButton extends Actor {
     private Viewport mViewport;
     private TextureRegion mRegion;

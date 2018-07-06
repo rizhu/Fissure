@@ -9,6 +9,12 @@ import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
+/*
+    Individual tile on map. Has ID based on location (bottom left = 0, top right = 143) and has coordinates relative
+    to other tiles (bottom left = (0, 0), top right = (15, 8). Frozen state used to isolate cracking sequence to only
+    during gameplay
+ */
+
 public class Tile  extends Actor {
     public boolean isFissure = false;
     public boolean isFrozen;
@@ -43,7 +49,6 @@ public class Tile  extends Actor {
                 break;
         }
         mCrackAnimation = new Animation(1/5f, atlas.findRegions("crack"));
-
 
         this.mId = id;
         int temp;
@@ -90,12 +95,7 @@ public class Tile  extends Actor {
         if (isBroken) {
             batch.draw(mCrackAnimation.getKeyFrame(mElapsedTime, false),
                     mCoordX * this.getWidth(), mCoordY * this.getHeight(), this.getWidth(), this.getHeight());
-            if (mCrackAnimation.getKeyFrameIndex(mElapsedTime) >= 4) {
-                isFissure = true;
-            } else {
-                isFissure = false;
-            }
-
+            isFissure = mCrackAnimation.getKeyFrameIndex(mElapsedTime) >= 4;
             if (mCrackAnimation.isAnimationFinished(mElapsedTime)) {
                 isBroken = false;
                 isFissure = false;

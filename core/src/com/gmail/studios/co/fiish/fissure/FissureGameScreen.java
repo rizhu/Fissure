@@ -21,6 +21,10 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import java.math.BigDecimal;
 import static com.badlogic.gdx.scenes.scene2d.actions.Actions.*;
 
+/*
+    Screen handling all gameplay
+ */
+
 public class FissureGameScreen extends ScreenAdapter {
     private Viewport mViewport;
     private SpriteBatch mBatch;
@@ -94,6 +98,9 @@ public class FissureGameScreen extends ScreenAdapter {
         mWorld = new FissureWorld(mViewport, mBatch);
         mGameUI = new FissureGameUI(mViewport, mBatch);
 
+        /*
+            Creates touch-to-move mechanism for Miner
+         */
         mWorld.addListener(new InputListener() {
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
@@ -131,6 +138,9 @@ public class FissureGameScreen extends ScreenAdapter {
         mTapPrompt.init();
         mCredits.init();
 
+        /*
+            Brings player to Credits menu by fading out all children of Title UI
+         */
         mCredits.addListener(new InputListener(){
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
@@ -157,6 +167,9 @@ public class FissureGameScreen extends ScreenAdapter {
             }
         });
 
+        /*
+            Allows the player to touch to begin game sequence
+         */
         mTitleUI.addListener(new InputListener() {
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
@@ -174,23 +187,23 @@ public class FissureGameScreen extends ScreenAdapter {
                                 mLogo.addAction(fadeOut(0.3f));
                                 mCredits.addAction(fadeOut(0.3f));
                             }
-                            }),
+                        }),
                         delay(0.2f, run(new Runnable() {
                                 @Override
                                 public void run() {
-                                if (mData.getBoolean("firstPlay", true)) {
-                                    mHelpPrompt.init();
-                                    mHelpUI.addActor(mHelpPrompt);
-                                    mHelpUI.addListener(new InputListener(){
-                                            @Override
-                                            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                                            mHelpPrompt.clearActions();
-                                            mTapPrompt.clearActions();
-                                            mTapPrompt.addAction(fadeOut(0.3f));
-                                            mHelpPrompt.addAction(sequence(
-                                                fadeOut(0.25f),
-                                                delay(0.25f),
-                                                Actions.run(new Runnable() {
+                                    if (mData.getBoolean("firstPlay", true)) {
+                                        mHelpPrompt.init();
+                                        mHelpUI.addActor(mHelpPrompt);
+                                        mHelpUI.addListener(new InputListener(){
+                                                @Override
+                                                public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                                                    mHelpPrompt.clearActions();
+                                                    mTapPrompt.clearActions();
+                                                    mTapPrompt.addAction(fadeOut(0.3f));
+                                                    mHelpPrompt.addAction(sequence(
+                                                    fadeOut(0.25f),
+                                                    delay(0.25f),
+                                                    Actions.run(new Runnable() {
                                                         @Override
                                                         public void run() {
                                                         mData.putBoolean("firstPlay", false);
@@ -198,19 +211,19 @@ public class FissureGameScreen extends ScreenAdapter {
                                                         mHelpUI.clear();
                                                         mTitleUI.addActor(mTapPrompt);
                                                         Gdx.input.setInputProcessor(mWorld);
-                                                    }
+                                                        }
                                                     })
-                                            ));
-                                            return true;
-                                        }
+                                                ));
+                                                return true;
+                                            }
                                         });
-                                    mHelpPrompt.addAction(fadeIn(0.25f));
-                                    Gdx.input.setInputProcessor(mHelpUI);
-                                } else {
-                                    Gdx.input.setInputProcessor(mWorld);
+                                        mHelpPrompt.addAction(fadeIn(0.25f));
+                                        Gdx.input.setInputProcessor(mHelpUI);
+                                    } else {
+                                        Gdx.input.setInputProcessor(mWorld);
+                                    }
                                 }
-                            }
-                            }))));
+                        }))));
                 return true;
             }
         });
@@ -265,8 +278,7 @@ public class FissureGameScreen extends ScreenAdapter {
                                             @Override
                                             public void run() {
                                                 resetGame();
-                                            }
-                                        }))));
+                                            }}))));
                             }
                         })));
 

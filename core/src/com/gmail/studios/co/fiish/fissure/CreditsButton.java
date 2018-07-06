@@ -7,6 +7,10 @@ import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
+/*
+    When tapped, brings player to Credits menu.
+ */
+
 public class CreditsButton extends Actor {
     private Viewport mViewport;
     private TextureRegion mRegion;

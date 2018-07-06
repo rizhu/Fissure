@@ -1,4 +1,4 @@
-#Tue Jun 19 15:34:53 PDT 2018
+#Wed Jun 20 09:48:02 PDT 2018
 base.0=D\:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=D\:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
