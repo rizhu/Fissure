@@ -10,24 +10,119 @@
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/AndroidManifest.xml" />
       <change beforePath="$PROJECT_DIR$/android/android-release.apk" afterPath="$PROJECT_DIR$/android/android-release.apk" />
+      <change beforePath="$PROJECT_DIR$/android/android.iml" afterPath="$PROJECT_DIR$/android/android.iml" />
       <change beforePath="$PROJECT_DIR$/android/build.gradle" afterPath="$PROJECT_DIR$/android/build.gradle" />
       <change beforePath="$PROJECT_DIR$/android/build/generated/source/buildConfig/debug/com/gmail/studios/co/fiish/fissure/BuildConfig.java" afterPath="$PROJECT_DIR$/android/build/generated/source/buildConfig/debug/com/gmail/studios/co/fiish/fissure/BuildConfig.java" />
       <change beforePath="$PROJECT_DIR$/android/build/generated/source/buildConfig/release/com/gmail/studios/co/fiish/fissure/BuildConfig.java" afterPath="$PROJECT_DIR$/android/build/generated/source/buildConfig/release/com/gmail/studios/co/fiish/fissure/BuildConfig.java" />
+      <change beforePath="$PROJECT_DIR$/android/build/generated/source/r/debug/com/gmail/studios/co/fiish/fissure/R.java" afterPath="$PROJECT_DIR$/android/build/generated/source/r/debug/com/gmail/studios/co/fiish/fissure/R.java" />
+      <change beforePath="$PROJECT_DIR$/android/build/generated/source/r/release/com/gmail/studios/co/fiish/fissure/R.java" afterPath="$PROJECT_DIR$/android/build/generated/source/r/release/com/gmail/studios/co/fiish/fissure/R.java" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values.json" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/release/multi/values.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/release/multi/values.json" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/gmail/studios/co/fiish/fissure/AndroidLauncher.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/gmail/studios/co/fiish/fissure/AndroidLauncher.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/gmail/studios/co/fiish/fissure/BuildConfig.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/gmail/studios/co/fiish/fissure/BuildConfig.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/gmail/studios/co/fiish/fissure/R$attr.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/gmail/studios/co/fiish/fissure/R$attr.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/gmail/studios/co/fiish/fissure/R$drawable.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/gmail/studios/co/fiish/fissure/R$drawable.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/gmail/studios/co/fiish/fissure/R$string.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/gmail/studios/co/fiish/fissure/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/gmail/studios/co/fiish/fissure/R$style.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/gmail/studios/co/fiish/fissure/R$style.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/gmail/studios/co/fiish/fissure/R.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/gmail/studios/co/fiish/fissure/R.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/classes/release/com/gmail/studios/co/fiish/fissure/AndroidLauncher.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/release/com/gmail/studios/co/fiish/fissure/AndroidLauncher.class" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/classes/release/com/gmail/studios/co/fiish/fissure/BuildConfig.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/release/com/gmail/studios/co/fiish/fissure/BuildConfig.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/classes/release/com/gmail/studios/co/fiish/fissure/R$attr.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/release/com/gmail/studios/co/fiish/fissure/R$attr.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/classes/release/com/gmail/studios/co/fiish/fissure/R$drawable.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/release/com/gmail/studios/co/fiish/fissure/R$drawable.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/classes/release/com/gmail/studios/co/fiish/fissure/R$string.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/release/com/gmail/studios/co/fiish/fissure/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/classes/release/com/gmail/studios/co/fiish/fissure/R$style.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/release/com/gmail/studios/co/fiish/fissure/R$style.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/classes/release/com/gmail/studios/co/fiish/fissure/R.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/release/com/gmail/studios/co/fiish/fissure/R.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeReleaseResources/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/zip-cache/eGl_puwQq4vGLsRiC77BMus5Nsc=" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/zip-cache/eGl_puwQq4vGLsRiC77BMus5Nsc=" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/zip-cache/hhJ88KLj3Axw+aUSCVLws2qJ3Kg=" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/zip-cache/hhJ88KLj3Axw+aUSCVLws2qJ3Kg=" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/file-input-save-data.txt" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/file-input-save-data.txt" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/zip-cache/R3b_7GrnhjjeD8wpeH4twocEa4I=" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/zip-cache/R3b_7GrnhjjeD8wpeH4twocEa4I=" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/zip-cache/wmnLauDBF_xtlX56zmSg6ssF2+g=" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/zip-cache/wmnLauDBF_xtlX56zmSg6ssF2+g=" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/manifests/full/release/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/manifests/full/release/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/core-1.0_ce6645ad372e689049d42408600384172b93af2f.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/core-1.0_ce6645ad372e689049d42408600384172b93af2f.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/debug_4394beba6fc04fa49db7ddec95fa294f4419cf48.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/debug_4394beba6fc04fa49db7ddec95fa294f4419cf48.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/release/core-1.0_ce6645ad372e689049d42408600384172b93af2f.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/release/core-1.0_ce6645ad372e689049d42408600384172b93af2f.jar" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/release/release_549f3ce5d6080ca9e6d6a99b47f81df6808c9c3d.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/release/release_549f3ce5d6080ca9e6d6a99b47f81df6808c9c3d.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values/values.xml" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/release/values/values.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/release/values/values.xml" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/resources-release.ap_" afterPath="$PROJECT_DIR$/android/build/intermediates/res/resources-release.ap_" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJavaRes/release/jars/2/1f/main.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJavaRes/release/jars/2/1f/main.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" afterPath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" />
       <change beforePath="$PROJECT_DIR$/android/build/outputs/lint-results-release-fatal.html" afterPath="$PROJECT_DIR$/android/build/outputs/lint-results-release-fatal.html" />
+      <change beforePath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change beforePath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-release-report.txt" afterPath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-release-report.txt" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGame.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGame.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$1.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$1.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2$1.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2$1.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2$2.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2$2.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$1.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$1.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$2$1$1.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$2$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$2$1.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$2$1.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$2.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$2.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4$1.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4$1.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4$2.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4$2.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$5$1$1.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$5$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$5$1.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$5$1.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$5.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$5.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$6$1$1.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$6$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$6$1.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$6$1.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$6.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$6.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$7.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen$7.class" />
+      <change beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2i0hulabvngg9ekr33s6ybt7w/com/gmail/studios/co/fiish/fissure/FissureGameScreen.class" />
+      <change beforePath="$PROJECT_DIR$/android/src/com/gmail/studios/co/fiish/fissure/AndroidLauncher.java" afterPath="$PROJECT_DIR$/android/src/com/gmail/studios/co/fiish/fissure/AndroidLauncher.java" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGame.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGame.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$1.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2$1.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2$2.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2$2.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$2.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$1.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$2$1$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$2$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$2$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$2$1.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$2.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3$2.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$3.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4$1.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4$2.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4$2.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$4.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$5$1$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$5$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$5$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$5$1.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$5.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$5.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$6$1$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$6$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$6$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$6$1.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$6.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$6.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$7.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen$7.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/gmail/studios/co/fiish/fissure/FissureGameScreen.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGame.java" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGame.java" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java" afterPath="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java" />
+      <change beforePath="$PROJECT_DIR$/ios-moe/src/com/gmail/studios/co/fiish/fissure/IOSMoeLauncher.java" afterPath="$PROJECT_DIR$/ios-moe/src/com/gmail/studios/co/fiish/fissure/IOSMoeLauncher.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,23 +144,19 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="900">
       <file leaf-file-name="AndroidLauncher.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/android/src/com/gmail/studios/co/fiish/fissure/AndroidLauncher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="42" />
-              <folding />
+            <state relative-caret-position="720">
+              <caret line="15" column="69" lean-forward="false" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1174#1305#0" expanded="true" />
+                <element signature="e#1304#1305#0" expanded="true" />
+                <element signature="e#1382#1462#0" expanded="true" />
+                <element signature="e#1461#1462#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,6 +167,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -91,7 +183,11 @@
       <find>james</find>
       <find>fii</find>
       <find>FissureW</find>
+      <find>compile</find>
     </findStrings>
+    <replaceStrings>
+      <replace>implementation</replace>
+    </replaceStrings>
   </component>
   <component name="GenerateSignedApkSettings">
     <option name="KEY_STORE_PATH" value="D:\Richard\Programming\libGDX\keystores\fissurekey.jks" />
@@ -165,6 +261,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="validateSigningDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-compat:26.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCompat2610Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -318,6 +419,16 @@
                 <option name="name" value="mergeReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-ui:26.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUi2610Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.google.android.gms:play-services-gass:15.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesGass1500Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareDebugAndroidTestDependencies" />
               </ExternalTaskPojo>
@@ -416,6 +527,11 @@
                 <option name="name" value="preDebugUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-media-compat:26.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2610Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="run" />
               </ExternalTaskPojo>
@@ -473,6 +589,11 @@
                 <option name="name" value="assembleDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.google.android.gms:play-services-basement:15.0.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesBasement1501Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateDebugAndroidTestAssets" />
               </ExternalTaskPojo>
@@ -513,6 +634,11 @@
                 <option name="name" value="compileJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:26.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportV42610Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateDebugResValues" />
               </ExternalTaskPojo>
@@ -520,6 +646,11 @@
                 <option name="description" value="Runs all checks." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare android.arch.lifecycle:runtime:1.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareAndroidArchLifecycleRuntime100Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for the debug build." />
@@ -536,6 +667,11 @@
                 <option name="name" value="installDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.google.android.gms:play-services-ads-identifier:15.0.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesAdsIdentifier1501Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="preBuild" />
               </ExternalTaskPojo>
@@ -549,8 +685,18 @@
                 <option name="name" value="lintRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.google.android.gms:play-services-ads-base:15.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesAdsBase1500Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.google.android.gms:play-services-ads-lite:15.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesAdsLite1500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prints some properties of the MOE SDK." />
@@ -565,6 +711,11 @@
                 <option name="description" value="Assembles main classes." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-fragment:26.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportFragment2610Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays all buildscript dependencies declared in root project 'Fissure'." />
@@ -890,6 +1041,16 @@
                 <option name="name" value="preReleaseBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-utils:26.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2610Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.google.android.gms:play-services-ads:15.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesAds1500Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="incrementalDebugUnitTestJavaCompilationSafeguard" />
               </ExternalTaskPojo>
@@ -949,6 +1110,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateDebugAndroidTestResValues" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:customtabs:26.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportCustomtabs2610Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Generates art+oat files (sourceset: main, mode: release, arch-family: x86)." />
@@ -1161,6 +1327,11 @@
                 <option name="name" value="validateSigningDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-compat:26.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="prepareComAndroidSupportSupportCompat2610Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="assembleReleaseUnitTest" />
               </ExternalTaskPojo>
@@ -1357,6 +1528,16 @@
                 <option name="name" value="mergeReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-ui:26.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUi2610Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.google.android.gms:play-services-gass:15.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesGass1500Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="generateDebugAndroidTestSources" />
               </ExternalTaskPojo>
@@ -1427,6 +1608,16 @@
                 <option name="description" value="Assembles all variants of all applications and secondary packages." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-utils:26.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2610Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.google.android.gms:play-services-ads:15.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesAds1500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
@@ -1507,6 +1698,11 @@
                 <option name="name" value="preDebugUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-media-compat:26.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2610Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="run" />
               </ExternalTaskPojo>
@@ -1521,6 +1717,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="mergeReleaseShaders" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:customtabs:26.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="prepareComAndroidSupportCustomtabs2610Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the Android dependencies of the project." />
@@ -1554,6 +1755,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="assembleDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.google.android.gms:play-services-basement:15.0.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesBasement1501Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
@@ -1606,6 +1812,11 @@
                 <option name="name" value="compileJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:26.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="prepareComAndroidSupportSupportV42610Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="generateDebugResValues" />
               </ExternalTaskPojo>
@@ -1613,6 +1824,11 @@
                 <option name="description" value="Runs all checks." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare android.arch.lifecycle:runtime:1.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="prepareAndroidArchLifecycleRuntime100Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Generates all Eclipse files." />
@@ -1641,6 +1857,11 @@
                 <option name="description" value="Installs the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="installDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.google.android.gms:play-services-ads-identifier:15.0.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesAdsIdentifier1501Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
@@ -1681,6 +1902,11 @@
                 <option name="name" value="lintRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.google.android.gms:play-services-ads-base:15.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesAdsBase1500Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="buildDependents" />
@@ -1690,6 +1916,11 @@
                 <option name="name" value="cleanEclipseClasspath" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.google.android.gms:play-services-ads-lite:15.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesAdsLite1500Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="generateDebugAssets" />
               </ExternalTaskPojo>
@@ -1697,6 +1928,11 @@
                 <option name="description" value="Assembles main classes." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-fragment:26.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="prepareComAndroidSupportSupportFragment2610Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays all buildscript dependencies declared in project ':android'." />
@@ -3981,7 +4217,6 @@
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/WalkableTile.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/TileSet.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tileset.java" />
-        <option value="$PROJECT_DIR$/android/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Home.java" />
         <option value="$PROJECT_DIR$/core/assets/Sprites/pack.json" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/GameOverPrompt.java" />
@@ -3999,14 +4234,19 @@
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/CreditsBG.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/CreditsUI.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FiishCoScreen.java" />
-        <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGame.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureTitleUI.java" />
-        <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameUI.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureWorld.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tile.java" />
         <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Miner.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGame.java" />
+        <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ActionResolver.java" />
+        <option value="$PROJECT_DIR$/ios-moe/src/com/gmail/studios/co/fiish/fissure/IOSMoeLauncher.java" />
+        <option value="$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java" />
+        <option value="$PROJECT_DIR$/android/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/android/build.gradle" />
+        <option value="$PROJECT_DIR$/android/src/com/gmail/studios/co/fiish/fissure/AndroidLauncher.java" />
       </list>
     </option>
   </component>
@@ -4046,45 +4286,14 @@
               <item name="Fissure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="Fissure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fissure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fissure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fissure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fissure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fissure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fissure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="desktop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fissure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fissure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="desktop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fissure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fissure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="desktop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="desktop" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -4092,7 +4301,7 @@
     <property name="settings.editor.selected.configurable" value="usage.statistics" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/core/assets" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.2.0" />
-    <property name="device.picker.selection" value="06157df6b807d421" />
+    <property name="device.picker.selection" value="Pixel_2_API_26" />
     <property name="android.profiler.active" value="true" />
     <property name="ExportApk.ApkPath" value="D:\Richard\Programming\libGDX\Fissure\android" />
     <property name="ExportApk.Flavors" value="" />
@@ -4112,7 +4321,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Desktop">
+  <component name="RunManager" selected="Android App.android">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -4426,8 +4635,8 @@
     <frame x="-18" y="-18" width="3876" height="2076" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.329455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289882" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288426" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -4435,14 +4644,15 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289882" sideWeight="0.5016216" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288426" sideWeight="0.49892125" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289882" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289882" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288426" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288426" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Multi-OS Engine" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288426" sideWeight="0.49837837" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288426" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -4456,7 +4666,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329455" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288426" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -4467,34 +4676,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3072">
-          <caret line="74" column="44" lean-forward="false" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Miner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4800">
-          <caret line="110" column="54" lean-forward="true" selection-start-line="110" selection-start-column="54" selection-end-line="110" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3840">
-          <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2256">
@@ -4595,17 +4776,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/WalkableTile.java" />
     <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/Tileset.java" />
-    <entry file="file://$PROJECT_DIR$/android/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/ScreenAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -4701,13 +4871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureLogo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
@@ -4743,13 +4906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/GameOverPrompt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -4771,14 +4927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/desktop/src/com/gmail/studios/co/fiish/fissure/desktop/DesktopLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -4787,11 +4935,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ActionReolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          <folding>
+            <element signature="e#692#731#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/ActionResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios-moe/src/com/gmail/studios/co/fiish/fissure/IOSMoeLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#372#373#0" expanded="false" />
+            <element signature="e#386#387#0" expanded="false" />
+            <element signature="e#440#441#0" expanded="false" />
+            <element signature="e#487#488#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2496">
+          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/gmail/studios/co/fiish/fissure/FissureGameScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15887">
+          <caret line="509" column="30" lean-forward="false" selection-start-line="509" selection-start-column="30" selection-end-line="509" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1392">
+          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/android/src/com/gmail/studios/co/fiish/fissure/AndroidLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="720">
+          <caret line="15" column="69" lean-forward="false" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1174#1305#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1382#1462#0" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

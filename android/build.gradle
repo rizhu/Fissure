@@ -24,10 +24,10 @@ android {
     }
     defaultConfig {
         applicationId "com.gmail.co.studios.fiish.fissure"
-        minSdkVersion 9
+        minSdkVersion 14
         targetSdkVersion 26
-        versionCode 7
-        versionName "1.0"
+        versionCode 8
+        versionName "1.1"
     }
     buildTypes {
         release {
@@ -137,4 +137,5 @@ idea {
     }
 }
 dependencies {
+    compile 'com.google.android.gms:play-services-ads:15.0.0'
 }

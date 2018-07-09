@@ -6,6 +6,7 @@ import com.badlogic.gdx.ScreenAdapter;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.InputListener;
 import com.badlogic.gdx.scenes.scene2d.Touchable;
@@ -27,6 +28,7 @@ import static com.badlogic.gdx.scenes.scene2d.actions.Actions.*;
 
 public class FissureGameScreen extends ScreenAdapter {
     private Viewport mViewport;
+    private ActionResolver mActionResolver;
     private SpriteBatch mBatch;
     private Preferences mData;
 
@@ -61,6 +63,9 @@ public class FissureGameScreen extends ScreenAdapter {
     private BigDecimal mScore;
     private final float m_DELTA_FISSURE = 2.3f;
     private float mElapsedTime, mPixelX, mPixelY;
+
+    private float mShowAds = 0.0f;
+    private boolean mPlayAdOnBackToHome;
 
     public FissureGameScreen(TextureAtlas atlas) {
         mViewport = new ScreenViewport();
@@ -335,6 +340,8 @@ public class FissureGameScreen extends ScreenAdapter {
         mElapsedTime = 0f;
         mBreakCount = 0;
 
+        mPlayAdOnBackToHome = true;
+
         Gdx.input.setInputProcessor(mTitleUI);
     }
 
@@ -468,23 +475,44 @@ public class FissureGameScreen extends ScreenAdapter {
         mBatch.dispose();
     }
 
-    public void resetGame() {
-        for (int i = 0; i < mTiles.size; i++) mTiles.get(i).reset();
-        mMiner.reset();
+    public void setActionResolver(ActionResolver actionResolver) {
+        this.mActionResolver = actionResolver;
+    }
 
-        mHome.reset();
-        mReplay.reset();
+    private void resetGame() {
+        mShowAds = MathUtils.random();
+        Gdx.app.log("mShowAds", "" + mShowAds);
+        if (mShowAds < 0.4f) {
+            mActionResolver.showInterstitial();
+            mPlayAdOnBackToHome = false;
+            backToHome();
+        } else {
+            for (int i = 0; i < mTiles.size; i++) mTiles.get(i).reset();
+            mMiner.reset();
 
-        mGameOverPrompt.reset();
-        mScoreBG.reset();
+            mHome.reset();
+            mReplay.reset();
 
-        mElapsedTime = 0;
-        mBreakCount = 0;
+            mGameOverPrompt.reset();
+            mScoreBG.reset();
 
-        Gdx.input.setInputProcessor(mWorld);
+            mElapsedTime = 0;
+            mBreakCount = 0;
+
+            Gdx.input.setInputProcessor(mWorld);
+        }
     }
 
     private void backToHome() {
+        if (mPlayAdOnBackToHome) {
+            mShowAds = MathUtils.random();
+            Gdx.app.log("mShowAds", "" + mShowAds);
+            if (mShowAds < 0.4f) {
+                mActionResolver.showInterstitial();
+            }
+        }
+        mPlayAdOnBackToHome = true;
+
         mLogo.reset();
         mTapPrompt.reset();
         mCredits.reset();
