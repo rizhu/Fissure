@@ -12,7 +12,7 @@ import com.google.android.gms.ads.AdRequest;
 
 
 public class AndroidLauncher extends AndroidApplication implements ActionResolver {
-	private static final String AD_APP_ID = "APP_ID";
+	private static final String AD_APP_ID = "AD_APP_ID";
 	private static final String AD_UNIT_ID_INTERSTITIAL = "AD_UNIT_ID";
 	private InterstitialAd mInterstitialAd;
 

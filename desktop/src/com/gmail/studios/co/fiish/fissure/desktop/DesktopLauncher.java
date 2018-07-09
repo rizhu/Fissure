@@ -7,6 +7,8 @@ import com.gmail.studios.co.fiish.fissure.FissureGame;
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
-		new LwjglApplication(new FissureGame(), config);
+		config.title = "Fissure";
+		config.useGL30 = false;
+		new LwjglApplication(new FissureGame(new ActionResolverDesktop()), config);
 	}
 }

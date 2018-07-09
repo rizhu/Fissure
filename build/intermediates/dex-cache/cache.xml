@@ -3,87 +3,6 @@
 
     <item
         is-multidex="false"
-        jar="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
-        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-26.1.0_eeacfb27e3242dce650260707add6d3161a636e2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-identifier\15.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="63413895dce50f6123807d1db2274a1982a34194">
-        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-identifier-15.0.1_0425464d60f6d9b83f6392fe0ae8628713d59524.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Richard\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-box2d\1.9.8\6f0497b7958216464101adfb7bdc3a0f7b88d6d3\gdx-box2d-1.9.8.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="6f0497b7958216464101adfb7bdc3a0f7b88d6d3">
-        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\gdx-box2d-1.9.8_5a7a66818cfadaef5191e46abd5400e1cd86291b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="508f50705b4fde51a16259f29c854201a3044516">
-        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-26.1.0_29772d094623db7d151889844fbd917996133e00.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\exploded-aar\com.android.support\support-v4\26.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\com.android.support-support-v4-26.1.0_5ee88e0a788b85851b73310faef211cdd2b4b2c2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\15.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="939901599f65367c90fcfc50ccc4bf1cc398c9f9">
-        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-lite-15.0.0_7eef4af532f70127296eafe2280d5aa1cf803502.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Richard\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-freetype\1.9.8\d92b5b8beab10e3b3c0dd836d4fc186f95e7ea4b\gdx-freetype-1.9.8.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d92b5b8beab10e3b3c0dd836d4fc186f95e7ea4b">
-        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\gdx-freetype-1.9.8_a24dce01e20bc4f08e18f862b02fc0f887a00602.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\15.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="193271479d2fe696fdd2ed0cb8a1ecd95b55353e">
-        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gass-15.0.0_d52f425d423ff0a663120ba97901c30b849f5a0e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-base\15.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="49e759d40ca147d11663ed9fe28d404133b4c7df">
-        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-base-15.0.0_f636c3e1e9afe36b68820cf26a24d589c1101093.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\15.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -108,6 +27,15 @@
         revision="25.0.3"
         sha1="a35a0076fbce873f9c2d5a1a1c8066244231bb3c">
         <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\gdx-1.9.8_bd382024b5112943600a8cc522f813f562d55cd9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-26.1.0_eeacfb27e3242dce650260707add6d3161a636e2.jar" />
     </item>
     <item
         is-multidex="false"
@@ -142,8 +70,35 @@
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="769fa569c585db40cbac2db79c622c8baf1dd0ce">
+        sha1="fdb12e74a535c7450a9d6f81f31fe4a24826ed1e">
         <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\core-1.0_ce6645ad372e689049d42408600384172b93af2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-identifier\15.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="63413895dce50f6123807d1db2274a1982a34194">
+        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-identifier-15.0.1_0425464d60f6d9b83f6392fe0ae8628713d59524.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Richard\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-box2d\1.9.8\6f0497b7958216464101adfb7bdc3a0f7b88d6d3\gdx-box2d-1.9.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6f0497b7958216464101adfb7bdc3a0f7b88d6d3">
+        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\gdx-box2d-1.9.8_5a7a66818cfadaef5191e46abd5400e1cd86291b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-26.1.0_29772d094623db7d151889844fbd917996133e00.jar" />
     </item>
     <item
         is-multidex="false"
@@ -183,6 +138,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\exploded-aar\com.android.support\support-v4\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\com.android.support-support-v4-26.1.0_5ee88e0a788b85851b73310faef211cdd2b4b2c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\15.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="939901599f65367c90fcfc50ccc4bf1cc398c9f9">
+        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-lite-15.0.0_7eef4af532f70127296eafe2280d5aa1cf803502.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Richard\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.8\84024cd60ad6f26370891fbcd17de9f0167e662\gdx-backend-android-1.9.8.jar"
         jumboMode="false"
         optimize="true"
@@ -192,12 +165,39 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Richard\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-freetype\1.9.8\d92b5b8beab10e3b3c0dd836d4fc186f95e7ea4b\gdx-freetype-1.9.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d92b5b8beab10e3b3c0dd836d4fc186f95e7ea4b">
+        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\gdx-freetype-1.9.8_a24dce01e20bc4f08e18f862b02fc0f887a00602.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
         <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-26.1.0_f2be8144dbd860f61d5e0f06e4543be42168d921.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\15.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="193271479d2fe696fdd2ed0cb8a1ecd95b55353e">
+        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gass-15.0.0_d52f425d423ff0a663120ba97901c30b849f5a0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-base\15.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="49e759d40ca147d11663ed9fe28d404133b4c7df">
+        <dex dex="D:\Richard\Programming\libGDX\Fissure\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-base-15.0.0_f636c3e1e9afe36b68820cf26a24d589c1101093.jar" />
     </item>
 
 </items>
