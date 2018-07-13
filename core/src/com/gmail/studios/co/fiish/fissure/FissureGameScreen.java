@@ -68,7 +68,8 @@ public class FissureGameScreen extends ScreenAdapter {
                                     // Separate conversions exists for the X and Y axes because not every device is perfectly 16:9.
 
     private boolean mShowAdOnBackToHome;
-    private int mAdCounter = 0;
+    private boolean mScoreBGActive;
+    private int mAdCounter;
 
     private final float TIME_BETWEEN_FISSURES = 2.3f;
     private final int NUM_TILES = 144;
@@ -101,10 +102,11 @@ public class FissureGameScreen extends ScreenAdapter {
     @Override
     public void show() {
         mData = Gdx.app.getPreferences("Data");
+        mScoreBGActive = false;
 
         mBatch = new SpriteBatch();
 
-        mAdCounter = 0;
+        mAdCounter = mData.getInteger("adCounter", 0);
 
         mTitleUI = new FissureTitleUI(mViewport, mBatch);
         mCreditsUI = new CreditsUI(mViewport, mBatch);
@@ -138,6 +140,7 @@ public class FissureGameScreen extends ScreenAdapter {
     @Override
     public void resize(int width, int height) {
         mViewport.update(width, height);
+        mActionResolver.showBanner(false);
 
         mPixelX = mViewport.getScreenWidth() / 16f / 32f; // Each Tile is a square of 32 x 32 retro tiles and the playing area is a 16 x 9 grid of Tiles
         mPixelY = mViewport.getScreenHeight() / 9f / 32f;
@@ -355,6 +358,11 @@ public class FissureGameScreen extends ScreenAdapter {
         mShowAdOnBackToHome = true;
 
         Gdx.input.setInputProcessor(mTitleUI);
+
+        if (mScoreBGActive) {
+            mScoreBGActive = false;
+            doAdCheck();
+        }
     }
 
     @Override
@@ -470,6 +478,8 @@ public class FissureGameScreen extends ScreenAdapter {
 
     private boolean doAdCheck() {
         mAdCounter += MathUtils.random(1, 2);
+        mData.putInteger("adCounter", mAdCounter);
+        mData.flush();
         if (mAdCounter >= 5) {
             mAdCounter = 0;
             mActionResolver.showInterstitial();
@@ -481,6 +491,7 @@ public class FissureGameScreen extends ScreenAdapter {
     }
 
     private void doMinerDeathSequence() {
+        mScoreBGActive = true;
         Gdx.input.setInputProcessor(mGameUI);
         mActionResolver.showBanner(true);
 
@@ -535,6 +546,7 @@ public class FissureGameScreen extends ScreenAdapter {
         mBreakCount = 0;
 
         Gdx.input.setInputProcessor(mWorld);
+        mScoreBGActive = false;
     }
 
     private void backToHome() {
@@ -564,6 +576,7 @@ public class FissureGameScreen extends ScreenAdapter {
         mBreakCount = 0;
 
         Gdx.input.setInputProcessor(mTitleUI);
+        mScoreBGActive = false;
     }
 
     private BigDecimal round(float d, int decimalPlace) {
