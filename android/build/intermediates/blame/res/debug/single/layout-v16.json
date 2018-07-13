@@ -1,6 +1,10 @@
 [
     {
-        "merged": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
-        "source": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout-v16\\notification_template_custom_big.xml"
+        "merged": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout-v16\\notification_template_custom_big.xml"
     }
 ]

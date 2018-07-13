@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 169
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 232
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 321
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 392
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 450
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 523
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 597
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 1675
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 1743
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 1815
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1885
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1946
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 2007
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 2068
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 2130
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 2194
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 2256
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 2317
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 2385
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -372,7 +372,7 @@
                     "endOffset": 2485
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -391,7 +391,7 @@
                     "endOffset": 2545
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -410,7 +410,7 @@
                     "endOffset": 2611
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
@@ -429,7 +429,7 @@
                     "endOffset": 2684
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,
@@ -448,7 +448,7 @@
                     "endOffset": 2753
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
@@ -467,7 +467,7 @@
                     "endOffset": 2810
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 4,
@@ -486,7 +486,7 @@
                     "endOffset": 2862
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 37,
                         "startColumn": 4,
@@ -505,7 +505,7 @@
                     "endOffset": 2924
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
@@ -524,7 +524,7 @@
                     "endOffset": 2996
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
@@ -543,7 +543,7 @@
                     "endOffset": 3072
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 4,
@@ -562,7 +562,7 @@
                     "endOffset": 3107
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 41,
                         "startColumn": 4,
@@ -581,7 +581,7 @@
                     "endOffset": 3142
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 4,
@@ -600,7 +600,7 @@
                     "endOffset": 3176
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 4,
@@ -619,7 +619,7 @@
                     "endOffset": 3211
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 44,
                         "startColumn": 4,
@@ -638,7 +638,7 @@
                     "endOffset": 3246
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 45,
                         "startColumn": 4,
@@ -657,7 +657,7 @@
                     "endOffset": 3306
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -676,7 +676,7 @@
                     "endOffset": 3374
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\15.0.1\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/15.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -695,7 +695,7 @@
                     "endOffset": 3444
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 4,
@@ -714,7 +714,7 @@
                     "endOffset": 3489
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\res\\values\\strings.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/res/values/strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -733,7 +733,7 @@
                     "endOffset": 3656
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\15.0.1\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/15.0.1/res/values/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -752,7 +752,7 @@
                     "endOffset": 3698
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/15.0.0/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -771,7 +771,7 @@
                     "endOffset": 3775
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/15.0.0/res/values/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -790,7 +790,7 @@
                     "endOffset": 3813
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/15.0.0/res/values/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -809,7 +809,7 @@
                     "endOffset": 3852
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/15.0.0/res/values/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -828,7 +828,7 @@
                     "endOffset": 3905
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/15.0.0/res/values/values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -847,7 +847,7 @@
                     "endOffset": 3973
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/15.0.0/res/values/values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 0,
@@ -866,7 +866,7 @@
                     "endOffset": 4012
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/15.0.0/res/values/values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 0,
@@ -885,7 +885,7 @@
                     "endOffset": 4083
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 47,
                         "startColumn": 4,
@@ -905,7 +905,7 @@
                     "endOffset": 4546
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\res\\values\\styles.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/res/values/styles.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -925,7 +925,7 @@
                     "endOffset": 4663
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 4,
@@ -945,7 +945,7 @@
                     "endOffset": 4864
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 49,
                         "startColumn": 4,
@@ -965,7 +965,7 @@
                     "endOffset": 4930
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -984,7 +984,7 @@
                     "endOffset": 5040
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 53,
                         "startColumn": 4,
@@ -1003,7 +1003,7 @@
                     "endOffset": 5162
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1022,7 +1022,7 @@
                     "endOffset": 5223
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1042,7 +1042,7 @@
                     "endOffset": 5424
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 54,
                         "startColumn": 4,
@@ -1062,7 +1062,7 @@
                     "endOffset": 5490
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1081,7 +1081,7 @@
                     "endOffset": 5619
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 58,
                         "startColumn": 4,
@@ -1100,7 +1100,7 @@
                     "endOffset": 5686
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1120,7 +1120,7 @@
                     "endOffset": 6084
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads-lite\\15.0.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/15.0.0/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -1140,7 +1140,7 @@
                     "endOffset": 6156
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
                     "position": {
                         "startLine": 59,
                         "startColumn": 4,
@@ -1159,7 +1159,1179 @@
                     "endOffset": 6223
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values/values.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 3765,
+                        "endColumn": 66,
+                        "endOffset": 3827
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 68,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 68,
+                        "endOffset": 119
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 174,
+                    "endColumn": 62,
+                    "endOffset": 232
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 124,
+                        "endColumn": 62,
+                        "endOffset": 182
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 237,
+                    "endColumn": 88,
+                    "endOffset": 321
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 88,
+                        "endOffset": 139
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 326,
+                    "endColumn": 70,
+                    "endOffset": 392
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 144,
+                        "endColumn": 70,
+                        "endOffset": 210
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 397,
+                    "endColumn": 57,
+                    "endOffset": 450
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 187,
+                        "endColumn": 57,
+                        "endOffset": 240
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 455,
+                    "endColumn": 72,
+                    "endOffset": 523
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 215,
+                        "endColumn": 72,
+                        "endOffset": 283
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 528,
+                    "endColumn": 73,
+                    "endOffset": 597
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 245,
+                        "endColumn": 73,
+                        "endOffset": 314
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1610,
+                    "endColumn": 69,
+                    "endOffset": 1675
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1153,
+                        "endColumn": 69,
+                        "endOffset": 1218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1680,
+                    "endColumn": 67,
+                    "endOffset": 1743
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1223,
+                        "endColumn": 67,
+                        "endOffset": 1286
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1748,
+                    "endColumn": 71,
+                    "endOffset": 1815
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1291,
+                        "endColumn": 71,
+                        "endOffset": 1358
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1820,
+                    "endColumn": 69,
+                    "endOffset": 1885
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1363,
+                        "endColumn": 69,
+                        "endOffset": 1428
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1890,
+                    "endColumn": 60,
+                    "endOffset": 1946
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1433,
+                        "endColumn": 60,
+                        "endOffset": 1489
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1951,
+                    "endColumn": 60,
+                    "endOffset": 2007
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1494,
+                        "endColumn": 60,
+                        "endOffset": 1550
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2012,
+                    "endColumn": 60,
+                    "endOffset": 2068
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1555,
+                        "endColumn": 60,
+                        "endOffset": 1611
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2073,
+                    "endColumn": 61,
+                    "endOffset": 2130
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1616,
+                        "endColumn": 61,
+                        "endOffset": 1673
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2135,
+                    "endColumn": 63,
+                    "endOffset": 2194
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1678,
+                        "endColumn": 63,
+                        "endOffset": 1737
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2199,
+                    "endColumn": 61,
+                    "endOffset": 2256
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1742,
+                        "endColumn": 61,
+                        "endOffset": 1799
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 2261,
+                    "endColumn": 60,
+                    "endOffset": 2317
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1804,
+                        "endColumn": 60,
+                        "endOffset": 1860
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2322,
+                    "endColumn": 67,
+                    "endOffset": 2385
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1865,
+                        "endColumn": 67,
+                        "endOffset": 1928
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2390,
+                    "endColumn": 99,
+                    "endOffset": 2485
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1933,
+                        "endColumn": 99,
+                        "endOffset": 2028
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2490,
+                    "endColumn": 59,
+                    "endOffset": 2545
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 2033,
+                        "endColumn": 59,
+                        "endOffset": 2088
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2550,
+                    "endColumn": 65,
+                    "endOffset": 2611
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 2093,
+                        "endColumn": 65,
+                        "endOffset": 2154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2616,
+                    "endColumn": 72,
+                    "endOffset": 2684
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 2159,
+                        "endColumn": 72,
+                        "endOffset": 2227
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2689,
+                    "endColumn": 68,
+                    "endOffset": 2753
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 2232,
+                        "endColumn": 68,
+                        "endOffset": 2296
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2758,
+                    "endColumn": 56,
+                    "endOffset": 2810
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 2301,
+                        "endColumn": 56,
+                        "endOffset": 2353
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2815,
+                    "endColumn": 51,
+                    "endOffset": 2862
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 2358,
+                        "endColumn": 51,
+                        "endOffset": 2405
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2867,
+                    "endColumn": 61,
+                    "endOffset": 2924
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 2410,
+                        "endColumn": 61,
+                        "endOffset": 2467
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2929,
+                    "endColumn": 71,
+                    "endOffset": 2996
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 2472,
+                        "endColumn": 71,
+                        "endOffset": 2539
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 3001,
+                    "endColumn": 75,
+                    "endOffset": 3072
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 2544,
+                        "endColumn": 75,
+                        "endOffset": 2615
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 3077,
+                    "endColumn": 34,
+                    "endOffset": 3107
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 2620,
+                        "endColumn": 34,
+                        "endOffset": 2650
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 3112,
+                    "endColumn": 34,
+                    "endOffset": 3142
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 2655,
+                        "endColumn": 34,
+                        "endOffset": 2685
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 3147,
+                    "endColumn": 33,
+                    "endOffset": 3176
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 2690,
+                        "endColumn": 33,
+                        "endOffset": 2719
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 3181,
+                    "endColumn": 34,
+                    "endOffset": 3211
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 2724,
+                        "endColumn": 34,
+                        "endOffset": 2754
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3216,
+                    "endColumn": 34,
+                    "endOffset": 3246
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 2759,
+                        "endColumn": 34,
+                        "endOffset": 2789
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3251,
+                    "endColumn": 59,
+                    "endOffset": 3306
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 288,
+                        "endColumn": 59,
+                        "endOffset": 343
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 3311,
+                    "endColumn": 67,
+                    "endOffset": 3374
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\15.0.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 238,
+                        "endColumn": 63,
+                        "endOffset": 301
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 3379,
+                    "endColumn": 69,
+                    "endOffset": 3444
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 2794,
+                        "endColumn": 69,
+                        "endOffset": 2859
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 3449,
+                    "endColumn": 44,
+                    "endOffset": 3489
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 44,
+                        "endOffset": 96
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 3494,
+                    "endColumn": 166,
+                    "endOffset": 3656
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\15.0.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 401,
+                        "endColumn": 166,
+                        "endOffset": 567
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 3661,
+                    "endColumn": 41,
+                    "endOffset": 3698
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 168,
+                        "endColumn": 37,
+                        "endOffset": 205
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 3703,
+                    "endColumn": 76,
+                    "endOffset": 3775
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 206,
+                        "endColumn": 72,
+                        "endOffset": 278
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 3780,
+                    "endColumn": 37,
+                    "endOffset": 3813
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 279,
+                        "endColumn": 33,
+                        "endOffset": 312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 3818,
+                    "endColumn": 38,
+                    "endOffset": 3852
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 313,
+                        "endColumn": 34,
+                        "endOffset": 347
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 3857,
+                    "endColumn": 52,
+                    "endOffset": 3905
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 348,
+                        "endColumn": 48,
+                        "endOffset": 396
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 3910,
+                    "endColumn": 67,
+                    "endOffset": 3973
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 397,
+                        "endColumn": 63,
+                        "endOffset": 460
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 3978,
+                    "endColumn": 38,
+                    "endOffset": 4012
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 461,
+                        "endColumn": 34,
+                        "endOffset": 495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 4017,
+                    "endColumn": 70,
+                    "endOffset": 4083
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 2864,
+                        "endColumn": 70,
+                        "endOffset": 2930
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 4088,
+                    "endLine": 70,
+                    "endColumn": 12,
+                    "endOffset": 4546
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 17,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 475
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 4551,
+                    "endColumn": 116,
+                    "endOffset": 4663
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 2935,
+                        "endColumn": 116,
+                        "endOffset": 3047
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 4668,
+                    "endLine": 75,
+                    "endColumn": 12,
+                    "endOffset": 4864
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 3052,
+                        "endLine": 52,
+                        "endColumn": 12,
+                        "endOffset": 3248
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 4869,
+                    "endColumn": 65,
+                    "endOffset": 4930
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 348,
+                        "endColumn": 65,
+                        "endOffset": 409
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 4935,
+                    "endColumn": 109,
+                    "endOffset": 5040
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 3253,
+                        "endColumn": 109,
+                        "endOffset": 3358
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 5045,
+                    "endColumn": 121,
+                    "endOffset": 5162
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 414,
+                        "endColumn": 121,
+                        "endOffset": 531
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 5167,
+                    "endColumn": 60,
+                    "endOffset": 5223
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 536,
+                        "endColumn": 60,
+                        "endOffset": 592
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 5228,
+                    "endLine": 83,
+                    "endColumn": 12,
+                    "endOffset": 5424
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 3363,
+                        "endLine": 57,
+                        "endColumn": 12,
+                        "endOffset": 3559
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 5429,
+                    "endColumn": 65,
+                    "endOffset": 5490
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 597,
+                        "endColumn": 65,
+                        "endOffset": 658
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 5495,
+                    "endColumn": 128,
+                    "endOffset": 5619
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 3564,
+                        "endColumn": 128,
+                        "endOffset": 3688
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 5624,
+                    "endColumn": 66,
+                    "endOffset": 5686
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 663,
+                        "endColumn": 66,
+                        "endOffset": 725
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 5691,
+                    "endLine": 94,
+                    "endColumn": 8,
+                    "endOffset": 6084
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads-lite\\15.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 165,
+                        "endLine": 11,
+                        "endColumn": 8,
+                        "endOffset": 558
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 6089,
+                    "endColumn": 71,
+                    "endOffset": 6156
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 3693,
+                        "endColumn": 71,
+                        "endOffset": 3760
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 6161,
+                    "endColumn": 66,
+                    "endOffset": 6223
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values\\values.xml",
                     "position": {
                         "startLine": 60,
                         "startColumn": 4,

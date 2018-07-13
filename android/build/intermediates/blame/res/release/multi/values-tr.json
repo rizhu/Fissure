@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-tr\\values-tr.xml",
+        "outputFile": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-tr\\values-tr.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 306
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\15.0.1\\res\\values-tr\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\15.0.1\\res\\values-tr\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -30,7 +30,7 @@
                     "endOffset": 379
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values-tr\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values-tr\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -49,7 +49,7 @@
                     "endOffset": 504
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values-tr\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values-tr\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -68,7 +68,7 @@
                     "endOffset": 574
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values-tr\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values-tr\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -87,7 +87,7 @@
                     "endOffset": 642
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values-tr\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values-tr\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -106,7 +106,7 @@
                     "endOffset": 728
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values-tr\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values-tr\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -125,7 +125,7 @@
                     "endOffset": 848
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values-tr\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values-tr\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 0,
@@ -144,7 +144,7 @@
                     "endOffset": 922
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values-tr\\values.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\15.0.0\\res\\values-tr\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 0,
@@ -163,7 +163,183 @@
                     "endOffset": 1023
                 },
                 "from": {
-                    "file": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values-tr\\values-tr.xml",
+                    "file": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values-tr\\values-tr.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 100,
+                        "endOffset": 151
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-tr/values-tr.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 205,
+                    "endOffset": 306
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/15.0.1/res/values-tr/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 247,
+                        "endColumn": 205,
+                        "endOffset": 452
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 311,
+                    "endColumn": 72,
+                    "endOffset": 379
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/15.0.0/res/values-tr/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 197,
+                        "endColumn": 68,
+                        "endOffset": 265
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 384,
+                    "endColumn": 124,
+                    "endOffset": 504
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/15.0.0/res/values-tr/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 266,
+                        "endColumn": 120,
+                        "endOffset": 386
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 509,
+                    "endColumn": 69,
+                    "endOffset": 574
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/15.0.0/res/values-tr/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 387,
+                        "endColumn": 65,
+                        "endOffset": 452
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 579,
+                    "endColumn": 67,
+                    "endOffset": 642
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/15.0.0/res/values-tr/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 453,
+                        "endColumn": 63,
+                        "endOffset": 516
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 647,
+                    "endColumn": 85,
+                    "endOffset": 728
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/15.0.0/res/values-tr/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 517,
+                        "endColumn": 81,
+                        "endOffset": 598
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 733,
+                    "endColumn": 119,
+                    "endOffset": 848
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/15.0.0/res/values-tr/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 599,
+                        "endColumn": 115,
+                        "endOffset": 714
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 853,
+                    "endColumn": 73,
+                    "endOffset": 922
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/15.0.0/res/values-tr/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 715,
+                        "endColumn": 69,
+                        "endOffset": 784
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 927,
+                    "endColumn": 100,
+                    "endOffset": 1023
+                },
+                "from": {
+                    "file": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/values-tr/values-tr.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

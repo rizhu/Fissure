@@ -19,8 +19,9 @@ import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator.FreeTypeFont
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.GlyphLayout;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import java.math.BigDecimal;
 import static com.badlogic.gdx.scenes.scene2d.actions.Actions.*;
+
+import java.math.BigDecimal;
 
 /*
     Screen handling all gameplay
@@ -61,21 +62,26 @@ public class FissureGameScreen extends ScreenAdapter {
     private BitmapFont mFont;
     private GlyphLayout mLayout;
     private BigDecimal mScore;
-    private final float m_DELTA_FISSURE = 2.3f;
-    private float mElapsedTime, mPixelX, mPixelY;
+    private float mElapsedTime;
+    private float mPixelX, mPixelY; // The graphics in Fissure simulate a retro gaming environment and so the size of pixels on screen do not correspond to the
+                                    // native resolution of the screen. These 2 variables offer a conversion between the retro pixels to the device's native resolution.
+                                    // Separate conversions exists for the X and Y axes because not every device is perfectly 16:9.
 
-    private float mShowAds = 0.0f;
     private boolean mShowAdOnBackToHome;
     private int mAdCounter = 0;
+
+    private final float TIME_BETWEEN_FISSURES = 2.3f;
+    private final int NUM_TILES = 144;
+    private final float MINER_SPEED_MULTIPLIER = 0.00165f;
 
     public FissureGameScreen(TextureAtlas atlas) {
         mViewport = new ScreenViewport();
 
         mMiner = new Miner(mViewport, atlas);
-        mTiles = new Array<Tile>(true, 144);
-        mIntegers = new Array<Integer>(true, 144);
-        for (int i = 0; i < 144; i++) mIntegers.add(new Integer(i));
-        for (int i = 0; i < 144; i++) mTiles.add(new Tile(mViewport, atlas, i));
+        mTiles = new Array<Tile>(true, NUM_TILES);
+        mIntegers = new Array<Integer>(true, NUM_TILES);
+        for (int i = 0; i < NUM_TILES; i++) mIntegers.add(new Integer(i));
+        for (int i = 0; i < NUM_TILES; i++) mTiles.add(new Tile(mViewport, atlas, i));
 
         mLogo = new FissureLogo(mViewport, atlas);
         mTapPrompt = new TapPrompt(mViewport, atlas);
@@ -98,7 +104,6 @@ public class FissureGameScreen extends ScreenAdapter {
 
         mBatch = new SpriteBatch();
 
-        mShowAds = 0.0f;
         mAdCounter = 0;
 
         mTitleUI = new FissureTitleUI(mViewport, mBatch);
@@ -108,14 +113,15 @@ public class FissureGameScreen extends ScreenAdapter {
         mGameUI = new FissureGameUI(mViewport, mBatch);
 
         /*
-            Creates touch-to-move mechanism for Miner
+            Moves the middle of the Miner's feet to the location of a touch on screen
          */
+
         mWorld.addListener(new InputListener() {
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
                 mMiner.clearActions();
                 mMiner.addAction(moveTo(x - mMiner.getWidth() / 2, y,
-                        (Math.abs((x - mMiner.getX()) / mPixelX) + Math.abs((y - mMiner.getY()) / mPixelY)) * 0.00165f));
+                        (Math.abs((x - mMiner.getX()) / mPixelX) + Math.abs((y - mMiner.getY()) / mPixelY)) * MINER_SPEED_MULTIPLIER));
                 return true;
             }
         });
@@ -133,7 +139,7 @@ public class FissureGameScreen extends ScreenAdapter {
     public void resize(int width, int height) {
         mViewport.update(width, height);
 
-        mPixelX = mViewport.getScreenWidth() / 16f / 32f;
+        mPixelX = mViewport.getScreenWidth() / 16f / 32f; // Each Tile is a square of 32 x 32 retro tiles and the playing area is a 16 x 9 grid of Tiles
         mPixelY = mViewport.getScreenHeight() / 9f / 32f;
 
         mMiner.init();
@@ -150,6 +156,7 @@ public class FissureGameScreen extends ScreenAdapter {
         /*
             Brings player to Credits menu by fading out all children of Title UI
          */
+
         mCredits.addListener(new InputListener(){
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
@@ -179,10 +186,11 @@ public class FissureGameScreen extends ScreenAdapter {
         /*
             Allows the player to touch to begin game sequence
          */
+
         mTitleUI.addListener(new InputListener() {
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                if (event.isHandled()) return true;
+                if (event.isHandled()) return true; // Only starts game sequence if the user touched in an area that other buttons do not occupy
                 mLogo.addAction(sequence(
                         run(new Runnable() {
                                 @Override
@@ -358,38 +366,8 @@ public class FissureGameScreen extends ScreenAdapter {
 
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT | GL20.GL_DEPTH_BUFFER_BIT);
 
-        if (Gdx.input.getInputProcessor().equals(mWorld) && mMiner.isAlive && mElapsedTime % m_DELTA_FISSURE < delta) {
-            mIntegers.shuffle();
-            if (mBreakCount < 2) {
-                for (int i = 0; i < 36; i++) {
-                    mTiles.get(mIntegers.get(i)).breakTile();
-                }
-            } else if (mBreakCount < 3) {
-                for (int i = 0; i < 54; i++) {
-                    mTiles.get(mIntegers.get(i)).breakTile();
-                }
-            } else if (mBreakCount < 5) {
-                for (int i = 0; i < 72; i++) {
-                    mTiles.get(mIntegers.get(i)).breakTile();
-                }
-            } else if (mBreakCount < 7) {
-                for (int i = 0; i < 90; i++) {
-                    mTiles.get(mIntegers.get(i)).breakTile();
-                }
-            }else if (mBreakCount < 8) {
-                for (int i = 0; i < 108; i++) {
-                    mTiles.get(mIntegers.get(i)).breakTile();
-                }
-            }else if (mBreakCount < 18) {
-                for (int i = 0; i < 128; i++) {
-                    mTiles.get(mIntegers.get(i)).breakTile();
-                }
-            } else {
-                for (int i = 0; i < 130; i++) {
-                    mTiles.get(mIntegers.get(i)).breakTile();
-                }
-            }
-            mBreakCount++;
+        if (Gdx.input.getInputProcessor().equals(mWorld) && mMiner.isAlive && mElapsedTime % TIME_BETWEEN_FISSURES < delta) {
+            breakTiles();
         }
 
         if (mMiner.isAlive || (!mMiner.isAlive && !mMiner.isDeathDone)) {
@@ -428,40 +406,13 @@ public class FissureGameScreen extends ScreenAdapter {
         }
 
         if (!Gdx.input.getInputProcessor().equals(mTitleUI) && !Gdx.input.getInputProcessor().equals(mCreditsUI) && mMiner.isAlive || (!mMiner.isAlive && !mMiner.isDeathDone)) {
-            mBatch.begin();
-            mLayout.setText(mFont, "" + mScore);
-            mFont.draw(mBatch, mLayout, mViewport.getScreenWidth() - 10 - mLayout.width, mViewport.getScreenHeight() - 10 - mLayout.height / 3);
-            mBatch.end();
+            drawScore();
         }
 
         mMiner.checkSafe(mTiles);
 
        if (!mMiner.isAlive && mMiner.isDeathDone && !Gdx.input.getInputProcessor().equals(mGameUI)) {
-           Gdx.input.setInputProcessor(mGameUI);
-
-           mScoreBG.mScore = mScore;
-
-           if (mScore.setScale(2, BigDecimal.ROUND_UP).floatValue() > mData.getFloat("highScore")) {
-               mData.putFloat("highScore", mScore.setScale(2, BigDecimal.ROUND_UP).floatValue());
-               mData.flush();
-           }
-
-           mScoreBG.updateHighScore();
-
-           mGameOverPrompt.addAction(sequence(fadeIn(0.25f),
-                   moveTo(mGameOverPrompt.getX(), mGameOverPrompt.getY() - 16f * mPixelY, 0.25f)));
-           mScoreBG.addAction(delay(0.25f,
-                   moveTo(mViewport.getScreenWidth() / 2 - mScoreBG.getWidth() / 2, mViewport.getScreenHeight() / 2 - mScoreBG.getHeight() / 2,
-                   0.25f)));
-           mReplay.addAction(delay(0.5f, sequence(fadeIn(0.2f),
-                   Actions.run(new Runnable() {
-                       @Override
-                       public void run() {
-                           mReplay.setTouchable(Touchable.enabled);
-                           mHome.setTouchable(Touchable.enabled);
-                       }
-                   }))));
-           mHome.addAction(delay(0.5f, fadeIn(0.2f)));
+           doMinerDeathSequence();
        }
     }
 
@@ -483,6 +434,40 @@ public class FissureGameScreen extends ScreenAdapter {
         this.mActionResolver = actionResolver;
     }
 
+    private void breakTiles() {
+        mIntegers.shuffle();
+        if (mBreakCount < 2) {
+            for (int i = 0; i < 36; i++) {
+                mTiles.get(mIntegers.get(i)).breakTile();
+            }
+        } else if (mBreakCount < 3) {
+            for (int i = 0; i < 54; i++) {
+                mTiles.get(mIntegers.get(i)).breakTile();
+            }
+        } else if (mBreakCount < 5) {
+            for (int i = 0; i < 72; i++) {
+                mTiles.get(mIntegers.get(i)).breakTile();
+            }
+        } else if (mBreakCount < 7) {
+            for (int i = 0; i < 90; i++) {
+                mTiles.get(mIntegers.get(i)).breakTile();
+            }
+        }else if (mBreakCount < 8) {
+            for (int i = 0; i < 108; i++) {
+                mTiles.get(mIntegers.get(i)).breakTile();
+            }
+        }else if (mBreakCount < 18) {
+            for (int i = 0; i < 128; i++) {
+                mTiles.get(mIntegers.get(i)).breakTile();
+            }
+        } else {
+            for (int i = 0; i < 130; i++) {
+                mTiles.get(mIntegers.get(i)).breakTile();
+            }
+        }
+        mBreakCount++;
+    }
+
     private boolean doAdCheck() {
         mAdCounter += MathUtils.random(1, 2);
         if (mAdCounter >= 5) {
@@ -495,7 +480,44 @@ public class FissureGameScreen extends ScreenAdapter {
         return false;
     }
 
+    private void doMinerDeathSequence() {
+        Gdx.input.setInputProcessor(mGameUI);
+        mActionResolver.showBanner(true);
+
+        mScoreBG.mScore = mScore;
+
+        if (mScore.setScale(2, BigDecimal.ROUND_UP).floatValue() > mData.getFloat("highScore")) {
+            mData.putFloat("highScore", mScore.setScale(2, BigDecimal.ROUND_UP).floatValue());
+            mData.flush();
+        }
+
+        mScoreBG.updateHighScore();
+
+        mGameOverPrompt.addAction(sequence(fadeIn(0.25f),
+                moveTo(mGameOverPrompt.getX(), mGameOverPrompt.getY() - 16f * mPixelY, 0.25f)));
+        mScoreBG.addAction(delay(0.25f,
+                moveTo(mViewport.getScreenWidth() / 2 - mScoreBG.getWidth() / 2, mViewport.getScreenHeight() / 2 - mScoreBG.getHeight() / 2,
+                        0.25f)));
+        mReplay.addAction(delay(0.5f, sequence(fadeIn(0.2f),
+                Actions.run(new Runnable() {
+                    @Override
+                    public void run() {
+                        mReplay.setTouchable(Touchable.enabled);
+                        mHome.setTouchable(Touchable.enabled);
+                    }
+                }))));
+        mHome.addAction(delay(0.5f, fadeIn(0.2f)));
+    }
+
+    private void drawScore() {
+        mBatch.begin();
+        mLayout.setText(mFont, "" + mScore);
+        mFont.draw(mBatch, mLayout, mViewport.getScreenWidth() - 10 - mLayout.width, mViewport.getScreenHeight() - 10 - mLayout.height / 3);
+        mBatch.end();
+    }
+
     private void resetGame() {
+        mActionResolver.showBanner(false);
         if (doAdCheck()) {
             return;
         }
@@ -516,6 +538,7 @@ public class FissureGameScreen extends ScreenAdapter {
     }
 
     private void backToHome() {
+        mActionResolver.showBanner(false);
         if (mShowAdOnBackToHome && doAdCheck()) {
             return;
         }

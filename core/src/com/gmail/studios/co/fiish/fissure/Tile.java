@@ -1,6 +1,5 @@
 package com.gmail.studios.co.fiish.fissure;
 
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
@@ -11,7 +10,7 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 
 /*
     Individual tile on map. Has ID based on location (bottom left = 0, top right = 143) and has coordinates relative
-    to other tiles (bottom left = (0, 0), top right = (15, 8). Frozen state used to isolate cracking sequence to only
+    to other tiles (bottom left = (0, 0), top right = (15, 8)). Frozen state used to isolate cracking sequence to only
     during gameplay
  */
 

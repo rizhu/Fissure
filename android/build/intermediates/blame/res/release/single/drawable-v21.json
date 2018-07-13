@@ -1,6 +1,10 @@
 [
     {
-        "merged": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\res\\merged\\release\\drawable-v21\\notification_action_background.xml",
-        "source": "D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\drawable-v21\\notification_action_background.xml"
+        "merged": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\res\\merged\\release\\drawable-v21\\notification_action_background.xml",
+        "source": "/Users/richard/Programming/libGDX/Fissure/D:\\Richard\\Programming\\libGDX\\Fissure\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\drawable-v21\\notification_action_background.xml"
     }
 ]
