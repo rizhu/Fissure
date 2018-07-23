@@ -1,0 +1,23 @@
+#Internal package file, do not edit.
+#Sun Jul 22 17:14:25 PDT 2018
+2.base=/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/assets/debug
+0.path=death.wav
+2.baseType=DIRECTORY
+3.base=/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/assets/debug
+2.set=ASSET
+1.path=spritesheet.png
+4.base=/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/assets/debug
+count=5
+2.path=font.ttf
+4.set=ASSET
+3.path=spritesheet.atlas
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=fiishco.png
+1.baseType=DIRECTORY
+0.base=/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/assets/debug
+0.baseType=DIRECTORY
+3.set=ASSET
+1.base=/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/assets/debug
+4.baseType=DIRECTORY
+0.set=ASSET

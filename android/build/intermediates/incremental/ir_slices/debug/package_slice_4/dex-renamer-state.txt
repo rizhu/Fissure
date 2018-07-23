@@ -1,0 +1,4 @@
+#Sun Jul 22 18:15:07 PDT 2018
+base.0=/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/transforms/dexMerger/debug/21
+path.0=classes.dex
+renamed.0=classes.dex

@@ -25,6 +25,9 @@
       </value>
     </option>
   </component>
+  <component name="ProjectResources">
+    <resource url="http://google-web-toolkit.googlecode.com/svn/trunk/distro-source/core/src/gwt-module.dtd" location="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

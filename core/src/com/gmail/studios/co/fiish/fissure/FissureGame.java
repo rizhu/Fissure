@@ -9,10 +9,11 @@ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
  */
 
 public class FissureGame extends Game {
+
 	private TextureAtlas mAtlas;
-	FiishCoScreen mFiishCoScreen;
-	FissureGameScreen mFissureGameScreen;
-	ActionResolver mActionResolver;
+	private FiishCoScreen mFiishCoScreen;
+	private FissureGameScreen mFissureGameScreen;
+	private ActionResolver mActionResolver;
 
 	public FissureGame() {
 		super();

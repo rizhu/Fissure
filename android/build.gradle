@@ -1,10 +1,11 @@
+apply plugin: 'com.android.application'
 android {
     signingConfigs {
         defaultConfig {
-
+            //signing
         }
     }
-    buildToolsVersion "25.0.3"
+    buildToolsVersion '27.0.3'
     compileSdkVersion 26
     sourceSets {
         main {
@@ -17,17 +18,17 @@ android {
             jniLibs.srcDirs = ['libs']
         }
 
-        instrumentTest.setRoot('tests')
+        androidTest.setRoot('tests')
     }
     packagingOptions {
         exclude 'META-INF/robovm/ios/robovm.xml'
     }
     defaultConfig {
         applicationId "com.gmail.co.studios.fiish.fissure"
-        minSdkVersion 14
+        minSdkVersion 15
         targetSdkVersion 26
-        versionCode 11
-        versionName "1.2.1"
+        versionCode 12
+        versionName "1.2.2"
     }
     buildTypes {
         release {
@@ -137,5 +138,8 @@ idea {
     }
 }
 dependencies {
-    compile 'com.google.android.gms:play-services-ads:15.0.0'
+    implementation 'com.google.android.gms:play-services-auth:15.0.1'
+    implementation 'com.google.android.gms:play-services-identity:15.0.1'
+    implementation 'com.google.android.gms:play-services-games:15.0.1'
+    implementation 'com.google.android.gms:play-services-ads:15.0.1'
 }

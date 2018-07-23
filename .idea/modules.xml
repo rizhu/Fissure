@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/Fissure.iml" filepath="$PROJECT_DIR$/Fissure.iml" />
       <module fileurl="file://$PROJECT_DIR$/android/android.iml" filepath="$PROJECT_DIR$/android/android.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/desktop/desktop.iml" filepath="$PROJECT_DIR$/desktop/desktop.iml" />
       <module fileurl="file://$PROJECT_DIR$/ios/ios.iml" filepath="$PROJECT_DIR$/ios/ios.iml" />
       <module fileurl="file://$PROJECT_DIR$/ios-moe/ios-moe.iml" filepath="$PROJECT_DIR$/ios-moe/ios-moe.iml" />
     </modules>

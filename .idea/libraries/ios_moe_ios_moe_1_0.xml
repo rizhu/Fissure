@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ios-moe.ios-moe-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ios-moe/build/libs/ios-moe-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

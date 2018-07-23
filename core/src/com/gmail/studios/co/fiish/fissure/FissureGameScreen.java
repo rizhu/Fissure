@@ -114,19 +114,7 @@ public class FissureGameScreen extends ScreenAdapter {
         mWorld = new FissureWorld(mViewport, mBatch);
         mGameUI = new FissureGameUI(mViewport, mBatch);
 
-        /*
-            Moves the middle of the Miner's feet to the location of a touch on screen
-         */
-
-        mWorld.addListener(new InputListener() {
-            @Override
-            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                mMiner.clearActions();
-                mMiner.addAction(moveTo(x - mMiner.getWidth() / 2, y,
-                        (Math.abs((x - mMiner.getX()) / mPixelX) + Math.abs((y - mMiner.getY()) / mPixelY)) * MINER_SPEED_MULTIPLIER));
-                return true;
-            }
-        });
+        setUpWorldListener();
 
         mGenerator = new FreeTypeFontGenerator(Gdx.files.internal("font.ttf"));
         mParam = new FreeTypeFontParameter();
@@ -155,184 +143,18 @@ public class FissureGameScreen extends ScreenAdapter {
         mLogo.init();
         mTapPrompt.init();
         mCredits.init();
-
-        /*
-            Brings player to Credits menu by fading out all children of Title UI
-         */
-
-        mCredits.addListener(new InputListener(){
-            @Override
-            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                mCredits.addAction(sequence(moveTo(mCredits.getX(), mCredits.getY() - 3f * mPixelY, 0.1f),
-                        moveTo(mCredits.getX(), mViewport.getScreenHeight() / 9f / 32f * 5, 0.1f),
-                        run(new Runnable() {
-                            @Override
-                            public void run() {
-                                mTapPrompt.clearActions();
-                                mTapPrompt.addAction(fadeOut(0.3f));
-                                mLogo.addAction(fadeOut(0.3f));
-                                mCredits.addAction(fadeOut(0.3f));
-                            }
-                        }),
-                        delay(0.3f, run(new Runnable() {
-                            @Override
-                            public void run() {
-                                Gdx.input.setInputProcessor(mCreditsUI);
-                                mCreditsBG.addAction(fadeIn(0.3f));
-                                mBackLeftButton.addAction(fadeIn(0.3f));
-                            }
-                        }))));
-                return true;
-            }
-        });
-
-        /*
-            Allows the player to touch to begin game sequence
-         */
-
-        mTitleUI.addListener(new InputListener() {
-            @Override
-            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                if (event.isHandled()) return true; // Only starts game sequence if the user touched in an area that other buttons do not occupy
-                mLogo.addAction(sequence(
-                        run(new Runnable() {
-                                @Override
-                                public void run() {
-                                if (!mData.getBoolean("firstPlay", true)) {
-                                    mTapPrompt.clearActions();
-                                    mTapPrompt.addAction(fadeOut(0.3f));
-                                } else {
-                                    mHelpUI.addActor(mTapPrompt);
-                                }
-                                mLogo.addAction(fadeOut(0.3f));
-                                mCredits.addAction(fadeOut(0.3f));
-                            }
-                        }),
-                        delay(0.2f, run(new Runnable() {
-                                @Override
-                                public void run() {
-                                    if (mData.getBoolean("firstPlay", true)) {
-                                        mHelpPrompt.init();
-                                        mHelpUI.addActor(mHelpPrompt);
-                                        mHelpUI.addListener(new InputListener(){
-                                                @Override
-                                                public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                                                    mHelpPrompt.clearActions();
-                                                    mTapPrompt.clearActions();
-                                                    mTapPrompt.addAction(fadeOut(0.3f));
-                                                    mHelpPrompt.addAction(sequence(
-                                                    fadeOut(0.25f),
-                                                    delay(0.25f),
-                                                    Actions.run(new Runnable() {
-                                                        @Override
-                                                        public void run() {
-                                                        mData.putBoolean("firstPlay", false);
-                                                        mData.flush();
-                                                        mHelpUI.clear();
-                                                        mTitleUI.addActor(mTapPrompt);
-                                                        Gdx.input.setInputProcessor(mWorld);
-                                                        }
-                                                    })
-                                                ));
-                                                return true;
-                                            }
-                                        });
-                                        mHelpPrompt.addAction(fadeIn(0.25f));
-                                        Gdx.input.setInputProcessor(mHelpUI);
-                                    } else {
-                                        Gdx.input.setInputProcessor(mWorld);
-                                    }
-                                }
-                        }))));
-                return true;
-            }
-        });
+        setUpCreditsButtonListener();
+        setUpTitleUIListener();
 
         mCreditsBG.init();
         mBackLeftButton.init();
-
-        mBackLeftButton.addListener(new InputListener(){
-            @Override
-            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                mBackLeftButton.addAction(sequence(moveTo(mBackLeftButton.getX(), mBackLeftButton.getY() - 3f * mPixelY, 0.1f),
-                        moveTo(mBackLeftButton.getX(), mViewport.getScreenHeight() / 9f / 32f * 5, 0.1f),
-                        run(new Runnable() {
-                            @Override
-                            public void run() {
-                            mBackLeftButton.setTouchable(Touchable.disabled);
-                            mBackLeftButton.addAction(fadeOut(0.3f));
-                            mCreditsBG.addAction(fadeOut(0.3f));
-                            }
-                        }),
-                        delay(0.25f, run(new Runnable() {
-                            @Override
-                            public void run() {
-                                backToHome();
-                            }
-                        }))));
-                return true;
-            }
-        });
+        setUpBackLeftButtonListener();
 
         mScoreBG.init();
         mReplay.init();
         mHome.init();
-
-        mReplay.addListener(new InputListener(){
-            @Override
-            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                mScoreBG.setTouchable(Touchable.disabled);
-                mReplay.setTouchable(Touchable.disabled);
-                mHome.setTouchable(Touchable.disabled);
-
-                mReplay.addAction(sequence(moveTo(mReplay.getX(), mReplay.getY() - 3f * mPixelY, 0.1f),
-                        moveTo(mReplay.getX(), mReplay.getY() + 3f * mPixelY, 0.1f),
-                        Actions.run(new Runnable() {
-                            @Override
-                            public void run() {
-                                mGameOverPrompt.addAction(sequence(fadeOut(0.25f), moveTo(mGameOverPrompt.getX(), mGameOverPrompt.getY() + 16f * mPixelY, 0.25f)));
-                                mReplay.addAction(fadeOut(0.2f));
-                                mHome.addAction(fadeOut(0.2f));
-                                mScoreBG.addAction(delay(0.2f, sequence(moveTo(mScoreBG.getX(), mViewport.getScreenHeight() + 10, 0.15f),
-                                        Actions.run(new Runnable() {
-                                            @Override
-                                            public void run() {
-                                                resetGame();
-                                            }}))));
-                            }
-                        })));
-
-                return  true;
-            }
-        });
-
-        mHome.addListener(new InputListener(){
-            @Override
-            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                mScoreBG.setTouchable(Touchable.disabled);
-                mReplay.setTouchable(Touchable.disabled);
-                mHome.setTouchable(Touchable.disabled);
-
-                mHome.addAction(sequence(moveTo(mHome.getX(), mHome.getY() - 3f * mPixelY, 0.1f),
-                        moveTo(mHome.getX(), mHome.getY() + 3f * mPixelY, 0.1f),
-                        Actions.run(new Runnable() {
-                            @Override
-                            public void run() {
-                                mGameOverPrompt.addAction(sequence(fadeOut(0.25f), moveTo(mGameOverPrompt.getX(), mGameOverPrompt.getY() + 16f * mPixelY, 0.25f)));
-                                mHome.addAction(fadeOut(0.2f));
-                                mReplay.addAction(fadeOut(0.2f));
-                                mScoreBG.addAction(delay(0.2f, sequence(moveTo(mScoreBG.getX(), mViewport.getScreenHeight() + 10, 0.15f),
-                                        Actions.run(new Runnable() {
-                                            @Override
-                                            public void run() {
-                                                backToHome();
-                                            }
-                                        }))));
-                            }
-                        })));
-                return  true;
-            }
-        });
+        setUpReplayButtonListener();
+        setUpHomeButtonListener();
 
         mTitleUI.addActor(mLogo);
         mTitleUI.addActor(mTapPrompt);
@@ -361,7 +183,9 @@ public class FissureGameScreen extends ScreenAdapter {
 
         if (mScoreBGActive) {
             mScoreBGActive = false;
-            doAdCheck();
+            mAdCounter += MathUtils.random(1, 2);
+            mData.putInteger("adCounter", mAdCounter);
+            mData.flush();
         }
     }
 
@@ -438,8 +262,44 @@ public class FissureGameScreen extends ScreenAdapter {
         mBatch.dispose();
     }
 
-    public void setActionResolver(ActionResolver actionResolver) {
-        this.mActionResolver = actionResolver;
+    /*
+        Helper methods sorted alphabetically by signature
+     */
+
+    private void backToHome() {
+        mActionResolver.showBanner(false);
+        if (mShowAdOnBackToHome && doAdCheck()) {
+            return;
+        }
+        mShowAdOnBackToHome = true;
+
+        mLogo.reset();
+        mTapPrompt.reset();
+        mCredits.reset();
+
+        mCreditsBG.reset();
+        mBackLeftButton.reset();
+
+        for (int i = 0; i < mTiles.size; i++) mTiles.get(i).reset();
+        mMiner.reset();
+
+        mHome.reset();
+        mReplay.reset();
+
+        mGameOverPrompt.reset();
+        mScoreBG.reset();
+
+        mElapsedTime = 0;
+        mBreakCount = 0;
+
+        Gdx.input.setInputProcessor(mTitleUI);
+        mScoreBGActive = false;
+    }
+
+    private BigDecimal round(float d, int decimalPlace) {
+        BigDecimal bd = new BigDecimal(Float.toString(d));
+        bd = bd.setScale(decimalPlace, BigDecimal.ROUND_HALF_UP);
+        return bd;
     }
 
     private void breakTiles() {
@@ -549,40 +409,199 @@ public class FissureGameScreen extends ScreenAdapter {
         mScoreBGActive = false;
     }
 
-    private void backToHome() {
-        mActionResolver.showBanner(false);
-        if (mShowAdOnBackToHome && doAdCheck()) {
-            return;
-        }
-        mShowAdOnBackToHome = true;
-
-        mLogo.reset();
-        mTapPrompt.reset();
-        mCredits.reset();
-
-        mCreditsBG.reset();
-        mBackLeftButton.reset();
-
-        for (int i = 0; i < mTiles.size; i++) mTiles.get(i).reset();
-        mMiner.reset();
-
-        mHome.reset();
-        mReplay.reset();
-
-        mGameOverPrompt.reset();
-        mScoreBG.reset();
-
-        mElapsedTime = 0;
-        mBreakCount = 0;
-
-        Gdx.input.setInputProcessor(mTitleUI);
-        mScoreBGActive = false;
+    public void setActionResolver(ActionResolver actionResolver) {
+        this.mActionResolver = actionResolver;
     }
 
-    private BigDecimal round(float d, int decimalPlace) {
-        BigDecimal bd = new BigDecimal(Float.toString(d));
-        bd = bd.setScale(decimalPlace, BigDecimal.ROUND_HALF_UP);
-        return bd;
+    private void setUpBackLeftButtonListener() {
+        mBackLeftButton.addListener(new InputListener(){
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                mBackLeftButton.addAction(sequence(moveTo(mBackLeftButton.getX(), mBackLeftButton.getY() - 3f * mPixelY, 0.1f),
+                        moveTo(mBackLeftButton.getX(), mViewport.getScreenHeight() / 9f / 32f * 5, 0.1f),
+                        run(new Runnable() {
+                            @Override
+                            public void run() {
+                                mBackLeftButton.setTouchable(Touchable.disabled);
+                                mBackLeftButton.addAction(fadeOut(0.3f));
+                                mCreditsBG.addAction(fadeOut(0.3f));
+                            }
+                        }),
+                        delay(0.25f, run(new Runnable() {
+                            @Override
+                            public void run() {
+                                backToHome();
+                            }
+                        }))));
+                return true;
+            }
+        });
+    }
+
+    //Brings player to Credits menu by fading out all children of Title UI
+    private void setUpCreditsButtonListener() {
+        mCredits.addListener(new InputListener(){
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                mCredits.addAction(sequence(moveTo(mCredits.getX(), mCredits.getY() - 3f * mPixelY, 0.1f),
+                        moveTo(mCredits.getX(), mViewport.getScreenHeight() / 9f / 32f * 5, 0.1f),
+                        run(new Runnable() {
+                            @Override
+                            public void run() {
+                                mTapPrompt.clearActions();
+                                mTapPrompt.addAction(fadeOut(0.3f));
+                                mLogo.addAction(fadeOut(0.3f));
+                                mCredits.addAction(fadeOut(0.3f));
+                            }
+                        }),
+                        delay(0.3f, run(new Runnable() {
+                            @Override
+                            public void run() {
+                                Gdx.input.setInputProcessor(mCreditsUI);
+                                mCreditsBG.addAction(fadeIn(0.3f));
+                                mBackLeftButton.addAction(fadeIn(0.3f));
+                            }
+                        }))));
+                return true;
+            }
+        });
+    }
+
+    private void setUpTitleUIListener() {
+        mTitleUI.addListener(new InputListener() {
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                if (event.isHandled()) return true; // Only starts game sequence if the user touched in an area that other buttons do not occupy
+                mLogo.addAction(sequence(
+                        run(new Runnable() {
+                            @Override
+                            public void run() {
+                                if (!mData.getBoolean("firstPlay", true)) {
+                                    mTapPrompt.clearActions();
+                                    mTapPrompt.addAction(fadeOut(0.3f));
+                                } else {
+                                    mHelpUI.addActor(mTapPrompt);
+                                }
+                                mLogo.addAction(fadeOut(0.3f));
+                                mCredits.addAction(fadeOut(0.3f));
+                            }
+                        }),
+                        delay(0.2f, run(new Runnable() {
+                            @Override
+                            public void run() {
+                                if (mData.getBoolean("firstPlay", true)) {
+                                    setUpHelpUI();
+                                } else {
+                                    Gdx.input.setInputProcessor(mWorld);
+                                }
+                            }
+                        }))));
+                return true;
+            }
+        });
+    }
+
+    private void setUpHelpUI() {
+        mHelpPrompt.init();
+        mHelpUI.addActor(mHelpPrompt);
+        mHelpUI.addListener(new InputListener(){
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                mHelpPrompt.clearActions();
+                mTapPrompt.clearActions();
+                mTapPrompt.addAction(fadeOut(0.3f));
+                mHelpPrompt.addAction(sequence(
+                        fadeOut(0.25f),
+                        delay(0.25f),
+                        Actions.run(new Runnable() {
+                            @Override
+                            public void run() {
+                                mData.putBoolean("firstPlay", false);
+                                mData.flush();
+                                mHelpUI.clear();
+                                mTitleUI.addActor(mTapPrompt);
+                                Gdx.input.setInputProcessor(mWorld);
+                            }
+                        })
+                ));
+                return true;
+            }
+        });
+        mHelpPrompt.addAction(fadeIn(0.25f));
+        Gdx.input.setInputProcessor(mHelpUI);
+    }
+
+    private void setUpHomeButtonListener() {
+        mHome.addListener(new InputListener(){
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                mScoreBG.setTouchable(Touchable.disabled);
+                mReplay.setTouchable(Touchable.disabled);
+                mHome.setTouchable(Touchable.disabled);
+
+                mHome.addAction(sequence(moveTo(mHome.getX(), mHome.getY() - 3f * mPixelY, 0.1f),
+                        moveTo(mHome.getX(), mHome.getY() + 3f * mPixelY, 0.1f),
+                        Actions.run(new Runnable() {
+                            @Override
+                            public void run() {
+                                mGameOverPrompt.addAction(sequence(fadeOut(0.25f), moveTo(mGameOverPrompt.getX(), mGameOverPrompt.getY() + 16f * mPixelY, 0.25f)));
+                                mHome.addAction(fadeOut(0.2f));
+                                mReplay.addAction(fadeOut(0.2f));
+                                mScoreBG.addAction(delay(0.2f, sequence(moveTo(mScoreBG.getX(), mViewport.getScreenHeight() + 10, 0.15f),
+                                        Actions.run(new Runnable() {
+                                            @Override
+                                            public void run() {
+                                                backToHome();
+                                            }
+                                        }))));
+                            }
+                        })));
+                return  true;
+            }
+        });
+    }
+
+    private void setUpReplayButtonListener() {
+        mReplay.addListener(new InputListener(){
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                mScoreBG.setTouchable(Touchable.disabled);
+                mReplay.setTouchable(Touchable.disabled);
+                mHome.setTouchable(Touchable.disabled);
+
+                mReplay.addAction(sequence(moveTo(mReplay.getX(), mReplay.getY() - 3f * mPixelY, 0.1f),
+                        moveTo(mReplay.getX(), mReplay.getY() + 3f * mPixelY, 0.1f),
+                        Actions.run(new Runnable() {
+                            @Override
+                            public void run() {
+                                mGameOverPrompt.addAction(sequence(fadeOut(0.25f), moveTo(mGameOverPrompt.getX(), mGameOverPrompt.getY() + 16f * mPixelY, 0.25f)));
+                                mReplay.addAction(fadeOut(0.2f));
+                                mHome.addAction(fadeOut(0.2f));
+                                mScoreBG.addAction(delay(0.2f, sequence(moveTo(mScoreBG.getX(), mViewport.getScreenHeight() + 10, 0.15f),
+                                        Actions.run(new Runnable() {
+                                            @Override
+                                            public void run() {
+                                                resetGame();
+                                            }}))));
+                            }
+                        })));
+
+                return  true;
+            }
+        });
+    }
+
+    //Moves the middle of the Miner's feet to the location of a touch on screen
+    private void setUpWorldListener() {
+        mWorld.addListener(new InputListener() {
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                mMiner.clearActions();
+                mMiner.addAction(moveTo(x - mMiner.getWidth() / 2, y,
+                        (Math.abs((x - mMiner.getX()) / mPixelX) + Math.abs((y - mMiner.getY()) / mPixelY)) * MINER_SPEED_MULTIPLIER));
+                return true;
+            }
+        });
     }
 
 }

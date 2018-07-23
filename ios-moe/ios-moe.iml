@@ -14,8 +14,8 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/build/classes/main" />
-    <output-test url="file://$MODULE_DIR$/build/classes/test" />
+    <output url="file://$MODULE_DIR$/build/classes/java/main" />
+    <output-test url="file://$MODULE_DIR$/build/classes/java/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
@@ -33,8 +33,18 @@
     <orderEntry type="library" exported="" name="java8support" level="project" />
     <orderEntry type="library" exported="" name="gdx-backend-moe-1.9.8" level="project" />
     <orderEntry type="library" exported="" name="gdx-1.9.8" level="project" />
-    <orderEntry type="library" exported="" name="gdx-box2d-1.9.8" level="project" />
-    <orderEntry type="library" exported="" name="gdx-freetype-1.9.8" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="gdx-box2d-1.9.8" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="gdx-freetype-1.9.8" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="moe-ios-junit" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="gdx-box2d-1.9.8" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="gdx-freetype-1.9.8" level="project" />
+    <orderEntry type="library" exported="" name="ios-moe.ios-moe-1.0" level="project" />
+    <orderEntry type="library" exported="" name="ios-moe.ios-moe-1.0" level="project" />
+    <orderEntry type="library" exported="" name="ios-moe.ios-moe-1.0" level="project" />
+    <orderEntry type="library" exported="" name="ios-moe.ios-moe-1.0" level="project" />
+    <orderEntry type="library" exported="" name="ios-moe.ios-moe-1.0" level="project" />
+    <orderEntry type="library" exported="" name="ios-moe.ios-moe-1.0" level="project" />
+    <orderEntry type="library" exported="" name="ios-moe.ios-moe-1.0" level="project" />
+    <orderEntry type="library" exported="" name="ios-moe.ios-moe-1.0" level="project" />
   </component>
 </module>

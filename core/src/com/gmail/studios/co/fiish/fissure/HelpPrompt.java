@@ -7,11 +7,9 @@ import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
-
 public class HelpPrompt extends Actor {
     private Viewport mViewport;
     private TextureRegion mRegion;
-    private float mPixelY;
 
     public HelpPrompt(Viewport viewport, TextureAtlas atlas) {
         this.mViewport = viewport;
@@ -20,7 +18,6 @@ public class HelpPrompt extends Actor {
 
     public void init() {
         this.clearActions();
-        mPixelY = mViewport.getScreenHeight() / 9f / 32f;
 
         this.setWidth(mViewport.getScreenWidth() / 16f * 6f);
         this.setHeight(mViewport.getScreenHeight() / 9f * 4f);

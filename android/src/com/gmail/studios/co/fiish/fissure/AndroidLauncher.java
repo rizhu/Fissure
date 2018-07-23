@@ -1,5 +1,7 @@
 package com.gmail.studios.co.fiish.fissure;
 
+import android.app.AlertDialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 
@@ -10,24 +12,51 @@ import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 
+import com.google.android.gms.auth.api.Auth;
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.auth.api.signin.GoogleSignInResult;
+
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+
+import android.support.annotation.NonNull;
 import android.view.Window;
 import android.view.WindowManager;
 import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.RelativeLayout.LayoutParams;
 
+import com.google.android.gms.common.api.ApiException;
+import com.google.android.gms.games.AchievementsClient;
+import com.google.android.gms.games.AnnotatedData;
+import com.google.android.gms.games.Games;
+import com.google.android.gms.games.LeaderboardsClient;
+import com.google.android.gms.games.Player;
+import com.google.android.gms.games.PlayersClient;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
+
+import java.math.BigDecimal;
+
+
+//TODO Fix Google OAuth
 
 public class AndroidLauncher extends AndroidApplication implements ActionResolver {
-	private static final String AD_APP_ID = "AD_APP_ID";
-	private static final String AD_UNIT_ID_BANNER_TOP = "AD_UNIT_ID_BANNER_TOP";   //Admob ID:
-																									//Test ID: ca-app-pub-3940256099942544/6300978111
-	private static final String AD_UNIT_ID_INTERSTITIAL = "AD_UNIT_ID_INTERSTITIAL"; // Admob ID:
-																									// Test ID: ca-app-pub-3940256099942544/1033173712
-	private InterstitialAd mInterstitialAd;
+	private static final String AD_APP_ID = "ca-app-pub-7523508007174708~4530257244";
+	private static final String AD_UNIT_ID_BANNER_TOP = "ca-app-pub-3940256099942544/6300978111";   //Test ID: ca-app-pub-3940256099942544/6300978111
+	private static final String AD_UNIT_ID_INTERSTITIAL = "ca-app-pub-3940256099942544/1033173712"; // Test ID: ca-app-pub-3940256099942544/1033173712
 
+	private InterstitialAd mInterstitialAd;
 	private AdView mAdViewTopBanner;
+
+    private static final int ADVIEW_ID = 9357;
 
 	@Override
 	protected void onCreate (Bundle savedInstanceState) {
@@ -46,7 +75,7 @@ public class AndroidLauncher extends AndroidApplication implements ActionResolve
 		RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.MATCH_PARENT);
 		layout.setLayoutParams(params);
 
-		mAdViewTopBanner = createAdView(AD_UNIT_ID_BANNER_TOP, 56789, RelativeLayout.ALIGN_PARENT_TOP);
+		mAdViewTopBanner = createAdView(AD_UNIT_ID_BANNER_TOP, ADVIEW_ID, RelativeLayout.ALIGN_PARENT_TOP);
 		View gameView = createGameView(config);
 		layout.addView(gameView);
 		layout.addView(mAdViewTopBanner);
@@ -70,20 +99,20 @@ public class AndroidLauncher extends AndroidApplication implements ActionResolve
 
 	@Override
 	public void onResume() {
-		mAdViewTopBanner.resume();
 		super.onResume();
+		mAdViewTopBanner.resume();
 	}
 
 	@Override
 	public void onPause() {
-		mAdViewTopBanner.pause();
 		super.onPause();
+		mAdViewTopBanner.pause();
 	}
 
 	@Override
 	public void onDestroy() {
-		mAdViewTopBanner.destroy();
 		super.onDestroy();
+		mAdViewTopBanner.destroy();
 	}
 
 	@Override
@@ -139,7 +168,6 @@ public class AndroidLauncher extends AndroidApplication implements ActionResolve
 		gameView.setLayoutParams(params);
 		return gameView;
 	}
-
 }
 
 
