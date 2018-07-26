@@ -1,4 +1,4 @@
-#Sun Jul 22 18:21:08 PDT 2018
+#Thu Jul 26 08:59:00 PDT 2018
 base.0=/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/transforms/dexMerger/release/0
 path.0=classes.dex
 renamed.0=classes.dex

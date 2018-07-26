@@ -9,7 +9,6 @@ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
  */
 
 public class FissureGame extends Game {
-
 	private TextureAtlas mAtlas;
 	private FiishCoScreen mFiishCoScreen;
 	private FissureGameScreen mFissureGameScreen;
@@ -17,7 +16,7 @@ public class FissureGame extends Game {
 
 	public FissureGame() {
 		super();
-	}
+	} // default constructor
 
 	public FissureGame(ActionResolver actionResolver) {
 	    this.mActionResolver = actionResolver;
@@ -25,10 +24,10 @@ public class FissureGame extends Game {
 
 	@Override
 	public void create() {
-        mAtlas = new TextureAtlas(Gdx.files.internal("spritesheet.atlas"));
-        mFiishCoScreen = new FiishCoScreen();
-        mFissureGameScreen = new FissureGameScreen(mAtlas);
-        mFissureGameScreen.setActionResolver(mActionResolver);
+		mAtlas = new TextureAtlas(Gdx.files.internal("spritesheet.atlas"));
+		mFissureGameScreen = new FissureGameScreen(mAtlas);
+		mFiishCoScreen = new FiishCoScreen();
+		mFissureGameScreen.setActionResolver(mActionResolver);
 		setScreen(mFiishCoScreen);
 	}
 

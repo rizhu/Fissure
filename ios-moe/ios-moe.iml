@@ -32,12 +32,10 @@
     <orderEntry type="library" exported="" name="moe-ios" level="project" />
     <orderEntry type="library" exported="" name="java8support" level="project" />
     <orderEntry type="library" exported="" name="gdx-backend-moe-1.9.8" level="project" />
+    <orderEntry type="library" exported="" name="gdx-box2d-1.9.8" level="project" />
+    <orderEntry type="library" exported="" name="gdx-freetype-1.9.8" level="project" />
     <orderEntry type="library" exported="" name="gdx-1.9.8" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="gdx-box2d-1.9.8" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="gdx-freetype-1.9.8" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="moe-ios-junit" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="gdx-box2d-1.9.8" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="gdx-freetype-1.9.8" level="project" />
     <orderEntry type="library" exported="" name="ios-moe.ios-moe-1.0" level="project" />
     <orderEntry type="library" exported="" name="ios-moe.ios-moe-1.0" level="project" />
     <orderEntry type="library" exported="" name="ios-moe.ios-moe-1.0" level="project" />

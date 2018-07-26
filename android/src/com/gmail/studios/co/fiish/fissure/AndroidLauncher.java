@@ -49,9 +49,9 @@ import java.math.BigDecimal;
 //TODO Fix Google OAuth
 
 public class AndroidLauncher extends AndroidApplication implements ActionResolver {
-	private static final String AD_APP_ID = "ca-app-pub-7523508007174708~4530257244";
-	private static final String AD_UNIT_ID_BANNER_TOP = "ca-app-pub-3940256099942544/6300978111";   //Test ID: ca-app-pub-3940256099942544/6300978111
-	private static final String AD_UNIT_ID_INTERSTITIAL = "ca-app-pub-3940256099942544/1033173712"; // Test ID: ca-app-pub-3940256099942544/1033173712
+	private static final String AD_APP_ID = "AD_APP_ID";
+	private static final String AD_UNIT_ID_BANNER_TOP = "AD_UNIT_ID";   //Test ID: ca-app-pub-3940256099942544/6300978111
+	private static final String AD_UNIT_ID_INTERSTITIAL = "AD_UNIT_ID"; // Test ID: ca-app-pub-3940256099942544/1033173712
 
 	private InterstitialAd mInterstitialAd;
 	private AdView mAdViewTopBanner;

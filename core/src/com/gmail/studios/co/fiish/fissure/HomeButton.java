@@ -12,11 +12,11 @@ public class HomeButton extends BasicButton {
 
     @Override
     public void init() {
-        mXDef = mViewport.getScreenWidth() / 2 + mViewport.getScreenWidth() / 16 * 3 - getWidth();
-        mYDef = mViewport.getScreenHeight() * 0.1f;
-
         mWidthDef = mViewport.getScreenWidth() / 16f / 32f * 84f;
         mHeightDef = mViewport.getScreenHeight() / 9f / 32f * 42f;
+
+        mXDef = mViewport.getScreenWidth() / 2 + mViewport.getScreenWidth() / 16 * 3 - mWidthDef;
+        mYDef = mViewport.getScreenHeight() * 0.1f;
 
         mTouchableDef = Touchable.disabled;
 

@@ -128,7 +128,9 @@ public class FissureGameScreen extends ScreenAdapter {
     @Override
     public void resize(int width, int height) {
         mViewport.update(width, height);
-        mActionResolver.showBanner(false);
+        if (mActionResolver != null) {
+            mActionResolver.showBanner(false);
+        }
 
         mPixelX = mViewport.getScreenWidth() / 16f / 32f; // Each Tile is a square of 32 x 32 retro tiles and the playing area is a 16 x 9 grid of Tiles
         mPixelY = mViewport.getScreenHeight() / 9f / 32f;
@@ -180,13 +182,6 @@ public class FissureGameScreen extends ScreenAdapter {
         mShowAdOnBackToHome = true;
 
         Gdx.input.setInputProcessor(mTitleUI);
-
-        if (mScoreBGActive) {
-            mScoreBGActive = false;
-            mAdCounter += MathUtils.random(1, 2);
-            mData.putInteger("adCounter", mAdCounter);
-            mData.flush();
-        }
     }
 
     @Override
@@ -244,6 +239,7 @@ public class FissureGameScreen extends ScreenAdapter {
         mMiner.checkSafe(mTiles);
 
        if (!mMiner.isAlive && mMiner.isDeathDone && !Gdx.input.getInputProcessor().equals(mGameUI)) {
+           updateAdCounter();
            doMinerDeathSequence();
        }
     }
@@ -267,11 +263,13 @@ public class FissureGameScreen extends ScreenAdapter {
      */
 
     private void backToHome() {
-        mActionResolver.showBanner(false);
-        if (mShowAdOnBackToHome && doAdCheck()) {
-            return;
+        if (mActionResolver != null) {
+            mActionResolver.showBanner(false);
+            if (mShowAdOnBackToHome && doAdCheck()) {
+                return;
+            }
+            mShowAdOnBackToHome = true;
         }
-        mShowAdOnBackToHome = true;
 
         mLogo.reset();
         mTapPrompt.reset();
@@ -337,11 +335,10 @@ public class FissureGameScreen extends ScreenAdapter {
     }
 
     private boolean doAdCheck() {
-        mAdCounter += MathUtils.random(1, 2);
-        mData.putInteger("adCounter", mAdCounter);
-        mData.flush();
-        if (mAdCounter >= 5) {
+        if (mActionResolver != null && mAdCounter >= 5) {
             mAdCounter = 0;
+            mData.putInteger("adCounter", mAdCounter);
+            mData.flush();
             mActionResolver.showInterstitial();
             mShowAdOnBackToHome = false;
             backToHome();
@@ -353,7 +350,9 @@ public class FissureGameScreen extends ScreenAdapter {
     private void doMinerDeathSequence() {
         mScoreBGActive = true;
         Gdx.input.setInputProcessor(mGameUI);
-        mActionResolver.showBanner(true);
+        if (mActionResolver != null) {
+            mActionResolver.showBanner(true);
+        }
 
         mScoreBG.mScore = mScore;
 
@@ -388,9 +387,11 @@ public class FissureGameScreen extends ScreenAdapter {
     }
 
     private void resetGame() {
-        mActionResolver.showBanner(false);
-        if (doAdCheck()) {
-            return;
+        if (mActionResolver != null) {
+            mActionResolver.showBanner(false);
+            if (doAdCheck()) {
+                return;
+            }
         }
 
         for (int i = 0; i < mTiles.size; i++) mTiles.get(i).reset();
@@ -467,40 +468,6 @@ public class FissureGameScreen extends ScreenAdapter {
         });
     }
 
-    private void setUpTitleUIListener() {
-        mTitleUI.addListener(new InputListener() {
-            @Override
-            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                if (event.isHandled()) return true; // Only starts game sequence if the user touched in an area that other buttons do not occupy
-                mLogo.addAction(sequence(
-                        run(new Runnable() {
-                            @Override
-                            public void run() {
-                                if (!mData.getBoolean("firstPlay", true)) {
-                                    mTapPrompt.clearActions();
-                                    mTapPrompt.addAction(fadeOut(0.3f));
-                                } else {
-                                    mHelpUI.addActor(mTapPrompt);
-                                }
-                                mLogo.addAction(fadeOut(0.3f));
-                                mCredits.addAction(fadeOut(0.3f));
-                            }
-                        }),
-                        delay(0.2f, run(new Runnable() {
-                            @Override
-                            public void run() {
-                                if (mData.getBoolean("firstPlay", true)) {
-                                    setUpHelpUI();
-                                } else {
-                                    Gdx.input.setInputProcessor(mWorld);
-                                }
-                            }
-                        }))));
-                return true;
-            }
-        });
-    }
-
     private void setUpHelpUI() {
         mHelpPrompt.init();
         mHelpUI.addActor(mHelpPrompt);
@@ -551,6 +518,7 @@ public class FissureGameScreen extends ScreenAdapter {
                                         Actions.run(new Runnable() {
                                             @Override
                                             public void run() {
+                                                mScoreBGActive = false;
                                                 backToHome();
                                             }
                                         }))));
@@ -581,12 +549,47 @@ public class FissureGameScreen extends ScreenAdapter {
                                         Actions.run(new Runnable() {
                                             @Override
                                             public void run() {
+                                                mScoreBGActive = false;
                                                 resetGame();
                                             }}))));
                             }
                         })));
 
                 return  true;
+            }
+        });
+    }
+
+    private void setUpTitleUIListener() {
+        mTitleUI.addListener(new InputListener() {
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                if (event.isHandled()) return true; // Only starts game sequence if the user touched in an area that other buttons do not occupy
+                mLogo.addAction(sequence(
+                        run(new Runnable() {
+                            @Override
+                            public void run() {
+                                if (!mData.getBoolean("firstPlay", true)) {
+                                    mTapPrompt.clearActions();
+                                    mTapPrompt.addAction(fadeOut(0.3f));
+                                } else {
+                                    mHelpUI.addActor(mTapPrompt);
+                                }
+                                mLogo.addAction(fadeOut(0.3f));
+                                mCredits.addAction(fadeOut(0.3f));
+                            }
+                        }),
+                        delay(0.2f, run(new Runnable() {
+                            @Override
+                            public void run() {
+                                if (mData.getBoolean("firstPlay", true)) {
+                                    setUpHelpUI();
+                                } else {
+                                    Gdx.input.setInputProcessor(mWorld);
+                                }
+                            }
+                        }))));
+                return true;
             }
         });
     }
@@ -602,6 +605,12 @@ public class FissureGameScreen extends ScreenAdapter {
                 return true;
             }
         });
+    }
+
+    private void updateAdCounter() {
+        mAdCounter += MathUtils.random(1, 2);
+        mData.putInteger("adCounter", mAdCounter);
+        mData.flush();
     }
 
 }

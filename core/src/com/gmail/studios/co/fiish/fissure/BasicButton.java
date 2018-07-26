@@ -36,6 +36,8 @@ public abstract class BasicButton extends Actor {
         this.setX(mXDef);
         this.setY(mYDef);
 
+        this.setTouchable(mTouchableDef);
+
         this.setColor(getColor().r, getColor().g, getColor().b, mAlphaDef);
     }
 

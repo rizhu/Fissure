@@ -4,16 +4,16 @@
         "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9b6c52b0f67fcf29890fcbdd93540f80/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
-        "merged": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/res/merged/release/drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9b6c52b0f67fcf29890fcbdd93540f80/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "merged": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/res/merged/release/layout_notification_template_big_media_narrow.xml.flat",
+        "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c9d45a8c312fea7846d42169a709b48c/res/layout/notification_template_big_media_narrow.xml"
     },
     {
         "merged": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/res/merged/release/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a9ee2ab395295e716afd8a5ffc731f8f/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
-        "merged": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/res/merged/release/layout_notification_template_big_media_narrow.xml.flat",
-        "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c9d45a8c312fea7846d42169a709b48c/res/layout/notification_template_big_media_narrow.xml"
+        "merged": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/res/merged/release/drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9b6c52b0f67fcf29890fcbdd93540f80/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/res/merged/release/drawable_notification_bg_low.xml.flat",
