@@ -4,7 +4,7 @@ sourceCompatibility = '1.7'
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 
 ext {
-	mainClassName = "com.gmail.co.studios.fiish.fissure.IOSLauncher"
+	mainClassName = "com.gmail.co.studios.fiish.fissuregame.IOSLauncher"
 }
 
 launchIPhoneSimulator.dependsOn build

@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
         defaultConfig {
-            //sigining stuff
+            //signing stuff
         }
     }
     buildToolsVersion '27.0.3'

@@ -11,7 +11,7 @@
         explanation="When your application runs on a version of Android that is more recent than your `targetSdkVersion` specifies that it has been tested with, various compatibility modes kick in. This ensures that your application continues to work, but it may look out of place. For example, if the `targetSdkVersion` is less than 14, your app may get an option button in the UI.&#xA;&#xA;To fix this issue, set the `targetSdkVersion` to the highest available value. Then test your app to make sure everything works correctly. You may want to consult the compatibility notes to see what changes apply to each version you are adding support for: http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
         url="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
         urls="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
-        errorLine1="    &lt;uses-sdk android:minSdkVersion=&quot;14&quot; android:targetSdkVersion=&quot;25&quot; />"
+        errorLine1="    &lt;uses-sdk android:minSdkVersion=&quot;15&quot; android:targetSdkVersion=&quot;25&quot; />"
         errorLine2="                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         quickfix="studio">
         <location
@@ -42,12 +42,12 @@
     <issue
         id="GradleOverrides"
         severity="Warning"
-        message="This `minSdkVersion` value (`14`) is not used; it is always overridden by the value specified in the Gradle build script (`15`)"
+        message="This `minSdkVersion` value (`15`) is not used; it is always overridden by the value specified in the Gradle build script (`15`)"
         category="Correctness"
         priority="4"
         summary="Value overridden by Gradle build script"
         explanation="The value of (for example) `minSdkVersion` is only used if it is not specified in the `build.gradle` build scripts. When specified in the Gradle build scripts, the manifest value is ignored and can be misleading, so should be removed to avoid ambiguity."
-        errorLine1="    &lt;uses-sdk android:minSdkVersion=&quot;14&quot; android:targetSdkVersion=&quot;25&quot; />"
+        errorLine1="    &lt;uses-sdk android:minSdkVersion=&quot;15&quot; android:targetSdkVersion=&quot;25&quot; />"
         errorLine2="              ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml"
@@ -63,7 +63,7 @@
         priority="4"
         summary="Value overridden by Gradle build script"
         explanation="The value of (for example) `minSdkVersion` is only used if it is not specified in the `build.gradle` build scripts. When specified in the Gradle build scripts, the manifest value is ignored and can be misleading, so should be removed to avoid ambiguity."
-        errorLine1="    &lt;uses-sdk android:minSdkVersion=&quot;14&quot; android:targetSdkVersion=&quot;25&quot; />"
+        errorLine1="    &lt;uses-sdk android:minSdkVersion=&quot;15&quot; android:targetSdkVersion=&quot;25&quot; />"
         errorLine2="                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml"

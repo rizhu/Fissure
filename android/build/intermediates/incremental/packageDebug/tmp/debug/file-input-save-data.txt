@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Jul 26 08:57:22 PDT 2018
+#Sun Jul 29 19:50:15 PDT 2018
 17.baseType=DIRECTORY
 4.path=lib/arm64-v8a/libgdx-freetype.so
 8.set=ASSET
@@ -37,7 +37,7 @@ count=21
 8.base=/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/assets/debug
 15.path=lib/x86/libgdx-box2d.so
 14.baseType=DIRECTORY
-17.base=/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/transforms/dexMerger/debug/50
+17.base=/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/transforms/dexMerger/debug/0
 10.base=/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/transforms/mergeJniLibs/debug/0
 7.path=spritesheet.png
 16.baseType=DIRECTORY

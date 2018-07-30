@@ -1,7 +1,6 @@
 package com.gmail.studios.co.fiish.fissure;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.Preferences;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.Batch;
@@ -19,7 +18,6 @@ import java.math.BigDecimal;
 public class ScoreBG extends Actor {
     private Viewport mViewport;
     public BigDecimal mScore, mHighScore;
-    private Preferences mData;
 
     private float mPixelX, mPixelY;
 
@@ -36,7 +34,6 @@ public class ScoreBG extends Actor {
 
     public ScoreBG(Viewport viewport, TextureAtlas atlas) {
         this.mViewport = viewport;
-        mData = Gdx.app.getPreferences("Data");
 
         mRegion = atlas.findRegion("scorebg");
 
@@ -121,7 +118,7 @@ public class ScoreBG extends Actor {
         mFont.dispose();
     }
 
-    public void updateHighScore() {
-        mHighScore = new BigDecimal(mData.getFloat("highScore"));
+    public void updateHighScore(float highScore) {
+        mHighScore = new BigDecimal(highScore);
     }
 }

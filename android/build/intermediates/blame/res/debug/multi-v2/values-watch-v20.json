@@ -4,7 +4,7 @@
             "outputFile": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/e790de595a51c6040b1941ec957e3b14/res/values-watch-v20/values.xml",
+                    "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/204d79536ea1ba7ee879a23905c2c31e/res/values-watch-v20/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",

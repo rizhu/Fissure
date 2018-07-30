@@ -4,28 +4,28 @@ ADDED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml
 INJECTED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:2:1-35:12
 INJECTED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:2:1-35:12
 INJECTED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:2:1-35:12
-MERGED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/e790de595a51c6040b1941ec957e3b14/AndroidManifest.xml:17:1-39:12
-MERGED from [com.google.android.gms:play-services-identity:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-identity-15.0.1.aar/7a8b7dcc59a5e626443312b0b726fa5d/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-games:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-games-15.0.1.aar/9f6cbcf183417e717c88191c169c1d13/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/8a49f93a261712601222ee1ba362eeca/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/255008326b531734e6523e2f2abff657/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.1.aar/1177131350af894efb79610c0f136726/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-drive:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-drive-15.0.1.aar/41031352ed670223065f64f9008e1680/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9b6c52b0f67fcf29890fcbdd93540f80/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/abe3d912236c02d2cb669a6acadac298/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/6ab52672d33bc17c0a3f8122e4cc56f5/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/50ed505d99f5cd5d318c42c7ea1f74d6/AndroidManifest.xml:17:1-36:12
-MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/12ef0f4e9f70376e13962fb553cfb4ea/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/802e98c0682aca800fe7081d966834bf/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:customtabs:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/546a071e84e22270080ebcd0bb4c4bd6/AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/22604c28e19fece52acd8d601b9e920a/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-v4:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e825b615d44fb020b8f1bda515fac9a4/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c9d45a8c312fea7846d42169a709b48c/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/93035b4d97fa9e0bdf0914e3eff36680/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/e6a535ba66476c9e0e4453a872051498/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2c481b6a17066b6a080bb2747835394e/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a9ee2ab395295e716afd8a5ffc731f8f/AndroidManifest.xml:17:1-31:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a4baa70be1349903007cd798065f4a1c/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/204d79536ea1ba7ee879a23905c2c31e/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-identity:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-identity-15.0.1.aar/1c91c962692c98df278b222475eb6085/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-games:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-games-15.0.1.aar/28938206c629fa78ee1176ee6b7578a2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/77ea36402e235ad1518f316f912d9f29/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/9a6d3982b6fd818b1d8d04d092924583/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.1.aar/a88869b89e221d66bca90593b432f66b/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-drive:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-drive-15.0.1.aar/323a759bd157b1af1156d983ccdc2c4f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/cf293354b72f331cadca6e5d97a395f1/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/b23c6445af31eb88012b843680b2b579/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/4582156256ecc43d734ac4cd7cfb43d8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/e6e32f99e8708fcbb6c49158fc10cea1/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/ecb9bab28c5910a1e49e82e65cc3a9b5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/94a6084c1a8563fc976bb951afdfc2e8/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:customtabs:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/a95b115aa98cff3f608ac80394850c4b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/517587973dff35adf65c071089d7d7b8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e8a7a0f187cc2f5faea221756485c071/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7c803192083a5c21e6bbdfad5f5f6219/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f4e587ce72e6bc81bab4450ef6ab1dcb/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/d179eb7a85817c9a141de8f779acff33/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a574b184aab9edcc4eadbe0ce8248bc5/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c6c8b3cfa0a00c7f3075fc2059fc05f7/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/620fb536eab83f0d67922031fe55e9aa/AndroidManifest.xml:17:1-30:12
 INJECTED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:2:1-35:12
 INJECTED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:2:1-35:12
 INJECTED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:2:1-35:12
@@ -47,54 +47,54 @@ uses-sdk
 ADDED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:5:5-74
 INJECTED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:5:5-74
 INJECTED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:5:5-74
-MERGED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/e790de595a51c6040b1941ec957e3b14/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/e790de595a51c6040b1941ec957e3b14/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-identity:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-identity-15.0.1.aar/7a8b7dcc59a5e626443312b0b726fa5d/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-identity:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-identity-15.0.1.aar/7a8b7dcc59a5e626443312b0b726fa5d/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-games:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-games-15.0.1.aar/9f6cbcf183417e717c88191c169c1d13/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-games:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-games-15.0.1.aar/9f6cbcf183417e717c88191c169c1d13/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/8a49f93a261712601222ee1ba362eeca/AndroidManifest.xml:21:5-23:62
-MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/8a49f93a261712601222ee1ba362eeca/AndroidManifest.xml:21:5-23:62
-MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/255008326b531734e6523e2f2abff657/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/255008326b531734e6523e2f2abff657/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.1.aar/1177131350af894efb79610c0f136726/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.1.aar/1177131350af894efb79610c0f136726/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-drive:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-drive-15.0.1.aar/41031352ed670223065f64f9008e1680/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-drive:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-drive-15.0.1.aar/41031352ed670223065f64f9008e1680/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9b6c52b0f67fcf29890fcbdd93540f80/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9b6c52b0f67fcf29890fcbdd93540f80/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/abe3d912236c02d2cb669a6acadac298/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/abe3d912236c02d2cb669a6acadac298/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/6ab52672d33bc17c0a3f8122e4cc56f5/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/6ab52672d33bc17c0a3f8122e4cc56f5/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/50ed505d99f5cd5d318c42c7ea1f74d6/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/50ed505d99f5cd5d318c42c7ea1f74d6/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/12ef0f4e9f70376e13962fb553cfb4ea/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/12ef0f4e9f70376e13962fb553cfb4ea/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/802e98c0682aca800fe7081d966834bf/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/802e98c0682aca800fe7081d966834bf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customtabs:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/546a071e84e22270080ebcd0bb4c4bd6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customtabs:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/546a071e84e22270080ebcd0bb4c4bd6/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/22604c28e19fece52acd8d601b9e920a/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/22604c28e19fece52acd8d601b9e920a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e825b615d44fb020b8f1bda515fac9a4/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e825b615d44fb020b8f1bda515fac9a4/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c9d45a8c312fea7846d42169a709b48c/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c9d45a8c312fea7846d42169a709b48c/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/93035b4d97fa9e0bdf0914e3eff36680/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/93035b4d97fa9e0bdf0914e3eff36680/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/e6a535ba66476c9e0e4453a872051498/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/e6a535ba66476c9e0e4453a872051498/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2c481b6a17066b6a080bb2747835394e/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2c481b6a17066b6a080bb2747835394e/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a9ee2ab395295e716afd8a5ffc731f8f/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a9ee2ab395295e716afd8a5ffc731f8f/AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a4baa70be1349903007cd798065f4a1c/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a4baa70be1349903007cd798065f4a1c/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/204d79536ea1ba7ee879a23905c2c31e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/204d79536ea1ba7ee879a23905c2c31e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-identity-15.0.1.aar/1c91c962692c98df278b222475eb6085/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-identity-15.0.1.aar/1c91c962692c98df278b222475eb6085/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-games:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-games-15.0.1.aar/28938206c629fa78ee1176ee6b7578a2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-games:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-games-15.0.1.aar/28938206c629fa78ee1176ee6b7578a2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/77ea36402e235ad1518f316f912d9f29/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/77ea36402e235ad1518f316f912d9f29/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/9a6d3982b6fd818b1d8d04d092924583/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/9a6d3982b6fd818b1d8d04d092924583/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.1.aar/a88869b89e221d66bca90593b432f66b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.1.aar/a88869b89e221d66bca90593b432f66b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-drive:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-drive-15.0.1.aar/323a759bd157b1af1156d983ccdc2c4f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-drive-15.0.1.aar/323a759bd157b1af1156d983ccdc2c4f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/cf293354b72f331cadca6e5d97a395f1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/cf293354b72f331cadca6e5d97a395f1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/b23c6445af31eb88012b843680b2b579/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/b23c6445af31eb88012b843680b2b579/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/4582156256ecc43d734ac4cd7cfb43d8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/4582156256ecc43d734ac4cd7cfb43d8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/e6e32f99e8708fcbb6c49158fc10cea1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/e6e32f99e8708fcbb6c49158fc10cea1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/ecb9bab28c5910a1e49e82e65cc3a9b5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/ecb9bab28c5910a1e49e82e65cc3a9b5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/94a6084c1a8563fc976bb951afdfc2e8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/94a6084c1a8563fc976bb951afdfc2e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/a95b115aa98cff3f608ac80394850c4b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/a95b115aa98cff3f608ac80394850c4b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/517587973dff35adf65c071089d7d7b8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/517587973dff35adf65c071089d7d7b8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e8a7a0f187cc2f5faea221756485c071/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e8a7a0f187cc2f5faea221756485c071/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7c803192083a5c21e6bbdfad5f5f6219/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7c803192083a5c21e6bbdfad5f5f6219/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f4e587ce72e6bc81bab4450ef6ab1dcb/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f4e587ce72e6bc81bab4450ef6ab1dcb/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/d179eb7a85817c9a141de8f779acff33/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/d179eb7a85817c9a141de8f779acff33/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a574b184aab9edcc4eadbe0ce8248bc5/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a574b184aab9edcc4eadbe0ce8248bc5/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c6c8b3cfa0a00c7f3075fc2059fc05f7/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c6c8b3cfa0a00c7f3075fc2059fc05f7/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/620fb536eab83f0d67922031fe55e9aa/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/620fb536eab83f0d67922031fe55e9aa/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:5:5-74
 INJECTED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:5:5-74
 	tools:overrideLibrary
-		ADDED from [com.google.android.gms:play-services-ads:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/8a49f93a261712601222ee1ba362eeca/AndroidManifest.xml:23:9-59
+		ADDED from [com.google.android.gms:play-services-ads:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/77ea36402e235ad1518f316f912d9f29/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		ADDED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:5:42-71
 		INJECTED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml
@@ -109,56 +109,56 @@ ADDED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml
 		ADDED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:6:19-51
 uses-permission#android.permission.INTERNET
 ADDED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:7:5-66
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/50ed505d99f5cd5d318c42c7ea1f74d6/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/50ed505d99f5cd5d318c42c7ea1f74d6/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/e6e32f99e8708fcbb6c49158fc10cea1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/e6e32f99e8708fcbb6c49158fc10cea1/AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:7:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:8:5-78
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/50ed505d99f5cd5d318c42c7ea1f74d6/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/50ed505d99f5cd5d318c42c7ea1f74d6/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/e6e32f99e8708fcbb6c49158fc10cea1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/e6e32f99e8708fcbb6c49158fc10cea1/AndroidManifest.xml:24:5-79
 	android:name
 		ADDED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:8:22-76
 application
 ADDED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:10:5-33:19
-MERGED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/e790de595a51c6040b1941ec957e3b14/AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/e790de595a51c6040b1941ec957e3b14/AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.android.gms:play-services-identity:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-identity-15.0.1.aar/7a8b7dcc59a5e626443312b0b726fa5d/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-identity:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-identity-15.0.1.aar/7a8b7dcc59a5e626443312b0b726fa5d/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-games:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-games-15.0.1.aar/9f6cbcf183417e717c88191c169c1d13/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-games:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-games-15.0.1.aar/9f6cbcf183417e717c88191c169c1d13/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-drive:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-drive-15.0.1.aar/41031352ed670223065f64f9008e1680/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-drive:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-drive-15.0.1.aar/41031352ed670223065f64f9008e1680/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9b6c52b0f67fcf29890fcbdd93540f80/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9b6c52b0f67fcf29890fcbdd93540f80/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/abe3d912236c02d2cb669a6acadac298/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/abe3d912236c02d2cb669a6acadac298/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/6ab52672d33bc17c0a3f8122e4cc56f5/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/6ab52672d33bc17c0a3f8122e4cc56f5/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/50ed505d99f5cd5d318c42c7ea1f74d6/AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/50ed505d99f5cd5d318c42c7ea1f74d6/AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/12ef0f4e9f70376e13962fb553cfb4ea/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/12ef0f4e9f70376e13962fb553cfb4ea/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/802e98c0682aca800fe7081d966834bf/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/802e98c0682aca800fe7081d966834bf/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:customtabs:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/546a071e84e22270080ebcd0bb4c4bd6/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:customtabs:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/546a071e84e22270080ebcd0bb4c4bd6/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/22604c28e19fece52acd8d601b9e920a/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/22604c28e19fece52acd8d601b9e920a/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e825b615d44fb020b8f1bda515fac9a4/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e825b615d44fb020b8f1bda515fac9a4/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c9d45a8c312fea7846d42169a709b48c/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c9d45a8c312fea7846d42169a709b48c/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/93035b4d97fa9e0bdf0914e3eff36680/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/93035b4d97fa9e0bdf0914e3eff36680/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/e6a535ba66476c9e0e4453a872051498/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/e6a535ba66476c9e0e4453a872051498/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2c481b6a17066b6a080bb2747835394e/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2c481b6a17066b6a080bb2747835394e/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a9ee2ab395295e716afd8a5ffc731f8f/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a9ee2ab395295e716afd8a5ffc731f8f/AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a4baa70be1349903007cd798065f4a1c/AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a4baa70be1349903007cd798065f4a1c/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/204d79536ea1ba7ee879a23905c2c31e/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/204d79536ea1ba7ee879a23905c2c31e/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-identity:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-identity-15.0.1.aar/1c91c962692c98df278b222475eb6085/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-identity-15.0.1.aar/1c91c962692c98df278b222475eb6085/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-games-15.0.1.aar/28938206c629fa78ee1176ee6b7578a2/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-games-15.0.1.aar/28938206c629fa78ee1176ee6b7578a2/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-drive-15.0.1.aar/323a759bd157b1af1156d983ccdc2c4f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-drive-15.0.1.aar/323a759bd157b1af1156d983ccdc2c4f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/cf293354b72f331cadca6e5d97a395f1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/cf293354b72f331cadca6e5d97a395f1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/b23c6445af31eb88012b843680b2b579/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/b23c6445af31eb88012b843680b2b579/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/4582156256ecc43d734ac4cd7cfb43d8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/4582156256ecc43d734ac4cd7cfb43d8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/e6e32f99e8708fcbb6c49158fc10cea1/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/e6e32f99e8708fcbb6c49158fc10cea1/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/ecb9bab28c5910a1e49e82e65cc3a9b5/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/ecb9bab28c5910a1e49e82e65cc3a9b5/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/94a6084c1a8563fc976bb951afdfc2e8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/94a6084c1a8563fc976bb951afdfc2e8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:customtabs:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/a95b115aa98cff3f608ac80394850c4b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:customtabs:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/a95b115aa98cff3f608ac80394850c4b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/517587973dff35adf65c071089d7d7b8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/517587973dff35adf65c071089d7d7b8/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e8a7a0f187cc2f5faea221756485c071/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e8a7a0f187cc2f5faea221756485c071/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7c803192083a5c21e6bbdfad5f5f6219/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7c803192083a5c21e6bbdfad5f5f6219/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f4e587ce72e6bc81bab4450ef6ab1dcb/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f4e587ce72e6bc81bab4450ef6ab1dcb/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/d179eb7a85817c9a141de8f779acff33/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/d179eb7a85817c9a141de8f779acff33/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a574b184aab9edcc4eadbe0ce8248bc5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a574b184aab9edcc4eadbe0ce8248bc5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c6c8b3cfa0a00c7f3075fc2059fc05f7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c6c8b3cfa0a00c7f3075fc2059fc05f7/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/620fb536eab83f0d67922031fe55e9aa/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/620fb536eab83f0d67922031fe55e9aa/AndroidManifest.xml:24:5-28:19
 	android:label
 		ADDED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:13:9-41
 	android:icon
@@ -169,22 +169,22 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/richard/.gradle/caches
 		ADDED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:14:9-40
 meta-data#com.google.android.gms.version
 ADDED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:15:9-121
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/802e98c0682aca800fe7081d966834bf/AndroidManifest.xml:23:9-25:69
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/802e98c0682aca800fe7081d966834bf/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/94a6084c1a8563fc976bb951afdfc2e8/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/94a6084c1a8563fc976bb951afdfc2e8/AndroidManifest.xml:23:9-25:69
 	android:value
 		ADDED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:15:66-119
 	android:name
 		ADDED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:15:20-65
 activity#com.google.android.gms.ads.AdActivity
 ADDED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:16:9-183
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/50ed505d99f5cd5d318c42c7ea1f74d6/AndroidManifest.xml:29:9-33:64
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/50ed505d99f5cd5d318c42c7ea1f74d6/AndroidManifest.xml:29:9-33:64
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/e6e32f99e8708fcbb6c49158fc10cea1/AndroidManifest.xml:29:9-33:64
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/e6e32f99e8708fcbb6c49158fc10cea1/AndroidManifest.xml:29:9-33:64
 	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/50ed505d99f5cd5d318c42c7ea1f74d6/AndroidManifest.xml:32:13-37
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/e6e32f99e8708fcbb6c49158fc10cea1/AndroidManifest.xml:32:13-37
 	android:configChanges
 		ADDED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:16:72-181
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/50ed505d99f5cd5d318c42c7ea1f74d6/AndroidManifest.xml:33:13-61
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/e6e32f99e8708fcbb6c49158fc10cea1/AndroidManifest.xml:33:13-61
 	android:name
 		ADDED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:16:19-71
 activity#com.gmail.studios.co.fiish.fissure.AndroidLauncher
@@ -208,52 +208,52 @@ ADDED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml
 	android:name
 		ADDED from /Users/richard/Programming/libGDX/Fissure/android/AndroidManifest.xml:24:27-74
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/e790de595a51c6040b1941ec957e3b14/AndroidManifest.xml:23:9-27:75
+ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/204d79536ea1ba7ee879a23905c2c31e/AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/e790de595a51c6040b1941ec957e3b14/AndroidManifest.xml:25:13-46
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/204d79536ea1ba7ee879a23905c2c31e/AndroidManifest.xml:25:13-46
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/e790de595a51c6040b1941ec957e3b14/AndroidManifest.xml:26:13-37
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/204d79536ea1ba7ee879a23905c2c31e/AndroidManifest.xml:26:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/e790de595a51c6040b1941ec957e3b14/AndroidManifest.xml:27:13-72
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/204d79536ea1ba7ee879a23905c2c31e/AndroidManifest.xml:27:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/e790de595a51c6040b1941ec957e3b14/AndroidManifest.xml:24:13-93
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/204d79536ea1ba7ee879a23905c2c31e/AndroidManifest.xml:24:13-93
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/e790de595a51c6040b1941ec957e3b14/AndroidManifest.xml:33:9-36:110
+ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/204d79536ea1ba7ee879a23905c2c31e/AndroidManifest.xml:33:9-36:110
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/e790de595a51c6040b1941ec957e3b14/AndroidManifest.xml:35:13-36
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/204d79536ea1ba7ee879a23905c2c31e/AndroidManifest.xml:35:13-36
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/e790de595a51c6040b1941ec957e3b14/AndroidManifest.xml:36:13-107
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/204d79536ea1ba7ee879a23905c2c31e/AndroidManifest.xml:36:13-107
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/e790de595a51c6040b1941ec957e3b14/AndroidManifest.xml:34:13-89
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/204d79536ea1ba7ee879a23905c2c31e/AndroidManifest.xml:34:13-89
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9b6c52b0f67fcf29890fcbdd93540f80/AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/cf293354b72f331cadca6e5d97a395f1/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9b6c52b0f67fcf29890fcbdd93540f80/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/cf293354b72f331cadca6e5d97a395f1/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9b6c52b0f67fcf29890fcbdd93540f80/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/cf293354b72f331cadca6e5d97a395f1/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9b6c52b0f67fcf29890fcbdd93540f80/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/cf293354b72f331cadca6e5d97a395f1/AndroidManifest.xml:24:13-79
 meta-data#android.support.VERSION
-ADDED from [com.android.support:customtabs:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/546a071e84e22270080ebcd0bb4c4bd6/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e825b615d44fb020b8f1bda515fac9a4/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e825b615d44fb020b8f1bda515fac9a4/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c9d45a8c312fea7846d42169a709b48c/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c9d45a8c312fea7846d42169a709b48c/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/93035b4d97fa9e0bdf0914e3eff36680/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/93035b4d97fa9e0bdf0914e3eff36680/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/e6a535ba66476c9e0e4453a872051498/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/e6a535ba66476c9e0e4453a872051498/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2c481b6a17066b6a080bb2747835394e/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2c481b6a17066b6a080bb2747835394e/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a9ee2ab395295e716afd8a5ffc731f8f/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a9ee2ab395295e716afd8a5ffc731f8f/AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:customtabs:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/a95b115aa98cff3f608ac80394850c4b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e8a7a0f187cc2f5faea221756485c071/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e8a7a0f187cc2f5faea221756485c071/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7c803192083a5c21e6bbdfad5f5f6219/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7c803192083a5c21e6bbdfad5f5f6219/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f4e587ce72e6bc81bab4450ef6ab1dcb/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f4e587ce72e6bc81bab4450ef6ab1dcb/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/d179eb7a85817c9a141de8f779acff33/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/d179eb7a85817c9a141de8f779acff33/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a574b184aab9edcc4eadbe0ce8248bc5/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a574b184aab9edcc4eadbe0ce8248bc5/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c6c8b3cfa0a00c7f3075fc2059fc05f7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c6c8b3cfa0a00c7f3075fc2059fc05f7/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:customtabs:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/546a071e84e22270080ebcd0bb4c4bd6/AndroidManifest.xml:25:13-35
+		ADDED from [com.android.support:customtabs:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/a95b115aa98cff3f608ac80394850c4b/AndroidManifest.xml:25:13-35
 	android:name
-		ADDED from [com.android.support:customtabs:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/546a071e84e22270080ebcd0bb4c4bd6/AndroidManifest.xml:24:13-51
+		ADDED from [com.android.support:customtabs:26.1.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/a95b115aa98cff3f608ac80394850c4b/AndroidManifest.xml:24:13-51
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a4baa70be1349903007cd798065f4a1c/AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/620fb536eab83f0d67922031fe55e9aa/AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a4baa70be1349903007cd798065f4a1c/AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/620fb536eab83f0d67922031fe55e9aa/AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a4baa70be1349903007cd798065f4a1c/AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/richard/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/620fb536eab83f0d67922031fe55e9aa/AndroidManifest.xml:26:13-58

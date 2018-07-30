@@ -13,6 +13,7 @@ public class FissureGame extends Game {
 	private FiishCoScreen mFiishCoScreen;
 	private FissureGameScreen mFissureGameScreen;
 	private ActionResolver mActionResolver;
+	private IOSLink mIOSLink;
 
 	public FissureGame() {
 		super();
@@ -22,12 +23,21 @@ public class FissureGame extends Game {
 	    this.mActionResolver = actionResolver;
 	}
 
+	public FissureGame(IOSLink iosLink) {
+		this.mIOSLink = iosLink;
+	}
+
 	@Override
 	public void create() {
 		mAtlas = new TextureAtlas(Gdx.files.internal("spritesheet.atlas"));
 		mFissureGameScreen = new FissureGameScreen(mAtlas);
 		mFiishCoScreen = new FiishCoScreen();
-		mFissureGameScreen.setActionResolver(mActionResolver);
+		if (mActionResolver != null) {
+			mFissureGameScreen.setActionResolver(mActionResolver);
+		}
+		if (mIOSLink != null) {
+			mFissureGameScreen.setIOSLink(mIOSLink);
+		}
 		setScreen(mFiishCoScreen);
 	}
 

@@ -1,4 +1,0 @@
-#Sat Jul 14 18:39:19 PDT 2018
-base.0=/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

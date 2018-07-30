@@ -4,24 +4,24 @@
             "outputFile": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fi/values-fi.xml",
             "map": [
                 {
-                    "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/802e98c0682aca800fe7081d966834bf/res/values-fi/values.xml",
+                    "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c6c8b3cfa0a00c7f3075fc2059fc05f7/res/values-fi/values-fi.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "208",
-                        "endOffsets": "455"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "10",
+                        "startLines": "27",
                         "startColumns": "4",
-                        "startOffsets": "1256",
-                        "endColumns": "208",
-                        "endOffsets": "1460"
+                        "startOffsets": "3372",
+                        "endColumns": "100",
+                        "endOffsets": "3468"
                     }
                 },
                 {
-                    "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/8a49f93a261712601222ee1ba362eeca/res/values-fi/values.xml",
+                    "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/77ea36402e235ad1518f316f912d9f29/res/values-fi/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10",
                         "startColumns": "0,0,0,0,0,0,0",
@@ -38,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9b6c52b0f67fcf29890fcbdd93540f80/res/values-fi/values.xml",
+                    "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/94a6084c1a8563fc976bb951afdfc2e8/res/values-fi/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "208",
+                        "endOffsets": "455"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1256",
+                        "endColumns": "208",
+                        "endOffsets": "1460"
+                    }
+                },
+                {
+                    "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/cf293354b72f331cadca6e5d97a395f1/res/values-fi/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -52,23 +69,6 @@
                         "startOffsets": "105,218,403,536,644,846,974,1120,1465,1665,1773,1953,2081,2288,2457,2553,2653",
                         "endColumns": "112,184,132,107,201,127,145,135,199,107,179,127,206,168,95,99,111",
                         "endOffsets": "213,398,531,639,841,969,1115,1251,1660,1768,1948,2076,2283,2452,2548,2648,2760"
-                    }
-                },
-                {
-                    "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a9ee2ab395295e716afd8a5ffc731f8f/res/values-fi/values-fi.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "27",
-                        "startColumns": "4",
-                        "startOffsets": "3372",
-                        "endColumns": "100",
-                        "endOffsets": "3468"
                     }
                 }
             ]

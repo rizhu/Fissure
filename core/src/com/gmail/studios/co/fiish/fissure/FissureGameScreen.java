@@ -21,6 +21,7 @@ import com.badlogic.gdx.graphics.g2d.GlyphLayout;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import static com.badlogic.gdx.scenes.scene2d.actions.Actions.*;
 
+
 import java.math.BigDecimal;
 
 /*
@@ -32,6 +33,7 @@ public class FissureGameScreen extends ScreenAdapter {
     private ActionResolver mActionResolver;
     private SpriteBatch mBatch;
     private Preferences mData;
+    private IOSLink mIOSLink;
 
     private FissureTitleUI mTitleUI;
     private FissureLogo mLogo;
@@ -103,6 +105,12 @@ public class FissureGameScreen extends ScreenAdapter {
     public void show() {
         mData = Gdx.app.getPreferences("Data");
         mScoreBGActive = false;
+
+        if (mIOSLink != null) {
+            mScoreBG.updateHighScore(mIOSLink.getHighScore());
+        } else {
+            mScoreBG.updateHighScore(mData.getFloat("highScore", 0.00f));
+        }
 
         mBatch = new SpriteBatch();
 
@@ -356,12 +364,16 @@ public class FissureGameScreen extends ScreenAdapter {
 
         mScoreBG.mScore = mScore;
 
-        if (mScore.setScale(2, BigDecimal.ROUND_UP).floatValue() > mData.getFloat("highScore")) {
-            mData.putFloat("highScore", mScore.setScale(2, BigDecimal.ROUND_UP).floatValue());
-            mData.flush();
+        if (mIOSLink != null && mScore.setScale(2, BigDecimal.ROUND_UP).floatValue() > /*mIOSLink.getHighScore()*/ mScoreBG.mHighScore.floatValue()) {
+            mIOSLink.setHighScore(mScore.setScale(2, BigDecimal.ROUND_UP).floatValue());
+            mScoreBG.updateHighScore(mIOSLink.getHighScore());
+        } else {
+            if (mScore.setScale(2, BigDecimal.ROUND_UP).floatValue() > /*mData.getFloat("highScore")*/ mScoreBG.mHighScore.floatValue()) {
+                mData.putFloat("highScore", mScore.setScale(2, BigDecimal.ROUND_UP).floatValue());
+                mData.flush();
+                mScoreBG.updateHighScore(mData.getFloat("highScore"));
+            }
         }
-
-        mScoreBG.updateHighScore();
 
         mGameOverPrompt.addAction(sequence(fadeIn(0.25f),
                 moveTo(mGameOverPrompt.getX(), mGameOverPrompt.getY() - 16f * mPixelY, 0.25f)));
@@ -412,6 +424,11 @@ public class FissureGameScreen extends ScreenAdapter {
 
     public void setActionResolver(ActionResolver actionResolver) {
         this.mActionResolver = actionResolver;
+    }
+
+    public void setIOSLink(IOSLink iosLink) {
+        this.mIOSLink = iosLink;
+        mData = null;
     }
 
     private void setUpBackLeftButtonListener() {

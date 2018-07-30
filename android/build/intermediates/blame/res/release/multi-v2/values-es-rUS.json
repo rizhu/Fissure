@@ -4,24 +4,7 @@
             "outputFile": "/Users/richard/Programming/libGDX/Fissure/android/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-es-rUS/values-es-rUS.xml",
             "map": [
                 {
-                    "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9b6c52b0f67fcf29890fcbdd93540f80/res/values-es-rUS/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "249,355,553,683,789,1009,1138,1287,1418,1648,1755,1956,2087,2323,2527,2623,2711",
-                        "endColumns": "105,197,129,105,219,128,148,130,229,106,200,130,235,203,95,87,102",
-                        "endOffsets": "354,552,682,788,1008,1137,1286,1417,1647,1754,1955,2086,2322,2526,2622,2710,2813"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,215,413,547,657,877,1010,1163,1503,1733,1844,2045,2180,2416,2624,2724,2816",
-                        "endColumns": "109,197,133,109,219,132,152,134,229,110,200,134,235,207,99,91,106",
-                        "endOffsets": "210,408,542,652,872,1005,1158,1293,1728,1839,2040,2175,2411,2619,2719,2811,2918"
-                    }
-                },
-                {
-                    "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/8a49f93a261712601222ee1ba362eeca/res/values-es-rUS/values.xml",
+                    "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/77ea36402e235ad1518f316f912d9f29/res/values-es-rUS/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10",
                         "startColumns": "0,0,0,0,0,0,0",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/802e98c0682aca800fe7081d966834bf/res/values-es-rUS/values.xml",
+                    "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/cf293354b72f331cadca6e5d97a395f1/res/values-es-rUS/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "249,355,553,683,789,1009,1138,1287,1418,1648,1755,1956,2087,2323,2527,2623,2711",
+                        "endColumns": "105,197,129,105,219,128,148,130,229,106,200,130,235,203,95,87,102",
+                        "endOffsets": "354,552,682,788,1008,1137,1286,1417,1647,1754,1955,2086,2322,2526,2622,2710,2813"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,215,413,547,657,877,1010,1163,1503,1733,1844,2045,2180,2416,2624,2724,2816",
+                        "endColumns": "109,197,133,109,219,132,152,134,229,110,200,134,235,207,99,91,106",
+                        "endOffsets": "210,408,542,652,872,1005,1158,1293,1728,1839,2040,2175,2411,2619,2719,2811,2918"
+                    }
+                },
+                {
+                    "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/94a6084c1a8563fc976bb951afdfc2e8/res/values-es-rUS/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a9ee2ab395295e716afd8a5ffc731f8f/res/values-es-rUS/values-es-rUS.xml",
+                    "source": "/Users/richard/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c6c8b3cfa0a00c7f3075fc2059fc05f7/res/values-es-rUS/values-es-rUS.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

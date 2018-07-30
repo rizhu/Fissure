@@ -3,6 +3,7 @@
   <mainClass>${app.mainclass}</mainClass>
   <os>ios</os>
   <arch>thumbv7</arch>
+  <arch>arm64</arch>
   <target>ios</target>
   <iosInfoPList>Info.plist.xml</iosInfoPList>
   <resources>
@@ -32,14 +33,9 @@
     <pattern>org.apache.harmony.security.provider.cert.DRLCertFactory</pattern>
     <pattern>org.apache.harmony.security.provider.crypto.CryptoProvider</pattern>
   </forceLinkClasses>
-  <!--
   <libs>
       <lib>z</lib>   
   </libs>
-  -->
-  <frameworkPaths>
-    <path>libs</path>
-  </frameworkPaths>
   <frameworks>
     <framework>UIKit</framework>
     <framework>OpenGLES</framework>
@@ -48,6 +44,5 @@
     <framework>OpenAL</framework>
     <framework>AudioToolbox</framework>
     <framework>AVFoundation</framework>
-     <!--<framework>GoogleMobileAds</framework> -->
   </frameworks>
 </config>

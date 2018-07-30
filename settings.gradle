@@ -1,1 +1,1 @@
-include 'android', 'ios', 'core', 'ios-moe'
+include 'android', 'ios', 'core'
